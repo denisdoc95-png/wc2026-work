@@ -1,34 +1,201 @@
 {
-  "lastUpdated": "2026-06-09T00:00:00Z",
-  "currentStage": "⏳ Tournament begins 11 June 2026",
+  "lastUpdated": "2026-06-10T21:28:25Z",
+  "currentStage": "\u23f3 Tournament begins 11 June 2026",
   "actualTournamentWinner": "",
   "actualTotalGoals": 0,
-  "actualGoldenBoot": "",
   "eliminatedTeams": [],
   "participants": [
-    { "name": "Brian Lehane",           "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Squirrel",               "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Niamh Corrigan",         "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "MICKODEA11",             "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Adam Feery",             "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Mick F",                 "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Paul Boreham",           "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Brian Cooper",           "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Sean Purcell",           "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Monique Mehaffey",       "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Ivan Peharda",           "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Brian O Connell",        "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Erika Kind",             "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "John Pepper",            "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Michael Murphy",         "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Jack O'Connor",          "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Adrian Kehoe",           "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Clinton Ogundero",       "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Derek (Ted) Mccarthy",  "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Denis O Connell",        "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Tim Greene",             "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Guzza",                  "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Eric Murphy",            "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 },
-    { "name": "Hillington FC",          "matchPts": 0, "stagePts": 0, "gf": 0, "ga": 0, "maxPossible": 999 }
+    {
+      "name": "Brian Lehane",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Squirrel",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Niamh Corrigan",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "MICKODEA11",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Adam Feery",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Mick F",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Paul Boreham",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Brian Cooper",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Sean Purcell",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Monique Mehaffey",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Ivan Peharda",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Brian O Connell",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Erika Kind",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "John Pepper",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Michael Murphy",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Jack O'Connor",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Adrian Kehoe",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Clinton Ogundero",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Derek (Ted) Mccarthy",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Denis O Connell",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Tim Greene",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Guzza",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Eric Murphy",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    },
+    {
+      "name": "Hillington FC",
+      "matchPts": 0,
+      "stagePts": 0,
+      "gf": 0,
+      "ga": 0,
+      "maxPossible": 0
+    }
   ]
 }
