@@ -115,28 +115,36 @@ WINNER_BONUS = 10          # awarded to team that wins the Final
 
 def fetch_matches() -> list:
     """
-    Fetch all WC 2026 matches.
-    The free tier returns null scores in the full list, so we make a
-    second call filtered to FINISHED matches to get real score data,
-    then merge by match ID.
+    Fetch all WC 2026 matches with real scores where available.
+
+    The all-matches endpoint reliably marks FINISHED matches but returns
+    null scores on the free tier. For each such match we make one extra
+    call to the individual match endpoint, which always returns real scores.
     """
     url = f"{BASE_URL}/competitions/WC/matches"
-
-    # Call 1: all matches (schedule, stages, upcoming fixtures)
     resp = requests.get(url, headers=HEADERS,
                         params={"season": SEASON}, timeout=15)
     resp.raise_for_status()
-    all_matches = resp.json().get("matches", [])
+    matches = resp.json().get("matches", [])
 
-    # Call 2: finished matches only (contains real scores on free tier)
-    resp2 = requests.get(url, headers=HEADERS,
-                         params={"season": SEASON, "status": "FINISHED"},
-                         timeout=15)
-    resp2.raise_for_status()
-    finished = {m["id"]: m for m in resp2.json().get("matches", [])}
+    # Patch null-scored FINISHED matches with individual match detail calls
+    for i, m in enumerate(matches):
+        if m.get("status") == "FINISHED":
+            ft = m.get("score", {}).get("fullTime", {})
+            if ft.get("home") is None:
+                detail = requests.get(
+                    f"{BASE_URL}/matches/{m['id']}",
+                    headers=HEADERS, timeout=15
+                )
+                if detail.ok:
+                    matches[i] = detail.json()
+                    ft2 = matches[i]["score"]["fullTime"]
+                    print(f"   📊 Fetched score for match {m['id']}: "
+                          f"{matches[i]['homeTeam']['name']} "
+                          f"{ft2['home']}-{ft2['away']} "
+                          f"{matches[i]['awayTeam']['name']}")
 
-    # Merge: replace entries that have real scores
-    return [finished.get(m["id"], m) for m in all_matches]
+    return matches
 
 
 def build_team_stats(matches: list) -> dict:
