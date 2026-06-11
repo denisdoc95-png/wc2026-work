@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-11T22:26:53Z",
+  "lastUpdated": "2026-06-11T22:32:29Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 0,
+  "actualTotalGoals": 2,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -34,7 +34,7 @@
       "matchPts": 0,
       "stagePts": 0,
       "gf": 0,
-      "ga": 0,
+      "ga": 2,
       "maxPossible": 167
     },
     {
@@ -90,7 +90,7 @@
       "matchPts": 0,
       "stagePts": 0,
       "gf": 0,
-      "ga": 0,
+      "ga": 2,
       "maxPossible": 167
     },
     {
