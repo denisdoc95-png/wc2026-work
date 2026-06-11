@@ -1,9 +1,12 @@
 {
-  "lastUpdated": "2026-06-11T21:29:55Z",
-  "currentStage": "\u23f3 Tournament begins 11 June 2026",
+  "lastUpdated": "2026-06-11T21:55:24Z",
+  "currentStage": "\ud83c\udfc6 Tournament Complete",
   "actualTournamentWinner": "",
   "actualTotalGoals": 0,
-  "eliminatedTeams": [],
+  "eliminatedTeams": [
+    "Mexico",
+    "South Africa"
+  ],
   "participants": [
     {
       "name": "Brian Lehane",
