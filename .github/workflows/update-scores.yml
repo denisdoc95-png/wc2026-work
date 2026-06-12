@@ -1,7 +1,8 @@
 name: ⚽ Update Scores After Matches
 
-# Fires ~30 mins after each typical WC 2026 match end time.
-# Also triggerable manually from the GitHub Actions tab at any time.
+# Runs every 15 mins during June & July, once daily otherwise.
+# Always commits a timestamp to keep the repo active and prevent
+# GitHub from throttling the scheduled trigger.
 on:
   schedule:
     # Every 15 mins during the tournament (June & July)
@@ -11,7 +12,7 @@ on:
   workflow_dispatch:        # manual trigger button always available
 
 permissions:
-  contents: write             # allow the workflow to commit scores.json back to the repo
+  contents: write             # allow the workflow to commit back to the repo
 
 jobs:
   update-scores:
@@ -34,11 +35,13 @@ jobs:
           FD_API_KEY: ${{ secrets.FD_API_KEY }}
         run: python calculate_scores.py
 
-      - name: 💾 Commit scores.json if changed
+      - name: 💾 Commit and push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scores.json history.json
-          git diff --staged --quiet \
-            || git commit -m "🤖 Auto-update scores $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # Always write a timestamp — keeps the repo active so GitHub
+          # doesn't throttle the scheduled trigger
+          echo "$(date -u '+%Y-%m-%d %H:%M:%S UTC')" > last-run.txt
+          git add scores.json history.json last-run.txt
+          git commit -m "🤖 Auto-update $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
