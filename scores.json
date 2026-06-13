@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T19:00:53Z",
+  "lastUpdated": "2026-06-13T19:15:39Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 12,
@@ -35,7 +35,7 @@
       "stagePts": 0,
       "gf": 1,
       "ga": 4,
-      "maxPossible": 164
+      "maxPossible": 161
     },
     {
       "name": "Adam Feery",
