@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-13T03:00:55Z",
+  "lastUpdated": "2026-06-13T03:15:32Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 7,
+  "actualTotalGoals": 12,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -105,8 +105,8 @@
       "name": "Erika Kind",
       "matchPts": 0,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 4,
       "maxPossible": 167
     },
     {
