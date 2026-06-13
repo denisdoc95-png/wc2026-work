@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-13T21:00:52Z",
+  "lastUpdated": "2026-06-13T21:15:37Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 12,
+  "actualTotalGoals": 14,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -31,11 +31,11 @@
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 1,
-      "ga": 4,
-      "maxPossible": 161
+      "gf": 2,
+      "ga": 5,
+      "maxPossible": 162
     },
     {
       "name": "Adam Feery",
