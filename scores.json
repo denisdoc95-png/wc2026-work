@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T01:15:37Z",
+  "lastUpdated": "2026-06-14T01:30:41Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 16,
@@ -67,7 +67,7 @@
       "stagePts": 0,
       "gf": 2,
       "ga": 3,
-      "maxPossible": 162
+      "maxPossible": 165
     },
     {
       "name": "Sean Purcell",
@@ -99,7 +99,7 @@
       "stagePts": 0,
       "gf": 1,
       "ga": 1,
-      "maxPossible": 165
+      "maxPossible": 168
     },
     {
       "name": "Erika Kind",
@@ -147,7 +147,7 @@
       "stagePts": 0,
       "gf": 0,
       "ga": 0,
-      "maxPossible": 167
+      "maxPossible": 170
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -163,7 +163,7 @@
       "stagePts": 0,
       "gf": 0,
       "ga": 0,
-      "maxPossible": 167
+      "maxPossible": 170
     },
     {
       "name": "Tim Greene",
