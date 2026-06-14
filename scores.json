@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T17:00:59Z",
+  "lastUpdated": "2026-06-14T17:15:42Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 19,
@@ -11,7 +11,7 @@
       "stagePts": 0,
       "gf": 0,
       "ga": 2,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Squirrel",
@@ -99,7 +99,7 @@
       "stagePts": 0,
       "gf": 2,
       "ga": 1,
-      "maxPossible": 168
+      "maxPossible": 162
     },
     {
       "name": "Erika Kind",
