@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-14T03:00:50Z",
+  "lastUpdated": "2026-06-14T03:15:32Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 16,
+  "actualTotalGoals": 17,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -63,11 +63,11 @@
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 1,
+      "matchPts": 4,
       "stagePts": 0,
-      "gf": 2,
+      "gf": 3,
       "ga": 3,
-      "maxPossible": 162
+      "maxPossible": 165
     },
     {
       "name": "Sean Purcell",
@@ -95,11 +95,11 @@
     },
     {
       "name": "Brian O Connell",
-      "matchPts": 1,
+      "matchPts": 4,
       "stagePts": 0,
-      "gf": 1,
+      "gf": 2,
       "ga": 1,
-      "maxPossible": 165
+      "maxPossible": 168
     },
     {
       "name": "Erika Kind",
@@ -143,11 +143,11 @@
     },
     {
       "name": "Clinton Ogundero",
-      "matchPts": 0,
+      "matchPts": 3,
       "stagePts": 0,
-      "gf": 0,
+      "gf": 1,
       "ga": 0,
-      "maxPossible": 167
+      "maxPossible": 170
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -159,11 +159,11 @@
     },
     {
       "name": "Denis O Connell",
-      "matchPts": 0,
+      "matchPts": 3,
       "stagePts": 0,
-      "gf": 0,
+      "gf": 1,
       "ga": 0,
-      "maxPossible": 167
+      "maxPossible": 170
     },
     {
       "name": "Tim Greene",
