@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-06-14T22:01:00Z",
+  "lastUpdated": "2026-06-14T22:15:34Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 27,
+  "actualTotalGoals": 31,
   "eliminatedTeams": [],
   "participants": [
     {
       "name": "Brian Lehane",
-      "matchPts": 3,
+      "matchPts": 4,
       "stagePts": 0,
-      "gf": 7,
-      "ga": 3,
-      "maxPossible": 164
+      "gf": 9,
+      "ga": 5,
+      "maxPossible": 165
     },
     {
       "name": "Squirrel",
@@ -95,11 +95,11 @@
     },
     {
       "name": "Brian O Connell",
-      "matchPts": 7,
+      "matchPts": 8,
       "stagePts": 0,
-      "gf": 10,
-      "ga": 9,
-      "maxPossible": 162
+      "gf": 12,
+      "ga": 11,
+      "maxPossible": 163
     },
     {
       "name": "Erika Kind",
@@ -167,11 +167,11 @@
     },
     {
       "name": "Tim Greene",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 0,
-      "maxPossible": 167
+      "gf": 2,
+      "ga": 2,
+      "maxPossible": 168
     },
     {
       "name": "Guzza",
