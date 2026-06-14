@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-14T06:00:58Z",
+  "lastUpdated": "2026-06-14T06:15:38Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 17,
+  "actualTotalGoals": 19,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -10,7 +10,7 @@
       "matchPts": 0,
       "stagePts": 0,
       "gf": 0,
-      "ga": 0,
+      "ga": 2,
       "maxPossible": 167
     },
     {
@@ -26,7 +26,7 @@
       "matchPts": 0,
       "stagePts": 0,
       "gf": 0,
-      "ga": 0,
+      "ga": 2,
       "maxPossible": 167
     },
     {
@@ -42,7 +42,7 @@
       "matchPts": 1,
       "stagePts": 0,
       "gf": 1,
-      "ga": 1,
+      "ga": 3,
       "maxPossible": 165
     },
     {
@@ -74,7 +74,7 @@
       "matchPts": 1,
       "stagePts": 0,
       "gf": 1,
-      "ga": 1,
+      "ga": 3,
       "maxPossible": 165
     },
     {
@@ -106,7 +106,7 @@
       "matchPts": 1,
       "stagePts": 0,
       "gf": 2,
-      "ga": 5,
+      "ga": 7,
       "maxPossible": 162
     },
     {
@@ -162,7 +162,7 @@
       "matchPts": 3,
       "stagePts": 0,
       "gf": 1,
-      "ga": 0,
+      "ga": 2,
       "maxPossible": 167
     },
     {
@@ -186,7 +186,7 @@
       "matchPts": 0,
       "stagePts": 0,
       "gf": 0,
-      "ga": 0,
+      "ga": 2,
       "maxPossible": 167
     },
     {
@@ -194,7 +194,7 @@
       "matchPts": 1,
       "stagePts": 0,
       "gf": 1,
-      "ga": 1,
+      "ga": 3,
       "maxPossible": 165
     }
   ]
