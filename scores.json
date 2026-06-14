@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-14T00:01:02Z",
+  "lastUpdated": "2026-06-14T00:15:42Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 14,
+  "actualTotalGoals": 16,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -15,11 +15,11 @@
     },
     {
       "name": "Squirrel",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 0,
-      "maxPossible": 167
+      "gf": 1,
+      "ga": 1,
+      "maxPossible": 168
     },
     {
       "name": "Niamh Corrigan",
@@ -39,11 +39,11 @@
     },
     {
       "name": "Adam Feery",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 0,
-      "maxPossible": 167
+      "gf": 1,
+      "ga": 1,
+      "maxPossible": 168
     },
     {
       "name": "Mick F",
@@ -63,19 +63,19 @@
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 1,
-      "ga": 2,
-      "maxPossible": 164
+      "gf": 2,
+      "ga": 3,
+      "maxPossible": 165
     },
     {
       "name": "Sean Purcell",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 0,
-      "maxPossible": 167
+      "gf": 1,
+      "ga": 1,
+      "maxPossible": 168
     },
     {
       "name": "Monique Mehaffey",
@@ -95,19 +95,19 @@
     },
     {
       "name": "Brian O Connell",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 0,
-      "maxPossible": 167
+      "gf": 1,
+      "ga": 1,
+      "maxPossible": 168
     },
     {
       "name": "Erika Kind",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 1,
-      "ga": 4,
-      "maxPossible": 164
+      "gf": 2,
+      "ga": 5,
+      "maxPossible": 165
     },
     {
       "name": "John Pepper",
@@ -119,11 +119,11 @@
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 1,
+      "matchPts": 2,
       "stagePts": 0,
-      "gf": 1,
-      "ga": 1,
-      "maxPossible": 165
+      "gf": 2,
+      "ga": 2,
+      "maxPossible": 166
     },
     {
       "name": "Jack O'Connor",
@@ -191,11 +191,11 @@
     },
     {
       "name": "Hillington FC",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 0,
-      "maxPossible": 167
+      "gf": 1,
+      "ga": 1,
+      "maxPossible": 168
     }
   ]
 }
