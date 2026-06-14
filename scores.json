@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T04:00:53Z",
+  "lastUpdated": "2026-06-14T04:15:38Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 17,
@@ -11,7 +11,7 @@
       "stagePts": 0,
       "gf": 0,
       "ga": 0,
-      "maxPossible": 170
+      "maxPossible": 167
     },
     {
       "name": "Squirrel",
@@ -27,7 +27,7 @@
       "stagePts": 0,
       "gf": 0,
       "ga": 0,
-      "maxPossible": 170
+      "maxPossible": 167
     },
     {
       "name": "MICKODEA11",
@@ -43,7 +43,7 @@
       "stagePts": 0,
       "gf": 1,
       "ga": 1,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Mick F",
@@ -75,7 +75,7 @@
       "stagePts": 0,
       "gf": 1,
       "ga": 1,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Monique Mehaffey",
@@ -107,7 +107,7 @@
       "stagePts": 0,
       "gf": 2,
       "ga": 5,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "John Pepper",
@@ -163,7 +163,7 @@
       "stagePts": 0,
       "gf": 1,
       "ga": 0,
-      "maxPossible": 170
+      "maxPossible": 167
     },
     {
       "name": "Tim Greene",
@@ -187,7 +187,7 @@
       "stagePts": 0,
       "gf": 0,
       "ga": 0,
-      "maxPossible": 170
+      "maxPossible": 167
     },
     {
       "name": "Hillington FC",
@@ -195,7 +195,7 @@
       "stagePts": 0,
       "gf": 1,
       "ga": 1,
-      "maxPossible": 168
+      "maxPossible": 165
     }
   ]
 }
