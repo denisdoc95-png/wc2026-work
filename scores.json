@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T19:01:06Z",
+  "lastUpdated": "2026-06-15T19:15:49Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 38,
@@ -51,7 +51,7 @@
       "stagePts": 0,
       "gf": 1,
       "ga": 2,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Paul Boreham",
@@ -155,7 +155,7 @@
       "stagePts": 0,
       "gf": 5,
       "ga": 1,
-      "maxPossible": 170
+      "maxPossible": 167
     },
     {
       "name": "Denis O Connell",
