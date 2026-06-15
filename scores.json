@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-15T21:00:59Z",
+  "lastUpdated": "2026-06-15T21:15:39Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 38,
+  "actualTotalGoals": 40,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -47,11 +47,11 @@
     },
     {
       "name": "Mick F",
-      "matchPts": 1,
+      "matchPts": 2,
       "stagePts": 0,
-      "gf": 1,
-      "ga": 2,
-      "maxPossible": 162
+      "gf": 2,
+      "ga": 3,
+      "maxPossible": 163
     },
     {
       "name": "Paul Boreham",
@@ -151,11 +151,11 @@
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 3,
+      "matchPts": 4,
       "stagePts": 0,
-      "gf": 5,
-      "ga": 1,
-      "maxPossible": 167
+      "gf": 6,
+      "ga": 2,
+      "maxPossible": 168
     },
     {
       "name": "Denis O Connell",
