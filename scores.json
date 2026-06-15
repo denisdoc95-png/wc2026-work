@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-15T01:15:31Z",
+  "lastUpdated": "2026-06-15T01:30:40Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 31,
+  "actualTotalGoals": 32,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -183,11 +183,11 @@
     },
     {
       "name": "Eric Murphy",
-      "matchPts": 0,
+      "matchPts": 3,
       "stagePts": 0,
-      "gf": 0,
+      "gf": 1,
       "ga": 2,
-      "maxPossible": 164
+      "maxPossible": 167
     },
     {
       "name": "Hillington FC",
