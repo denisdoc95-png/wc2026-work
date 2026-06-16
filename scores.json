@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-16T03:00:58Z",
+  "lastUpdated": "2026-06-16T03:15:38Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 42,
+  "actualTotalGoals": 46,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -87,11 +87,11 @@
     },
     {
       "name": "Ivan Peharda",
-      "matchPts": 0,
+      "matchPts": 1,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 2,
-      "maxPossible": 164
+      "gf": 2,
+      "ga": 4,
+      "maxPossible": 165
     },
     {
       "name": "Brian O Connell",
@@ -135,11 +135,11 @@
     },
     {
       "name": "Adrian Kehoe",
-      "matchPts": 1,
+      "matchPts": 2,
       "stagePts": 0,
-      "gf": 0,
-      "ga": 0,
-      "maxPossible": 165
+      "gf": 2,
+      "ga": 2,
+      "maxPossible": 166
     },
     {
       "name": "Clinton Ogundero",
