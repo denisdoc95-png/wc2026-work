@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T20:00:56Z",
+  "lastUpdated": "2026-06-17T20:15:43Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 64,
@@ -11,7 +11,7 @@
       "stagePts": 0,
       "gf": 13,
       "ga": 6,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Squirrel",
@@ -35,7 +35,7 @@
       "stagePts": 0,
       "gf": 5,
       "ga": 6,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Adam Feery",
@@ -43,7 +43,7 @@
       "stagePts": 0,
       "gf": 8,
       "ga": 5,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Mick F",
@@ -51,7 +51,7 @@
       "stagePts": 0,
       "gf": 5,
       "ga": 4,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Paul Boreham",
@@ -59,7 +59,7 @@
       "stagePts": 0,
       "gf": 10,
       "ga": 5,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Brian Cooper",
@@ -83,7 +83,7 @@
       "stagePts": 0,
       "gf": 8,
       "ga": 4,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Ivan Peharda",
@@ -91,7 +91,7 @@
       "stagePts": 0,
       "gf": 9,
       "ga": 5,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Brian O Connell",
@@ -131,7 +131,7 @@
       "stagePts": 0,
       "gf": 12,
       "ga": 3,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Adrian Kehoe",
@@ -139,7 +139,7 @@
       "stagePts": 0,
       "gf": 9,
       "ga": 3,
-      "maxPossible": 166
+      "maxPossible": 163
     },
     {
       "name": "Clinton Ogundero",
@@ -147,7 +147,7 @@
       "stagePts": 0,
       "gf": 5,
       "ga": 2,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -155,7 +155,7 @@
       "stagePts": 0,
       "gf": 10,
       "ga": 3,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Denis O Connell",
@@ -187,7 +187,7 @@
       "stagePts": 0,
       "gf": 4,
       "ga": 3,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Hillington FC",
