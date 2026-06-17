@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-17T19:01:01Z",
+  "lastUpdated": "2026-06-17T19:15:43Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 62,
+  "actualTotalGoals": 64,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -167,11 +167,11 @@
     },
     {
       "name": "Tim Greene",
-      "matchPts": 8,
+      "matchPts": 9,
       "stagePts": 0,
-      "gf": 12,
-      "ga": 5,
-      "maxPossible": 163
+      "gf": 13,
+      "ga": 6,
+      "maxPossible": 164
     },
     {
       "name": "Guzza",
