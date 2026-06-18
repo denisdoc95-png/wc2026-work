@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-18T18:00:53Z",
+  "lastUpdated": "2026-06-18T18:15:34Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 75,
+  "actualTotalGoals": 77,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -31,11 +31,11 @@
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 7,
+      "matchPts": 9,
       "stagePts": 0,
-      "gf": 9,
-      "ga": 8,
-      "maxPossible": 156
+      "gf": 11,
+      "ga": 10,
+      "maxPossible": 158
     },
     {
       "name": "Adam Feery",
@@ -47,11 +47,11 @@
     },
     {
       "name": "Mick F",
-      "matchPts": 5,
+      "matchPts": 6,
       "stagePts": 0,
-      "gf": 7,
-      "ga": 8,
-      "maxPossible": 157
+      "gf": 8,
+      "ga": 9,
+      "maxPossible": 158
     },
     {
       "name": "Paul Boreham",
@@ -63,11 +63,11 @@
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 8,
+      "matchPts": 9,
       "stagePts": 0,
-      "gf": 6,
-      "ga": 4,
-      "maxPossible": 160
+      "gf": 7,
+      "ga": 5,
+      "maxPossible": 161
     },
     {
       "name": "Sean Purcell",
@@ -87,11 +87,11 @@
     },
     {
       "name": "Ivan Peharda",
-      "matchPts": 7,
+      "matchPts": 8,
       "stagePts": 0,
-      "gf": 11,
-      "ga": 9,
-      "maxPossible": 159
+      "gf": 12,
+      "ga": 10,
+      "maxPossible": 160
     },
     {
       "name": "Brian O Connell",
@@ -111,11 +111,11 @@
     },
     {
       "name": "John Pepper",
-      "matchPts": 10,
+      "matchPts": 11,
       "stagePts": 0,
-      "gf": 11,
-      "ga": 5,
-      "maxPossible": 162
+      "gf": 12,
+      "ga": 6,
+      "maxPossible": 163
     },
     {
       "name": "Michael Murphy",
