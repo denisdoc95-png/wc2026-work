@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-18T04:00:55Z",
+  "lastUpdated": "2026-06-18T04:15:31Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 71,
+  "actualTotalGoals": 75,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -23,11 +23,11 @@
     },
     {
       "name": "Niamh Corrigan",
-      "matchPts": 7,
+      "matchPts": 10,
       "stagePts": 0,
-      "gf": 7,
-      "ga": 4,
-      "maxPossible": 162
+      "gf": 10,
+      "ga": 5,
+      "maxPossible": 165
     },
     {
       "name": "MICKODEA11",
@@ -63,19 +63,19 @@
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 5,
+      "matchPts": 8,
       "stagePts": 0,
-      "gf": 3,
-      "ga": 3,
-      "maxPossible": 160
+      "gf": 6,
+      "ga": 4,
+      "maxPossible": 163
     },
     {
       "name": "Sean Purcell",
-      "matchPts": 7,
+      "matchPts": 10,
       "stagePts": 0,
-      "gf": 8,
-      "ga": 5,
-      "maxPossible": 162
+      "gf": 11,
+      "ga": 6,
+      "maxPossible": 165
     },
     {
       "name": "Monique Mehaffey",
@@ -103,27 +103,27 @@
     },
     {
       "name": "Erika Kind",
-      "matchPts": 4,
-      "stagePts": 0,
-      "gf": 5,
-      "ga": 7,
-      "maxPossible": 159
-    },
-    {
-      "name": "John Pepper",
       "matchPts": 7,
       "stagePts": 0,
       "gf": 8,
-      "ga": 4,
+      "ga": 8,
       "maxPossible": 162
     },
     {
-      "name": "Michael Murphy",
-      "matchPts": 6,
+      "name": "John Pepper",
+      "matchPts": 10,
       "stagePts": 0,
-      "gf": 6,
-      "ga": 3,
-      "maxPossible": 161
+      "gf": 11,
+      "ga": 5,
+      "maxPossible": 165
+    },
+    {
+      "name": "Michael Murphy",
+      "matchPts": 9,
+      "stagePts": 0,
+      "gf": 9,
+      "ga": 4,
+      "maxPossible": 164
     },
     {
       "name": "Jack O'Connor",
@@ -151,11 +151,11 @@
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 10,
+      "matchPts": 13,
       "stagePts": 0,
-      "gf": 14,
-      "ga": 5,
-      "maxPossible": 165
+      "gf": 17,
+      "ga": 6,
+      "maxPossible": 168
     },
     {
       "name": "Denis O Connell",
