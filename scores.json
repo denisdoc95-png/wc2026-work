@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-18T10:15:39Z",
+  "lastUpdated": "2026-06-18T10:30:52Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 75,
+  "actualTotalGoals": 74,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -15,11 +15,11 @@
     },
     {
       "name": "Squirrel",
-      "matchPts": 11,
+      "matchPts": 8,
       "stagePts": 0,
-      "gf": 9,
+      "gf": 8,
       "ga": 3,
-      "maxPossible": 166
+      "maxPossible": 163
     },
     {
       "name": "Niamh Corrigan",
@@ -143,11 +143,11 @@
     },
     {
       "name": "Clinton Ogundero",
-      "matchPts": 13,
+      "matchPts": 10,
       "stagePts": 0,
-      "gf": 10,
+      "gf": 9,
       "ga": 4,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Derek (Ted) Mccarthy",
