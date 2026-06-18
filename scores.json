@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T16:01:22Z",
+  "lastUpdated": "2026-06-18T16:15:43Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 75,
@@ -35,7 +35,7 @@
       "stagePts": 0,
       "gf": 9,
       "ga": 8,
-      "maxPossible": 162
+      "maxPossible": 156
     },
     {
       "name": "Adam Feery",
@@ -51,7 +51,7 @@
       "stagePts": 0,
       "gf": 7,
       "ga": 8,
-      "maxPossible": 160
+      "maxPossible": 157
     },
     {
       "name": "Paul Boreham",
@@ -67,7 +67,7 @@
       "stagePts": 0,
       "gf": 6,
       "ga": 4,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Sean Purcell",
@@ -91,7 +91,7 @@
       "stagePts": 0,
       "gf": 11,
       "ga": 9,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Brian O Connell",
@@ -115,7 +115,7 @@
       "stagePts": 0,
       "gf": 11,
       "ga": 5,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Michael Murphy",
