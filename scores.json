@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-20T05:00:53Z",
+  "lastUpdated": "2026-06-20T05:15:35Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 95,
+  "actualTotalGoals": 96,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -10,7 +10,7 @@
       "matchPts": 10,
       "stagePts": 0,
       "gf": 17,
-      "ga": 8,
+      "ga": 9,
       "maxPossible": 162
     },
     {
@@ -26,7 +26,7 @@
       "matchPts": 10,
       "stagePts": 0,
       "gf": 10,
-      "ga": 5,
+      "ga": 6,
       "maxPossible": 162
     },
     {
@@ -42,7 +42,7 @@
       "matchPts": 10,
       "stagePts": 0,
       "gf": 13,
-      "ga": 9,
+      "ga": 10,
       "maxPossible": 159
     },
     {
@@ -74,7 +74,7 @@
       "matchPts": 13,
       "stagePts": 0,
       "gf": 14,
-      "ga": 6,
+      "ga": 7,
       "maxPossible": 162
     },
     {
@@ -103,11 +103,11 @@
     },
     {
       "name": "Erika Kind",
-      "matchPts": 10,
+      "matchPts": 13,
       "stagePts": 0,
-      "gf": 11,
-      "ga": 8,
-      "maxPossible": 156
+      "gf": 12,
+      "ga": 9,
+      "maxPossible": 159
     },
     {
       "name": "John Pepper",
@@ -162,7 +162,7 @@
       "matchPts": 7,
       "stagePts": 0,
       "gf": 5,
-      "ga": 7,
+      "ga": 8,
       "maxPossible": 156
     },
     {
@@ -186,7 +186,7 @@
       "matchPts": 7,
       "stagePts": 0,
       "gf": 6,
-      "ga": 7,
+      "ga": 8,
       "maxPossible": 159
     },
     {
@@ -194,7 +194,7 @@
       "matchPts": 11,
       "stagePts": 0,
       "gf": 9,
-      "ga": 5,
+      "ga": 6,
       "maxPossible": 160
     }
   ]
