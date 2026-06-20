@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T17:00:58Z",
+  "lastUpdated": "2026-06-20T17:15:36Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 96,
@@ -59,7 +59,7 @@
       "stagePts": 0,
       "gf": 14,
       "ga": 7,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Brian Cooper",
@@ -83,7 +83,7 @@
       "stagePts": 0,
       "gf": 10,
       "ga": 8,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Ivan Peharda",
@@ -131,7 +131,7 @@
       "stagePts": 0,
       "gf": 14,
       "ga": 7,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Adrian Kehoe",
@@ -155,7 +155,7 @@
       "stagePts": 0,
       "gf": 17,
       "ga": 6,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Denis O Connell",
@@ -171,7 +171,7 @@
       "stagePts": 0,
       "gf": 13,
       "ga": 6,
-      "maxPossible": 164
+      "maxPossible": 158
     },
     {
       "name": "Guzza",
@@ -179,7 +179,7 @@
       "stagePts": 0,
       "gf": 16,
       "ga": 4,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Eric Murphy",
