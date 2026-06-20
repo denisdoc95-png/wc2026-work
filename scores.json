@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T00:30:44Z",
+  "lastUpdated": "2026-06-20T00:45:36Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 92,
@@ -43,7 +43,7 @@
       "stagePts": 0,
       "gf": 10,
       "ga": 9,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Mick F",
@@ -67,7 +67,7 @@
       "stagePts": 0,
       "gf": 7,
       "ga": 6,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Sean Purcell",
@@ -75,7 +75,7 @@
       "stagePts": 0,
       "gf": 11,
       "ga": 6,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Monique Mehaffey",
@@ -99,7 +99,7 @@
       "stagePts": 0,
       "gf": 12,
       "ga": 12,
-      "maxPossible": 160
+      "maxPossible": 157
     },
     {
       "name": "Erika Kind",
@@ -107,7 +107,7 @@
       "stagePts": 0,
       "gf": 8,
       "ga": 8,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "John Pepper",
@@ -123,7 +123,7 @@
       "stagePts": 0,
       "gf": 10,
       "ga": 8,
-      "maxPossible": 161
+      "maxPossible": 158
     },
     {
       "name": "Jack O'Connor",
