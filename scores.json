@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-20T00:00:57Z",
+  "lastUpdated": "2026-06-20T00:15:35Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 91,
+  "actualTotalGoals": 92,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -15,11 +15,11 @@
     },
     {
       "name": "Squirrel",
-      "matchPts": 11,
+      "matchPts": 14,
       "stagePts": 0,
-      "gf": 9,
+      "gf": 10,
       "ga": 3,
-      "maxPossible": 163
+      "maxPossible": 166
     },
     {
       "name": "Niamh Corrigan",
@@ -66,7 +66,7 @@
       "matchPts": 9,
       "stagePts": 0,
       "gf": 7,
-      "ga": 5,
+      "ga": 6,
       "maxPossible": 158
     },
     {
@@ -98,7 +98,7 @@
       "matchPts": 8,
       "stagePts": 0,
       "gf": 12,
-      "ga": 11,
+      "ga": 12,
       "maxPossible": 160
     },
     {
@@ -146,7 +146,7 @@
       "matchPts": 13,
       "stagePts": 0,
       "gf": 10,
-      "ga": 4,
+      "ga": 5,
       "maxPossible": 165
     },
     {
@@ -162,7 +162,7 @@
       "matchPts": 7,
       "stagePts": 0,
       "gf": 5,
-      "ga": 6,
+      "ga": 7,
       "maxPossible": 159
     },
     {
@@ -191,11 +191,11 @@
     },
     {
       "name": "Hillington FC",
-      "matchPts": 8,
+      "matchPts": 11,
       "stagePts": 0,
-      "gf": 8,
+      "gf": 9,
       "ga": 5,
-      "maxPossible": 160
+      "maxPossible": 163
     }
   ]
 }
