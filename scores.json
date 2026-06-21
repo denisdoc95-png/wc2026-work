@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T22:00:56Z",
+  "lastUpdated": "2026-06-21T22:15:38Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 113,
@@ -147,7 +147,7 @@
       "stagePts": 0,
       "gf": 10,
       "ga": 5,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -171,7 +171,7 @@
       "stagePts": 0,
       "gf": 19,
       "ga": 12,
-      "maxPossible": 161
+      "maxPossible": 158
     },
     {
       "name": "Guzza",
@@ -179,7 +179,7 @@
       "stagePts": 0,
       "gf": 17,
       "ga": 9,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Eric Murphy",
