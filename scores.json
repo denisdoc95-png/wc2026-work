@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-21T20:30:48Z",
+  "lastUpdated": "2026-06-21T20:45:34Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 114,
+  "actualTotalGoals": 113,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -17,7 +17,7 @@
       "name": "Squirrel",
       "matchPts": 17,
       "stagePts": 0,
-      "gf": 15,
+      "gf": 14,
       "ga": 3,
       "maxPossible": 166
     },
@@ -25,7 +25,7 @@
       "name": "Niamh Corrigan",
       "matchPts": 13,
       "stagePts": 0,
-      "gf": 15,
+      "gf": 14,
       "ga": 6,
       "maxPossible": 162
     },
@@ -49,7 +49,7 @@
       "name": "Mick F",
       "matchPts": 9,
       "stagePts": 0,
-      "gf": 13,
+      "gf": 12,
       "ga": 9,
       "maxPossible": 158
     },
@@ -57,7 +57,7 @@
       "name": "Paul Boreham",
       "matchPts": 13,
       "stagePts": 0,
-      "gf": 20,
+      "gf": 19,
       "ga": 12,
       "maxPossible": 162
     },
@@ -65,7 +65,7 @@
       "name": "Brian Cooper",
       "matchPts": 15,
       "stagePts": 0,
-      "gf": 15,
+      "gf": 14,
       "ga": 6,
       "maxPossible": 158
     },
@@ -81,7 +81,7 @@
       "name": "Monique Mehaffey",
       "matchPts": 10,
       "stagePts": 0,
-      "gf": 16,
+      "gf": 15,
       "ga": 13,
       "maxPossible": 159
     },
@@ -113,7 +113,7 @@
       "name": "John Pepper",
       "matchPts": 14,
       "stagePts": 0,
-      "gf": 17,
+      "gf": 16,
       "ga": 6,
       "maxPossible": 163
     },
@@ -121,7 +121,7 @@
       "name": "Michael Murphy",
       "matchPts": 15,
       "stagePts": 0,
-      "gf": 18,
+      "gf": 17,
       "ga": 8,
       "maxPossible": 161
     },
@@ -129,7 +129,7 @@
       "name": "Jack O'Connor",
       "matchPts": 13,
       "stagePts": 0,
-      "gf": 20,
+      "gf": 19,
       "ga": 12,
       "maxPossible": 162
     },
@@ -137,7 +137,7 @@
       "name": "Adrian Kehoe",
       "matchPts": 11,
       "stagePts": 0,
-      "gf": 16,
+      "gf": 15,
       "ga": 7,
       "maxPossible": 163
     },
@@ -161,7 +161,7 @@
       "name": "Denis O Connell",
       "matchPts": 10,
       "stagePts": 0,
-      "gf": 10,
+      "gf": 9,
       "ga": 8,
       "maxPossible": 156
     },
@@ -185,7 +185,7 @@
       "name": "Eric Murphy",
       "matchPts": 10,
       "stagePts": 0,
-      "gf": 12,
+      "gf": 11,
       "ga": 10,
       "maxPossible": 156
     },
@@ -193,7 +193,7 @@
       "name": "Hillington FC",
       "matchPts": 14,
       "stagePts": 0,
-      "gf": 14,
+      "gf": 13,
       "ga": 6,
       "maxPossible": 160
     }
