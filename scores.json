@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T21:00:54Z",
+  "lastUpdated": "2026-06-21T21:15:35Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 113,
@@ -151,11 +151,11 @@
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 13,
+      "matchPts": 14,
       "stagePts": 0,
       "gf": 18,
       "ga": 11,
-      "maxPossible": 162
+      "maxPossible": 163
     },
     {
       "name": "Denis O Connell",
