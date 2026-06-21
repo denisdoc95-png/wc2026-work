@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T01:45:32Z",
+  "lastUpdated": "2026-06-21T02:00:53Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 105,
@@ -95,11 +95,11 @@
     },
     {
       "name": "Brian O Connell",
-      "matchPts": 14,
+      "matchPts": 15,
       "stagePts": 0,
       "gf": 17,
       "ga": 13,
-      "maxPossible": 157
+      "maxPossible": 158
     },
     {
       "name": "Erika Kind",
