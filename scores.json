@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-22T03:00:53Z",
+  "lastUpdated": "2026-06-22T03:15:37Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 117,
+  "actualTotalGoals": 121,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -47,11 +47,11 @@
     },
     {
       "name": "Mick F",
-      "matchPts": 9,
+      "matchPts": 12,
       "stagePts": 0,
-      "gf": 12,
-      "ga": 9,
-      "maxPossible": 155
+      "gf": 15,
+      "ga": 10,
+      "maxPossible": 158
     },
     {
       "name": "Paul Boreham",
@@ -89,8 +89,8 @@
       "name": "Ivan Peharda",
       "matchPts": 8,
       "stagePts": 0,
-      "gf": 12,
-      "ga": 10,
+      "gf": 13,
+      "ga": 13,
       "maxPossible": 157
     },
     {
@@ -137,8 +137,8 @@
       "name": "Adrian Kehoe",
       "matchPts": 11,
       "stagePts": 0,
-      "gf": 15,
-      "ga": 7,
+      "gf": 16,
+      "ga": 10,
       "maxPossible": 160
     },
     {
