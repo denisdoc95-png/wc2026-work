@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-22T00:00:55Z",
+  "lastUpdated": "2026-06-22T00:15:35Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 113,
+  "actualTotalGoals": 117,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -143,11 +143,11 @@
     },
     {
       "name": "Clinton Ogundero",
-      "matchPts": 13,
+      "matchPts": 14,
       "stagePts": 0,
-      "gf": 10,
-      "ga": 5,
-      "maxPossible": 162
+      "gf": 12,
+      "ga": 7,
+      "maxPossible": 163
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -167,19 +167,19 @@
     },
     {
       "name": "Tim Greene",
-      "matchPts": 12,
+      "matchPts": 13,
       "stagePts": 0,
-      "gf": 19,
-      "ga": 12,
-      "maxPossible": 158
+      "gf": 21,
+      "ga": 14,
+      "maxPossible": 159
     },
     {
       "name": "Guzza",
-      "matchPts": 13,
+      "matchPts": 14,
       "stagePts": 0,
-      "gf": 17,
-      "ga": 9,
-      "maxPossible": 162
+      "gf": 19,
+      "ga": 11,
+      "maxPossible": 163
     },
     {
       "name": "Eric Murphy",
