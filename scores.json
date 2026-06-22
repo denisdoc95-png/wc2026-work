@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T17:00:57Z",
+  "lastUpdated": "2026-06-22T17:15:41Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 121,
@@ -83,7 +83,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 13,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "Ivan Peharda",
@@ -91,7 +91,7 @@
       "stagePts": 0,
       "gf": 13,
       "ga": 13,
-      "maxPossible": 157
+      "maxPossible": 154
     },
     {
       "name": "Brian O Connell",
@@ -107,7 +107,7 @@
       "stagePts": 0,
       "gf": 12,
       "ga": 9,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "John Pepper",
@@ -139,7 +139,7 @@
       "stagePts": 0,
       "gf": 16,
       "ga": 10,
-      "maxPossible": 160
+      "maxPossible": 157
     },
     {
       "name": "Clinton Ogundero",
@@ -179,7 +179,7 @@
       "stagePts": 0,
       "gf": 19,
       "ga": 11,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Eric Murphy",
