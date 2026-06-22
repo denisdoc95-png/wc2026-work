@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T01:00:54Z",
+  "lastUpdated": "2026-06-22T01:15:36Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 117,
@@ -51,7 +51,7 @@
       "stagePts": 0,
       "gf": 12,
       "ga": 9,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Paul Boreham",
@@ -91,7 +91,7 @@
       "stagePts": 0,
       "gf": 12,
       "ga": 10,
-      "maxPossible": 160
+      "maxPossible": 157
     },
     {
       "name": "Brian O Connell",
@@ -139,7 +139,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 7,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Clinton Ogundero",
