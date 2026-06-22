@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T21:00:54Z",
+  "lastUpdated": "2026-06-22T21:15:39Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 123,
@@ -19,7 +19,7 @@
       "stagePts": 0,
       "gf": 14,
       "ga": 3,
-      "maxPossible": 166
+      "maxPossible": 163
     },
     {
       "name": "Niamh Corrigan",
@@ -27,7 +27,7 @@
       "stagePts": 0,
       "gf": 14,
       "ga": 6,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "MICKODEA11",
@@ -35,7 +35,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 11,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Adam Feery",
@@ -43,7 +43,7 @@
       "stagePts": 0,
       "gf": 13,
       "ga": 10,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "Mick F",
@@ -51,7 +51,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 10,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Paul Boreham",
@@ -75,7 +75,7 @@
       "stagePts": 0,
       "gf": 14,
       "ga": 7,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Monique Mehaffey",
@@ -115,7 +115,7 @@
       "stagePts": 0,
       "gf": 16,
       "ga": 6,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Michael Murphy",
@@ -131,7 +131,7 @@
       "stagePts": 0,
       "gf": 19,
       "ga": 12,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Adrian Kehoe",
@@ -147,7 +147,7 @@
       "stagePts": 0,
       "gf": 12,
       "ga": 7,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -163,7 +163,7 @@
       "stagePts": 0,
       "gf": 9,
       "ga": 8,
-      "maxPossible": 156
+      "maxPossible": 153
     },
     {
       "name": "Tim Greene",
@@ -179,7 +179,7 @@
       "stagePts": 0,
       "gf": 21,
       "ga": 11,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Eric Murphy",
@@ -187,7 +187,7 @@
       "stagePts": 0,
       "gf": 11,
       "ga": 10,
-      "maxPossible": 156
+      "maxPossible": 153
     },
     {
       "name": "Hillington FC",
@@ -195,7 +195,7 @@
       "stagePts": 0,
       "gf": 13,
       "ga": 6,
-      "maxPossible": 160
+      "maxPossible": 157
     }
   ]
 }
