@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-23T05:00:54Z",
+  "lastUpdated": "2026-06-23T05:15:37Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 131,
+  "actualTotalGoals": 134,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -79,11 +79,11 @@
     },
     {
       "name": "Monique Mehaffey",
-      "matchPts": 13,
+      "matchPts": 16,
       "stagePts": 0,
-      "gf": 17,
-      "ga": 13,
-      "maxPossible": 156
+      "gf": 19,
+      "ga": 14,
+      "maxPossible": 159
     },
     {
       "name": "Ivan Peharda",
