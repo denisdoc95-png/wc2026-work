@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T22:01:00Z",
+  "lastUpdated": "2026-06-23T22:15:35Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 139,
@@ -7,19 +7,19 @@
   "participants": [
     {
       "name": "Brian Lehane",
-      "matchPts": 19,
+      "matchPts": 20,
       "stagePts": 0,
       "gf": 26,
       "ga": 12,
-      "maxPossible": 159
+      "maxPossible": 160
     },
     {
       "name": "Squirrel",
-      "matchPts": 23,
+      "matchPts": 24,
       "stagePts": 0,
       "gf": 20,
       "ga": 5,
-      "maxPossible": 163
+      "maxPossible": 164
     },
     {
       "name": "Niamh Corrigan",
@@ -31,11 +31,11 @@
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 15,
+      "matchPts": 16,
       "stagePts": 0,
       "gf": 18,
       "ga": 11,
-      "maxPossible": 155
+      "maxPossible": 156
     },
     {
       "name": "Adam Feery",
@@ -55,11 +55,11 @@
     },
     {
       "name": "Paul Boreham",
-      "matchPts": 16,
+      "matchPts": 17,
       "stagePts": 0,
       "gf": 24,
       "ga": 17,
-      "maxPossible": 156
+      "maxPossible": 157
     },
     {
       "name": "Brian Cooper",
@@ -143,19 +143,19 @@
     },
     {
       "name": "Clinton Ogundero",
-      "matchPts": 17,
+      "matchPts": 19,
       "stagePts": 0,
       "gf": 15,
       "ga": 7,
-      "maxPossible": 157
+      "maxPossible": 159
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 17,
+      "matchPts": 18,
       "stagePts": 0,
       "gf": 21,
       "ga": 13,
-      "maxPossible": 160
+      "maxPossible": 161
     },
     {
       "name": "Denis O Connell",
