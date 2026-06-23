@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T20:01:05Z",
+  "lastUpdated": "2026-06-23T20:15:42Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 139,
@@ -11,7 +11,7 @@
       "stagePts": 0,
       "gf": 26,
       "ga": 12,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Squirrel",
@@ -19,7 +19,7 @@
       "stagePts": 0,
       "gf": 20,
       "ga": 5,
-      "maxPossible": 166
+      "maxPossible": 163
     },
     {
       "name": "Niamh Corrigan",
@@ -35,7 +35,7 @@
       "stagePts": 0,
       "gf": 18,
       "ga": 11,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Adam Feery",
@@ -59,7 +59,7 @@
       "stagePts": 0,
       "gf": 24,
       "ga": 17,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "Brian Cooper",
@@ -147,7 +147,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 7,
-      "maxPossible": 163
+      "maxPossible": 157
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -155,7 +155,7 @@
       "stagePts": 0,
       "gf": 21,
       "ga": 13,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Denis O Connell",
