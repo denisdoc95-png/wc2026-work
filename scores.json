@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T23:01:00Z",
+  "lastUpdated": "2026-06-23T23:04:09Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 139,
@@ -8,10 +8,10 @@
     {
       "name": "Brian Lehane",
       "matchPts": 20,
-      "stagePts": 0,
+      "stagePts": 3,
       "gf": 26,
       "ga": 12,
-      "maxPossible": 160
+      "maxPossible": 163
     },
     {
       "name": "Squirrel",
@@ -96,10 +96,10 @@
     {
       "name": "Brian O Connell",
       "matchPts": 18,
-      "stagePts": 0,
+      "stagePts": 3,
       "gf": 21,
       "ga": 13,
-      "maxPossible": 158
+      "maxPossible": 161
     },
     {
       "name": "Erika Kind",
