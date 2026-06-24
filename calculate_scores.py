@@ -489,6 +489,10 @@ def main():
         print(f"   ❌ API error: {e}")
         raise
 
+    # Load locked confirmed results written by fetch_matches()
+    results_file = Path("results.json")
+    confirmed = json.loads(results_file.read_text()) if results_file.exists() else {}
+
     print("📊 Building team stats...")
     team_stats = build_team_stats(matches, confirmed)
 
