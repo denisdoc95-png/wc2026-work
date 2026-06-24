@@ -1,9 +1,12 @@
 {
-  "lastUpdated": "2026-06-24T20:45:37Z",
+  "lastUpdated": "2026-06-24T21:00:58Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 141,
-  "eliminatedTeams": [],
+  "actualTotalGoals": 144,
+  "eliminatedTeams": [
+    "Canada",
+    "Switzerland"
+  ],
   "participants": [
     {
       "name": "Brian Lehane",
@@ -31,11 +34,11 @@
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 16,
+      "matchPts": 19,
       "stagePts": 0,
-      "gf": 18,
-      "ga": 11,
-      "maxPossible": 153
+      "gf": 20,
+      "ga": 12,
+      "maxPossible": 156
     },
     {
       "name": "Adam Feery",
