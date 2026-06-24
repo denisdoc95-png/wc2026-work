@@ -1,12 +1,16 @@
 {
-  "lastUpdated": "2026-06-24T22:01:01Z",
+  "lastUpdated": "2026-06-24T22:15:36Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 148,
   "eliminatedTeams": [
     "Bosnia and Herzegovina",
+    "Brazil",
     "Canada",
+    "Haiti",
+    "Morocco",
     "Qatar",
+    "Scotland",
     "Switzerland"
   ],
   "participants": [
@@ -24,7 +28,7 @@
       "stagePts": 0,
       "gf": 20,
       "ga": 5,
-      "maxPossible": 164
+      "maxPossible": 161
     },
     {
       "name": "Niamh Corrigan",
@@ -48,7 +52,7 @@
       "stagePts": 0,
       "gf": 20,
       "ga": 12,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "Mick F",
@@ -72,7 +76,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 6,
-      "maxPossible": 158
+      "maxPossible": 152
     },
     {
       "name": "Sean Purcell",
@@ -80,7 +84,7 @@
       "stagePts": 0,
       "gf": 21,
       "ga": 9,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Monique Mehaffey",
@@ -104,7 +108,7 @@
       "stagePts": 0,
       "gf": 21,
       "ga": 13,
-      "maxPossible": 158
+      "maxPossible": 152
     },
     {
       "name": "Erika Kind",
@@ -112,7 +116,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 9,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "John Pepper",
@@ -128,7 +132,7 @@
       "stagePts": 0,
       "gf": 24,
       "ga": 11,
-      "maxPossible": 161
+      "maxPossible": 158
     },
     {
       "name": "Jack O'Connor",
@@ -152,7 +156,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 7,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -168,7 +172,7 @@
       "stagePts": 0,
       "gf": 14,
       "ga": 11,
-      "maxPossible": 153
+      "maxPossible": 150
     },
     {
       "name": "Tim Greene",
@@ -200,7 +204,7 @@
       "stagePts": 0,
       "gf": 19,
       "ga": 8,
-      "maxPossible": 160
+      "maxPossible": 157
     }
   ]
 }
