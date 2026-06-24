@@ -42,6 +42,6 @@ jobs:
           # Always write a timestamp — keeps the repo active so GitHub
           # doesn't throttle the scheduled trigger
           echo "$(date -u '+%Y-%m-%d %H:%M:%S UTC')" > last-run.txt
-          git add scores.json history.json last-run.txt
+          git add scores.json history.json results.json last-run.txt
           git commit -m "🤖 Auto-update $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
