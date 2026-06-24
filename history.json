@@ -11116,5 +11116,107 @@
         "total": 20
       }
     ]
+  },
+  {
+    "date": "2026-06-24",
+    "label": "Group Stage",
+    "scores": [
+      {
+        "name": "Brian Lehane",
+        "total": 23
+      },
+      {
+        "name": "Squirrel",
+        "total": 24
+      },
+      {
+        "name": "Niamh Corrigan",
+        "total": 22
+      },
+      {
+        "name": "MICKODEA11",
+        "total": 16
+      },
+      {
+        "name": "Adam Feery",
+        "total": 19
+      },
+      {
+        "name": "Mick F",
+        "total": 18
+      },
+      {
+        "name": "Paul Boreham",
+        "total": 17
+      },
+      {
+        "name": "Brian Cooper",
+        "total": 18
+      },
+      {
+        "name": "Sean Purcell",
+        "total": 22
+      },
+      {
+        "name": "Monique Mehaffey",
+        "total": 22
+      },
+      {
+        "name": "Ivan Peharda",
+        "total": 20
+      },
+      {
+        "name": "Brian O Connell",
+        "total": 21
+      },
+      {
+        "name": "Erika Kind",
+        "total": 22
+      },
+      {
+        "name": "John Pepper",
+        "total": 23
+      },
+      {
+        "name": "Michael Murphy",
+        "total": 21
+      },
+      {
+        "name": "Jack O'Connor",
+        "total": 22
+      },
+      {
+        "name": "Adrian Kehoe",
+        "total": 23
+      },
+      {
+        "name": "Clinton Ogundero",
+        "total": 19
+      },
+      {
+        "name": "Derek (Ted) Mccarthy",
+        "total": 21
+      },
+      {
+        "name": "Denis O Connell",
+        "total": 13
+      },
+      {
+        "name": "Tim Greene",
+        "total": 19
+      },
+      {
+        "name": "Guzza",
+        "total": 26
+      },
+      {
+        "name": "Eric Murphy",
+        "total": 16
+      },
+      {
+        "name": "Hillington FC",
+        "total": 20
+      }
+    ]
   }
 ]
