@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-24T03:15:38Z",
+  "lastUpdated": "2026-06-24T03:30:48Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 138,
+  "actualTotalGoals": 140,
   "eliminatedTeams": [],
   "participants": [
     {
@@ -119,11 +119,11 @@
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 17,
+      "matchPts": 18,
       "stagePts": 0,
-      "gf": 19,
-      "ga": 9,
-      "maxPossible": 157
+      "gf": 20,
+      "ga": 10,
+      "maxPossible": 158
     },
     {
       "name": "Jack O'Connor",
