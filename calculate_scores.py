@@ -64,10 +64,12 @@ TEAM_NAME_MAP = {
     "Côte d'Ivoire": "Ivory Coast",
     "Korea Republic":"South Korea",
     "Czechia":       "Czech Republic",
-    "Bosnia-Herzegovina": "Bosnia and Herzegovina",
+    "Bosnia-Herzegovina":     "Bosnia and Herzegovina",  # API uses hyphen
+    "Bosnia and Herzegovina":  "Bosnia and Herzegovina",
     "DR Congo":      "DR Congo",
     "Congo DR":      "DR Congo",
-    "Cape Verde Islands":    "Cape Verde",
+    "Cabo Verde":    "Cape Verde",
+    "Cape Verde Islands": "Cape Verde",                  # API variant
     "England":       "England",      # API uses "England" not "Great Britain"
 }
 
@@ -115,39 +117,70 @@ WINNER_BONUS = 10          # awarded to team that wins the Final
 
 def fetch_matches() -> list:
     """
-    Fetch all WC 2026 matches with real scores where available.
+    Fetch all WC 2026 matches and merge with previously confirmed results.
 
-    The all-matches endpoint reliably marks FINISHED matches but returns
-    null scores on the free tier. For each such match we make one extra
-    call to the individual match endpoint, which always returns real scores.
+    Strategy:
+      1. Load results.json (confirmed matches already scored — never removed)
+      2. Fetch all matches from API — identifies FINISHED matches
+      3. For FINISHED matches with null scores, fetch individually
+      4. Merge new confirmed results into results.json
+      5. Return full match list using confirmed scores where available
+
+    This means once a match result is confirmed it is locked in permanently,
+    even if the API later reverts the match to TIMED/SCHEDULED.
     """
+    results_file = Path("results.json")
+    confirmed = json.loads(results_file.read_text()) if results_file.exists() else {}
+    prev_count = len(confirmed)
+
+    # Fetch all matches (schedule + status info)
     url = f"{BASE_URL}/competitions/WC/matches"
     resp = requests.get(url, headers=HEADERS,
                         params={"season": SEASON}, timeout=15)
     resp.raise_for_status()
     matches = resp.json().get("matches", [])
 
-    # Patch null-scored FINISHED matches with individual match detail calls
+    # For FINISHED matches not yet confirmed, fetch real scores individually
+    new_confirmed = 0
     for i, m in enumerate(matches):
+        mid = str(m["id"])
+        if mid in confirmed:
+            # Already locked in — use confirmed result, ignore API status
+            matches[i] = confirmed[mid]
+            continue
+
         if m.get("status") == "FINISHED":
             ft = m.get("score", {}).get("fullTime", {})
             if ft.get("home") is None:
+                # Null score — fetch individually
                 detail = requests.get(
-                    f"{BASE_URL}/matches/{m['id']}",
+                    f"{BASE_URL}/matches/{mid}",
                     headers=HEADERS, timeout=15
                 )
                 if detail.ok:
                     matches[i] = detail.json()
-                    ft2 = matches[i]["score"]["fullTime"]
-                    print(f"   📊 Fetched score for match {m['id']}: "
-                          f"{matches[i]['homeTeam']['name']} "
-                          f"{ft2['home']}-{ft2['away']} "
-                          f"{matches[i]['awayTeam']['name']}")
+                    ft = matches[i].get("score", {}).get("fullTime", {})
+
+            # Confirm and lock if we now have a real score
+            if ft.get("home") is not None:
+                confirmed[mid] = matches[i]
+                new_confirmed += 1
+                print(f"   🔒 Locked result: "
+                      f"{matches[i]['homeTeam']['name']} "
+                      f"{ft['home']}-{ft['away']} "
+                      f"{matches[i]['awayTeam']['name']}")
+
+    # Save updated confirmed results
+    if new_confirmed > 0:
+        results_file.write_text(json.dumps(confirmed, indent=2))
+        print(f"   📁 results.json: {prev_count} → {len(confirmed)} confirmed matches")
+    else:
+        print(f"   📁 results.json: {len(confirmed)} confirmed match(es) — no new results")
 
     return matches
 
 
-def build_team_stats(matches: list) -> dict:
+def build_team_stats(matches: list, confirmed: dict) -> dict:
     """
     Build a per-team stats dict from match results.
 
@@ -169,34 +202,30 @@ def build_team_stats(matches: list) -> dict:
             stats[team] = {"matchPts": 0, "gf": 0, "ga": 0,
                            "stages": set(), "won_final": False}
 
-    for m in matches:
-        stage   = m.get("stage", "")
-        status  = m.get("status", "")
-        home    = normalise(m["homeTeam"]["name"])
-        away    = normalise(m["awayTeam"]["name"])
-        score   = m.get("score", {})
-        ft      = score.get("fullTime", {})
-        hg      = ft.get("home")   # None if not played yet
-        ag      = ft.get("away")
+    def apply_match(m):
+        """Score a single confirmed match into stats."""
+        stage  = m.get("stage", "")
+        home   = normalise(m["homeTeam"]["name"])
+        away   = normalise(m["awayTeam"]["name"])
+        score  = m.get("score", {})
+        ft     = score.get("fullTime", {})
+        hg     = ft.get("home")
+        ag     = ft.get("away")
 
         ensure(home)
         ensure(away)
 
-        # Record that both teams competed at this stage
         stats[home]["stages"].add(stage)
         stats[away]["stages"].add(stage)
 
-        # Only score finished matches
-        if status != "FINISHED" or hg is None or ag is None:
-            continue
+        if hg is None or ag is None:
+            return
 
-        # Goals
         stats[home]["gf"] += hg
         stats[home]["ga"] += ag
         stats[away]["gf"] += ag
         stats[away]["ga"] += hg
 
-        # Match points
         is_knockout = stage != "GROUP_STAGE"
 
         if hg > ag:
@@ -204,24 +233,39 @@ def build_team_stats(matches: list) -> dict:
         elif ag > hg:
             stats[away]["matchPts"] += 3
         else:
-            # Draw — only award point in group stage
             if not is_knockout:
                 stats[home]["matchPts"] += 1
                 stats[away]["matchPts"] += 1
-            # In knockout, check extra time / penalties winner
-            winner = score.get("winner")   # "HOME_TEAM" or "AWAY_TEAM"
+            winner = score.get("winner")
             if winner == "HOME_TEAM":
                 stats[home]["matchPts"] += 3
             elif winner == "AWAY_TEAM":
                 stats[away]["matchPts"] += 3
 
-        # Final winner bonus
         if stage == "FINAL":
             winner = score.get("winner")
             if winner == "HOME_TEAM":
                 stats[home]["won_final"] = True
             elif winner == "AWAY_TEAM":
                 stats[away]["won_final"] = True
+
+    # ── Phase 1: Apply locked confirmed results (permanent, never removed) ──
+    for m in confirmed.values():
+        apply_match(m)
+
+    # ── Phase 2: Add stage appearances from full match list ──────────────────
+    # Only ADD stages — confirmed scores already applied above.
+    # This captures teams appearing in future/upcoming fixtures.
+    confirmed_ids = set(confirmed.keys())
+    for m in matches:
+        mid   = str(m.get("id", ""))
+        stage = m.get("stage", "")
+        home  = normalise(m["homeTeam"]["name"])
+        away  = normalise(m["awayTeam"]["name"])
+        ensure(home)
+        ensure(away)
+        stats[home]["stages"].add(stage)
+        stats[away]["stages"].add(stage)
 
     return stats
 
@@ -446,7 +490,7 @@ def main():
         raise
 
     print("📊 Building team stats...")
-    team_stats = build_team_stats(matches)
+    team_stats = build_team_stats(matches, confirmed)
 
     print("🗓️  Detecting current stage...")
     stage_key     = detect_current_stage(matches)
