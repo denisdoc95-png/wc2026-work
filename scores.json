@@ -1,30 +1,34 @@
 {
-  "lastUpdated": "2026-06-25T00:00:58Z",
+  "lastUpdated": "2026-06-25T00:15:33Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 148,
+  "actualTotalGoals": 157,
   "eliminatedTeams": [
     "Bosnia and Herzegovina",
+    "Brazil",
     "Canada",
+    "Haiti",
+    "Morocco",
     "Qatar",
+    "Scotland",
     "Switzerland"
   ],
   "participants": [
     {
       "name": "Brian Lehane",
       "matchPts": 20,
-      "stagePts": 0,
+      "stagePts": 3,
       "gf": 26,
       "ga": 12,
-      "maxPossible": 160
+      "maxPossible": 163
     },
     {
       "name": "Squirrel",
-      "matchPts": 24,
+      "matchPts": 27,
       "stagePts": 0,
-      "gf": 20,
-      "ga": 5,
-      "maxPossible": 161
+      "gf": 24,
+      "ga": 7,
+      "maxPossible": 164
     },
     {
       "name": "Niamh Corrigan",
@@ -44,11 +48,11 @@
     },
     {
       "name": "Adam Feery",
-      "matchPts": 19,
+      "matchPts": 22,
       "stagePts": 0,
-      "gf": 20,
+      "gf": 23,
       "ga": 12,
-      "maxPossible": 156
+      "maxPossible": 159
     },
     {
       "name": "Mick F",
@@ -68,51 +72,51 @@
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 18,
+      "matchPts": 21,
       "stagePts": 0,
-      "gf": 15,
-      "ga": 6,
-      "maxPossible": 152
+      "gf": 18,
+      "ga": 9,
+      "maxPossible": 155
     },
     {
       "name": "Sean Purcell",
-      "matchPts": 22,
+      "matchPts": 25,
       "stagePts": 0,
-      "gf": 21,
+      "gf": 24,
       "ga": 9,
-      "maxPossible": 159
+      "maxPossible": 162
     },
     {
       "name": "Monique Mehaffey",
       "matchPts": 19,
-      "stagePts": 0,
+      "stagePts": 3,
       "gf": 20,
       "ga": 14,
-      "maxPossible": 159
+      "maxPossible": 162
     },
     {
       "name": "Ivan Peharda",
       "matchPts": 17,
-      "stagePts": 0,
+      "stagePts": 3,
       "gf": 19,
       "ga": 15,
-      "maxPossible": 157
+      "maxPossible": 160
     },
     {
       "name": "Brian O Connell",
-      "matchPts": 18,
-      "stagePts": 0,
-      "gf": 21,
-      "ga": 13,
-      "maxPossible": 152
+      "matchPts": 21,
+      "stagePts": 3,
+      "gf": 24,
+      "ga": 16,
+      "maxPossible": 158
     },
     {
       "name": "Erika Kind",
-      "matchPts": 19,
-      "stagePts": 0,
-      "gf": 15,
+      "matchPts": 22,
+      "stagePts": 3,
+      "gf": 18,
       "ga": 9,
-      "maxPossible": 156
+      "maxPossible": 162
     },
     {
       "name": "John Pepper",
@@ -124,11 +128,11 @@
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 24,
+      "matchPts": 27,
       "stagePts": 0,
-      "gf": 24,
+      "gf": 27,
       "ga": 11,
-      "maxPossible": 158
+      "maxPossible": 161
     },
     {
       "name": "Jack O'Connor",
@@ -141,17 +145,17 @@
     {
       "name": "Adrian Kehoe",
       "matchPts": 20,
-      "stagePts": 0,
+      "stagePts": 3,
       "gf": 22,
       "ga": 12,
-      "maxPossible": 160
+      "maxPossible": 163
     },
     {
       "name": "Clinton Ogundero",
       "matchPts": 19,
       "stagePts": 0,
       "gf": 15,
-      "ga": 7,
+      "ga": 10,
       "maxPossible": 156
     },
     {
@@ -167,7 +171,7 @@
       "matchPts": 13,
       "stagePts": 0,
       "gf": 14,
-      "ga": 11,
+      "ga": 14,
       "maxPossible": 150
     },
     {
@@ -181,10 +185,10 @@
     {
       "name": "Guzza",
       "matchPts": 23,
-      "stagePts": 0,
+      "stagePts": 3,
       "gf": 27,
       "ga": 13,
-      "maxPossible": 163
+      "maxPossible": 166
     },
     {
       "name": "Eric Murphy",
@@ -196,11 +200,11 @@
     },
     {
       "name": "Hillington FC",
-      "matchPts": 20,
+      "matchPts": 23,
       "stagePts": 0,
-      "gf": 19,
-      "ga": 8,
-      "maxPossible": 157
+      "gf": 23,
+      "ga": 10,
+      "maxPossible": 160
     }
   ]
 }
