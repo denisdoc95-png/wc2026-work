@@ -3548,5 +3548,137 @@
         "nationality": "Argentina"
       }
     ]
+  },
+  "537355": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537355,
+    "utcDate": "2026-06-25T20:00:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_E",
+    "lastUpdated": "2026-06-25T22:08:03Z",
+    "homeTeam": {
+      "id": 791,
+      "name": "Ecuador",
+      "shortName": "Ecuador",
+      "tla": "ECU",
+      "crest": "https://crests.football-data.org/791.svg"
+    },
+    "awayTeam": {
+      "id": 759,
+      "name": "Germany",
+      "shortName": "Germany",
+      "tla": "GER",
+      "crest": "https://crests.football-data.org/759.svg"
+    },
+    "score": {
+      "winner": "HOME_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 212450,
+        "name": "Tori Penso",
+        "type": "REFEREE",
+        "nationality": "USA"
+      }
+    ]
+  },
+  "537356": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537356,
+    "utcDate": "2026-06-25T20:00:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_E",
+    "lastUpdated": "2026-06-25T22:04:07Z",
+    "homeTeam": {
+      "id": 9460,
+      "name": "Cura\u00e7ao",
+      "shortName": "Cura\u00e7ao",
+      "tla": "CUW",
+      "crest": "https://crests.football-data.org/curacao.svg"
+    },
+    "awayTeam": {
+      "id": 1935,
+      "name": "Ivory Coast",
+      "shortName": "Ivory Coast",
+      "tla": "CIV",
+      "crest": "https://crests.football-data.org/787.svg"
+    },
+    "score": {
+      "winner": "AWAY_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 0,
+        "away": 2
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 30960,
+        "name": "Glenn Nyberg",
+        "type": "REFEREE",
+        "nationality": "Sweden"
+      }
+    ]
   }
 }
