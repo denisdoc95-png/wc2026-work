@@ -297,13 +297,15 @@ def get_eliminated_teams(matches: list, confirmed: dict) -> list:
     """
     Returns a sorted list of team names that are eliminated.
 
-    Two ways a team can be eliminated:
-      1. They lost a confirmed knockout match (LAST_32, LAST_16, QF, SF, Final)
-      2. All 3 of their group stage matches are confirmed AND they do not
-         appear in any confirmed or scheduled knockout fixture
+    Rules:
+      1. Lost a confirmed knockout match → eliminated
+      2. All 3 group matches confirmed AND at least one LAST_32 match
+         has real team names assigned (not None) AND team not in any
+         confirmed knockout fixture → eliminated from group stage
 
-    Using only confirmed results (not API placeholders) avoids false positives
-    during/after the group stage.
+    We wait for real team names in LAST_32 fixtures before inferring
+    group eliminations — avoids false positives when fixtures are
+    placeholder (None vs None).
     """
     KNOCKOUT_STAGES = {"LAST_32", "LAST_16", "QUARTER_FINALS",
                        "SEMI_FINALS", "FINAL", "THIRD_PLACE"}
@@ -327,32 +329,37 @@ def get_eliminated_teams(matches: list, confirmed: dict) -> list:
         elif winner == "AWAY_TEAM":
             eliminated.add(home)
 
-    # ── Rule 2: Group stage complete but not in any knockout fixture ──
-    # Count confirmed group matches per team
-    group_match_count = defaultdict(int)
-    for m in confirmed.values():
-        if m.get("stage") == "GROUP_STAGE":
-            group_match_count[normalise(m["homeTeam"]["name"])] += 1
-            group_match_count[normalise(m["awayTeam"]["name"])] += 1
+    # ── Rule 2: Group stage elimination ──────────────────────────────
+    # Only run this check once LAST_32 fixtures have real team names.
+    # Until then, placeholder fixtures (None vs None) would cause false
+    # positives for every qualified team.
+    last32_has_real_names = any(
+        m.get("stage") == "LAST_32"
+        and m["homeTeam"].get("name") is not None
+        and m["awayTeam"].get("name") is not None
+        for m in matches
+    )
 
-    # Teams in any knockout fixture (confirmed OR scheduled in API)
-    in_knockout = set()
-    for m in confirmed.values():
-        if m.get("stage", "") in KNOCKOUT_STAGES:
-            in_knockout.add(normalise(m["homeTeam"]["name"]))
-            in_knockout.add(normalise(m["awayTeam"]["name"]))
-    for m in matches:
-        if m.get("stage", "") in KNOCKOUT_STAGES:
-            h = m["homeTeam"].get("name")
-            a = m["awayTeam"].get("name")
-            if h: in_knockout.add(normalise(h))
-            if a: in_knockout.add(normalise(a))
+    if last32_has_real_names:
+        # Teams appearing in any knockout fixture with real names
+        in_knockout = set()
+        for m in matches:
+            if m.get("stage", "") in KNOCKOUT_STAGES:
+                h = m["homeTeam"].get("name")
+                a = m["awayTeam"].get("name")
+                if h: in_knockout.add(normalise(h))
+                if a: in_knockout.add(normalise(a))
 
-    # Group stage has 3 matches per team — if all 3 confirmed and not
-    # in any knockout fixture, they are eliminated
-    for team, count in group_match_count.items():
-        if count >= 3 and team not in in_knockout and team not in eliminated:
-            eliminated.add(team)
+        # Count confirmed group matches per team
+        group_match_count = defaultdict(int)
+        for m in confirmed.values():
+            if m.get("stage") == "GROUP_STAGE":
+                group_match_count[normalise(m["homeTeam"]["name"])] += 1
+                group_match_count[normalise(m["awayTeam"]["name"])] += 1
+
+        for team, count in group_match_count.items():
+            if count >= 3 and team not in in_knockout and team not in eliminated:
+                eliminated.add(team)
 
     return sorted(eliminated)
 
