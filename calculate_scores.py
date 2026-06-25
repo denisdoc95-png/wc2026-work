@@ -294,21 +294,21 @@ def get_total_goals(matches: list) -> int:
 
 def get_eliminated_teams(matches: list, confirmed: dict) -> list:
     """
-    Returns a sorted list of team names that are truly eliminated.
+    Returns a sorted list of team names that are eliminated.
 
-    A team is only eliminated if:
-      1. They LOST a confirmed knockout match (LAST_32, LAST_16, QF, SF, Final)
-      2. OR all group stage matches are finished and they don't appear
-         in any knockout fixture (scheduled or finished)
+    Two ways a team can be eliminated:
+      1. They lost a confirmed knockout match (LAST_32, LAST_16, QF, SF, Final)
+      2. All 3 of their group stage matches are confirmed AND they do not
+         appear in any confirmed or scheduled knockout fixture
 
-    This avoids false positives where a qualified team has no knockout
-    fixture assigned yet in the API.
+    Using only confirmed results (not API placeholders) avoids false positives
+    during/after the group stage.
     """
-    # Teams that lost a knockout match are definitively eliminated
-    eliminated = set()
     KNOCKOUT_STAGES = {"LAST_32", "LAST_16", "QUARTER_FINALS",
                        "SEMI_FINALS", "FINAL", "THIRD_PLACE"}
+    eliminated = set()
 
+    # ── Rule 1: Lost a confirmed knockout match ───────────────────────
     for m in confirmed.values():
         stage  = m.get("stage", "")
         if stage not in KNOCKOUT_STAGES:
@@ -319,44 +319,39 @@ def get_eliminated_teams(matches: list, confirmed: dict) -> list:
         winner = score.get("winner")
         home   = normalise(m["homeTeam"]["name"])
         away   = normalise(m["awayTeam"]["name"])
-
         if hg is None or ag is None:
             continue
-
-        # Loser of knockout match is eliminated
         if winner == "HOME_TEAM":
             eliminated.add(away)
         elif winner == "AWAY_TEAM":
             eliminated.add(home)
-        elif hg == ag:
-            # Decided on penalties — check winner field
-            if winner == "HOME_TEAM":
-                eliminated.add(away)
-            elif winner == "AWAY_TEAM":
-                eliminated.add(home)
 
-    # Check for group stage eliminations:
-    # A team is group-eliminated if all their group matches are confirmed
-    # AND they don't appear in any knockout fixture
-    knockout_teams = set()
-    for m in matches:
-        if m.get("stage", "") in KNOCKOUT_STAGES:
-            knockout_teams.add(normalise(m["homeTeam"]["name"]))
-            knockout_teams.add(normalise(m["awayTeam"]["name"]))
-
-    # Teams with confirmed group stage matches but not in any knockout fixture
-    group_played = set()
+    # ── Rule 2: Group stage complete but not in any knockout fixture ──
+    # Count confirmed group matches per team
+    group_match_count = defaultdict(int)
     for m in confirmed.values():
         if m.get("stage") == "GROUP_STAGE":
-            group_played.add(normalise(m["homeTeam"]["name"]))
-            group_played.add(normalise(m["awayTeam"]["name"]))
+            group_match_count[normalise(m["homeTeam"]["name"])] += 1
+            group_match_count[normalise(m["awayTeam"]["name"])] += 1
 
-    # Only mark as group-eliminated if knockout draws have been made
-    # (i.e. at least some knockout fixtures exist in the API)
-    if knockout_teams:
-        for team in group_played:
-            if team not in knockout_teams and team not in eliminated:
-                eliminated.add(team)
+    # Teams in any knockout fixture (confirmed OR scheduled in API)
+    in_knockout = set()
+    for m in confirmed.values():
+        if m.get("stage", "") in KNOCKOUT_STAGES:
+            in_knockout.add(normalise(m["homeTeam"]["name"]))
+            in_knockout.add(normalise(m["awayTeam"]["name"]))
+    for m in matches:
+        if m.get("stage", "") in KNOCKOUT_STAGES:
+            h = m["homeTeam"].get("name")
+            a = m["awayTeam"].get("name")
+            if h: in_knockout.add(normalise(h))
+            if a: in_knockout.add(normalise(a))
+
+    # Group stage has 3 matches per team — if all 3 confirmed and not
+    # in any knockout fixture, they are eliminated
+    for team, count in group_match_count.items():
+        if count >= 3 and team not in in_knockout and team not in eliminated:
+            eliminated.add(team)
 
     return sorted(eliminated)
 
