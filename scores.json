@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T20:00:51Z",
+  "lastUpdated": "2026-06-25T20:15:32Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 161,
@@ -15,7 +15,7 @@
       "stagePts": 0,
       "gf": 26,
       "ga": 12,
-      "maxPossible": 160
+      "maxPossible": 157
     },
     {
       "name": "Squirrel",
@@ -103,7 +103,7 @@
       "stagePts": 0,
       "gf": 24,
       "ga": 16,
-      "maxPossible": 155
+      "maxPossible": 149
     },
     {
       "name": "Erika Kind",
@@ -191,7 +191,7 @@
       "stagePts": 0,
       "gf": 15,
       "ga": 10,
-      "maxPossible": 156
+      "maxPossible": 153
     },
     {
       "name": "Hillington FC",
