@@ -3416,5 +3416,137 @@
         "nationality": "Mexico"
       }
     ]
+  },
+  "537331": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537331,
+    "utcDate": "2026-06-25T01:00:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_A",
+    "lastUpdated": "2026-06-25T03:03:40Z",
+    "homeTeam": {
+      "id": 798,
+      "name": "Czechia",
+      "shortName": "Czechia",
+      "tla": "CZE",
+      "crest": "https://crests.football-data.org/798.svg"
+    },
+    "awayTeam": {
+      "id": 769,
+      "name": "Mexico",
+      "shortName": "Mexico",
+      "tla": "MEX",
+      "crest": "https://crests.football-data.org/769.svg"
+    },
+    "score": {
+      "winner": "AWAY_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 0,
+        "away": 3
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 57435,
+        "name": "Yael Falc\u00f3n",
+        "type": "REFEREE",
+        "nationality": "Argentina"
+      }
+    ]
+  },
+  "537332": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537332,
+    "utcDate": "2026-06-25T01:00:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_A",
+    "lastUpdated": "2026-06-25T03:03:56Z",
+    "homeTeam": {
+      "id": 774,
+      "name": "South Africa",
+      "shortName": "South Africa",
+      "tla": "RSA",
+      "crest": "https://crests.football-data.org/9396.svg"
+    },
+    "awayTeam": {
+      "id": 772,
+      "name": "South Korea",
+      "shortName": "Korea Republic",
+      "tla": "KOR",
+      "crest": "https://crests.football-data.org/772.png"
+    },
+    "score": {
+      "winner": "HOME_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 1,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 57301,
+        "name": "Facundo Tello",
+        "type": "REFEREE",
+        "nationality": "Argentina"
+      }
+    ]
   }
 }
