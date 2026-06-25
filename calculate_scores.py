@@ -292,29 +292,72 @@ def get_total_goals(matches: list) -> int:
     return total
 
 
-def get_eliminated_teams(matches: list) -> list:
+def get_eliminated_teams(matches: list, confirmed: dict) -> list:
     """
-    Returns a sorted list of team names that are eliminated —
-    i.e. they have played at least one match but have NO remaining
-    scheduled or in-play matches.
-    """
-    played   = set()
-    active   = set()
+    Returns a sorted list of team names that are truly eliminated.
 
-    for m in matches:
-        status = m.get("status", "")
+    A team is only eliminated if:
+      1. They LOST a confirmed knockout match (LAST_32, LAST_16, QF, SF, Final)
+      2. OR all group stage matches are finished and they don't appear
+         in any knockout fixture (scheduled or finished)
+
+    This avoids false positives where a qualified team has no knockout
+    fixture assigned yet in the API.
+    """
+    # Teams that lost a knockout match are definitively eliminated
+    eliminated = set()
+    KNOCKOUT_STAGES = {"LAST_32", "LAST_16", "QUARTER_FINALS",
+                       "SEMI_FINALS", "FINAL", "THIRD_PLACE"}
+
+    for m in confirmed.values():
+        stage  = m.get("stage", "")
+        if stage not in KNOCKOUT_STAGES:
+            continue
+        score  = m.get("score", {})
+        ft     = score.get("fullTime", {})
+        hg, ag = ft.get("home"), ft.get("away")
+        winner = score.get("winner")
         home   = normalise(m["homeTeam"]["name"])
         away   = normalise(m["awayTeam"]["name"])
 
-        if status == "FINISHED":
-            played.add(home)
-            played.add(away)
-        elif status in ("SCHEDULED", "TIMED", "IN_PLAY", "PAUSED"):
-            active.add(home)
-            active.add(away)
+        if hg is None or ag is None:
+            continue
 
-    # Eliminated = played at least one match AND not scheduled for another
-    eliminated = played - active
+        # Loser of knockout match is eliminated
+        if winner == "HOME_TEAM":
+            eliminated.add(away)
+        elif winner == "AWAY_TEAM":
+            eliminated.add(home)
+        elif hg == ag:
+            # Decided on penalties — check winner field
+            if winner == "HOME_TEAM":
+                eliminated.add(away)
+            elif winner == "AWAY_TEAM":
+                eliminated.add(home)
+
+    # Check for group stage eliminations:
+    # A team is group-eliminated if all their group matches are confirmed
+    # AND they don't appear in any knockout fixture
+    knockout_teams = set()
+    for m in matches:
+        if m.get("stage", "") in KNOCKOUT_STAGES:
+            knockout_teams.add(normalise(m["homeTeam"]["name"]))
+            knockout_teams.add(normalise(m["awayTeam"]["name"]))
+
+    # Teams with confirmed group stage matches but not in any knockout fixture
+    group_played = set()
+    for m in confirmed.values():
+        if m.get("stage") == "GROUP_STAGE":
+            group_played.add(normalise(m["homeTeam"]["name"]))
+            group_played.add(normalise(m["awayTeam"]["name"]))
+
+    # Only mark as group-eliminated if knockout draws have been made
+    # (i.e. at least some knockout fixtures exist in the API)
+    if knockout_teams:
+        for team in group_played:
+            if team not in knockout_teams and team not in eliminated:
+                eliminated.add(team)
+
     return sorted(eliminated)
 
 
@@ -507,7 +550,7 @@ def main():
     print(f"   Winner: {actual_winner or 'TBD'} · Total goals: {actual_goals}")
 
     print("🚫 Detecting eliminated teams...")
-    eliminated = get_eliminated_teams(matches)
+    eliminated = get_eliminated_teams(matches, confirmed)
     print(f"   Eliminated ({len(eliminated)}): {', '.join(eliminated) if eliminated else 'none yet'}")
 
     print("🧮 Calculating participant scores...")
