@@ -295,6 +295,184 @@ def get_total_goals(matches: list) -> int:
 
 def get_eliminated_teams(matches: list, confirmed: dict) -> list:
     """
+    Returns teams that are definitively eliminated.
+
+    Two sources:
+      1. Lost a confirmed knockout match (LAST_32, LAST_16, QF, SF, Final)
+      2. Finished 4th in their group (all 3 group matches confirmed)
+         4th place is always eliminated in WC 2026 format.
+         3rd place teams wait — best 8 third-placed teams qualify, so
+         3rd place is only eliminated once all 12 groups are complete
+         AND they are not in any LAST_32 fixture with real team names.
+    """
+    KNOCKOUT_STAGES = {"LAST_32", "LAST_16", "QUARTER_FINALS",
+                       "SEMI_FINALS", "FINAL", "THIRD_PLACE"}
+    eliminated = set()
+
+    # ── Rule 1: Lost a confirmed knockout match ───────────────────────
+    for m in confirmed.values():
+        if m.get("stage", "") not in KNOCKOUT_STAGES:
+            continue
+        score  = m.get("score", {})
+        ft     = score.get("fullTime", {})
+        hg, ag = ft.get("home"), ft.get("away")
+        winner = score.get("winner")
+        home   = normalise(m["homeTeam"]["name"])
+        away   = normalise(m["awayTeam"]["name"])
+        if hg is None or ag is None:
+            continue
+        if winner == "HOME_TEAM":
+            eliminated.add(away)
+        elif winner == "AWAY_TEAM":
+            eliminated.add(home)
+
+    # ── Rule 2: Calculate group standings from confirmed results ──────
+    # Group each confirmed group stage match by group
+    groups = defaultdict(list)
+    for m in confirmed.values():
+        if m.get("stage") == "GROUP_STAGE" and m.get("group"):
+            groups[m["group"]].append(m)
+
+    # WC 2026: 12 groups of 4 teams, 6 matches per group (3 per team)
+    all_groups_complete = all(len(ms) >= 6 for ms in groups.values())                          and len(groups) == 12
+
+    # Teams in any LAST_32 fixture with real names (confirmed qualified)
+    in_knockout = set()
+    for m in list(confirmed.values()) + matches:
+        if m.get("stage", "") in KNOCKOUT_STAGES:
+            h = m["homeTeam"].get("name")
+            a = m["awayTeam"].get("name")
+            if h: in_knockout.add(normalise(h))
+            if a: in_knockout.add(normalise(a))
+
+    for group_name, group_matches in groups.items():
+        # Only process groups where all 6 matches are confirmed
+        if len(group_matches) < 6:
+            continue
+
+        # Build standings for this group
+        standings = defaultdict(lambda: {"pts": 0, "gd": 0, "gf": 0})
+        for m in group_matches:
+            h  = normalise(m["homeTeam"]["name"])
+            a  = normalise(m["awayTeam"]["name"])
+            ft = m["score"]["fullTime"]
+            hg, ag = ft["home"], ft["away"]
+            if hg is None or ag is None:
+                continue
+            standings[h]["gf"] += hg
+            standings[h]["gd"] += hg - ag
+            standings[a]["gf"] += ag
+            standings[a]["gd"] += ag - hg
+            w = m["score"].get("winner")
+            if w == "HOME_TEAM":
+                standings[h]["pts"] += 3
+            elif w == "AWAY_TEAM":
+                standings[a]["pts"] += 3
+            else:
+                standings[h]["pts"] += 1
+                standings[a]["pts"] += 1
+
+        # Sort by pts → gd → gf
+        ranked = sorted(standings.keys(),
+                        key=lambda t: (standings[t]["pts"],
+                                       standings[t]["gd"],
+                                       standings[t]["gf"]),
+                        reverse=True)
+
+        # 4th place is always eliminated
+        if len(ranked) >= 4:
+            eliminated.add(ranked[3])
+
+        # 3rd place: only eliminated once ALL groups complete AND
+        # they are confirmed not in any knockout fixture
+        if all_groups_complete and len(ranked) >= 3:
+            third = ranked[2]
+            if third not in in_knockout:
+                eliminated.add(third)
+
+    return sorted(eliminated)
+
+def get_tournament_winner(matches: list) -> str:
+    """Return the name of the team that won the Final."""
+    for m in matches:
+        if m.get("stage") == "FINAL" and m.get("status") == "FINISHED":
+            winner = m.get("score", {}).get("winner")
+            if winner == "HOME_TEAM":
+                return normalise(m["homeTeam"]["name"])
+            elif winner == "AWAY_TEAM":
+                return normalise(m["awayTeam"]["name"])
+    return ""
+
+
+def get_total_goals(matches: list) -> int:
+    """Return total goals scored across all finished matches."""
+    total = 0
+    for m in matches:
+        if m.get("status") == "FINISHED":
+            ft = m.get("score", {}).get("fullTime", {})
+            total += (ft.get("home") or 0) + (ft.get("away") or 0)
+    return total
+
+
+def get_eliminated_teams(matches: list, confirmed: dict) -> list:
+    """
+    Returns teams eliminated by losing a confirmed knockout match.
+
+    Group stage elimination is intentionally NOT inferred here.
+    Teams that fail to qualify simply stop scoring points naturally.
+    They will grey out automatically once they lose a knockout match
+    (LAST_32, LAST_16, QF, SF, Final).
+
+    This is the only reliable approach — group stage inference always
+    causes false positives because LAST_32 fixtures use placeholder
+    None team names until the draw is finalised.
+    """
+    KNOCKOUT_STAGES = {"LAST_32", "LAST_16", "QUARTER_FINALS",
+                       "SEMI_FINALS", "FINAL", "THIRD_PLACE"}
+    eliminated = set()
+
+    for m in confirmed.values():
+        if m.get("stage", "") not in KNOCKOUT_STAGES:
+            continue
+        score  = m.get("score", {})
+        ft     = score.get("fullTime", {})
+        hg, ag = ft.get("home"), ft.get("away")
+        winner = score.get("winner")
+        home   = normalise(m["homeTeam"]["name"])
+        away   = normalise(m["awayTeam"]["name"])
+        if hg is None or ag is None:
+            continue
+        if winner == "HOME_TEAM":
+            eliminated.add(away)
+        elif winner == "AWAY_TEAM":
+            eliminated.add(home)
+
+    return sorted(eliminated)
+
+def get_tournament_winner(matches: list) -> str:
+    """Return the name of the team that won the Final."""
+    for m in matches:
+        if m.get("stage") == "FINAL" and m.get("status") == "FINISHED":
+            winner = m.get("score", {}).get("winner")
+            if winner == "HOME_TEAM":
+                return normalise(m["homeTeam"]["name"])
+            elif winner == "AWAY_TEAM":
+                return normalise(m["awayTeam"]["name"])
+    return ""
+
+
+def get_total_goals(matches: list) -> int:
+    """Return total goals scored across all finished matches."""
+    total = 0
+    for m in matches:
+        if m.get("status") == "FINISHED":
+            ft = m.get("score", {}).get("fullTime", {})
+            total += (ft.get("home") or 0) + (ft.get("away") or 0)
+    return total
+
+
+def get_eliminated_teams(matches: list, confirmed: dict) -> list:
+    """
     Returns a sorted list of team names that are eliminated.
 
     Rules:
