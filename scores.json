@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T02:45:34Z",
+  "lastUpdated": "2026-06-26T03:00:52Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 172,
@@ -14,10 +14,10 @@
     {
       "name": "Brian Lehane",
       "matchPts": 21,
-      "stagePts": 3,
+      "stagePts": 0,
       "gf": 28,
       "ga": 15,
-      "maxPossible": 155
+      "maxPossible": 152
     },
     {
       "name": "Squirrel",
@@ -86,34 +86,34 @@
     {
       "name": "Monique Mehaffey",
       "matchPts": 20,
-      "stagePts": 3,
+      "stagePts": 0,
       "gf": 21,
       "ga": 15,
-      "maxPossible": 160
+      "maxPossible": 157
     },
     {
       "name": "Ivan Peharda",
       "matchPts": 20,
-      "stagePts": 3,
+      "stagePts": 0,
       "gf": 20,
       "ga": 15,
-      "maxPossible": 160
+      "maxPossible": 157
     },
     {
       "name": "Brian O Connell",
       "matchPts": 22,
-      "stagePts": 3,
+      "stagePts": 0,
       "gf": 26,
       "ga": 21,
-      "maxPossible": 150
+      "maxPossible": 147
     },
     {
       "name": "Erika Kind",
       "matchPts": 22,
-      "stagePts": 3,
+      "stagePts": 0,
       "gf": 18,
       "ga": 9,
-      "maxPossible": 156
+      "maxPossible": 153
     },
     {
       "name": "John Pepper",
@@ -142,10 +142,10 @@
     {
       "name": "Adrian Kehoe",
       "matchPts": 20,
-      "stagePts": 3,
+      "stagePts": 0,
       "gf": 22,
       "ga": 12,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Clinton Ogundero",
@@ -182,10 +182,10 @@
     {
       "name": "Guzza",
       "matchPts": 24,
-      "stagePts": 3,
+      "stagePts": 0,
       "gf": 28,
       "ga": 14,
-      "maxPossible": 164
+      "maxPossible": 161
     },
     {
       "name": "Eric Murphy",
