@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-26T00:45:32Z",
+  "lastUpdated": "2026-06-26T01:00:51Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 166,
+  "actualTotalGoals": 170,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
@@ -172,11 +172,11 @@
     },
     {
       "name": "Tim Greene",
-      "matchPts": 19,
+      "matchPts": 22,
       "stagePts": 0,
-      "gf": 29,
-      "ga": 16,
-      "maxPossible": 153
+      "gf": 32,
+      "ga": 17,
+      "maxPossible": 156
     },
     {
       "name": "Guzza",

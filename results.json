@@ -3680,5 +3680,71 @@
         "nationality": "Sweden"
       }
     ]
+  },
+  "537361": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 1,
+      "winner": null
+    },
+    "id": 537361,
+    "utcDate": "2026-06-25T23:00:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_F",
+    "lastUpdated": "2026-06-26T01:00:44Z",
+    "homeTeam": {
+      "id": 802,
+      "name": "Tunisia",
+      "shortName": "Tunisia",
+      "tla": "TUN",
+      "crest": "https://crests.football-data.org/tunisia.svg"
+    },
+    "awayTeam": {
+      "id": 8601,
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "tla": "NED",
+      "crest": "https://crests.football-data.org/8601.svg"
+    },
+    "score": {
+      "winner": "AWAY_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 1,
+        "away": 3
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 212546,
+        "name": "Katia Garc\u00eda",
+        "type": "REFEREE",
+        "nationality": "Mexico"
+      }
+    ]
   }
 }
