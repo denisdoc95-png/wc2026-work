@@ -4076,5 +4076,137 @@
         "nationality": "England"
       }
     ]
+  },
+  "537373": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537373,
+    "utcDate": "2026-06-27T00:00:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_H",
+    "lastUpdated": "2026-06-27T02:07:59Z",
+    "homeTeam": {
+      "id": 758,
+      "name": "Uruguay",
+      "shortName": "Uruguay",
+      "tla": "URU",
+      "crest": "https://crests.football-data.org/758.svg"
+    },
+    "awayTeam": {
+      "id": 760,
+      "name": "Spain",
+      "shortName": "Spain",
+      "tla": "ESP",
+      "crest": "https://crests.football-data.org/760.svg"
+    },
+    "score": {
+      "winner": "AWAY_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 0,
+        "away": 1
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 76608,
+        "name": "Ismail Elfath",
+        "type": "REFEREE",
+        "nationality": "United States"
+      }
+    ]
+  },
+  "537374": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537374,
+    "utcDate": "2026-06-27T00:00:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_H",
+    "lastUpdated": "2026-06-27T02:09:26Z",
+    "homeTeam": {
+      "id": 1930,
+      "name": "Cape Verde Islands",
+      "shortName": "Cape Verde",
+      "tla": "CPV",
+      "crest": "https://crests.football-data.org/cape_verde.svg"
+    },
+    "awayTeam": {
+      "id": 801,
+      "name": "Saudi Arabia",
+      "shortName": "Saudi Arabia",
+      "tla": "KSA",
+      "crest": "https://crests.football-data.org/saudi_arabia.svg"
+    },
+    "score": {
+      "winner": "DRAW",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 43918,
+        "name": "Fran\u00e7ois Letexier",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   }
 }
