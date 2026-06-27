@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T23:30:50Z",
+  "lastUpdated": "2026-06-27T23:45:36Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 202,
@@ -38,7 +38,7 @@
       "stagePts": 0,
       "gf": 30,
       "ga": 15,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "MICKODEA11",
@@ -78,7 +78,7 @@
       "stagePts": 3,
       "gf": 19,
       "ga": 12,
-      "maxPossible": 155
+      "maxPossible": 152
     },
     {
       "name": "Sean Purcell",
@@ -86,7 +86,7 @@
       "stagePts": 3,
       "gf": 32,
       "ga": 16,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Monique Mehaffey",
@@ -118,7 +118,7 @@
       "stagePts": 6,
       "gf": 21,
       "ga": 11,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "John Pepper",
@@ -126,7 +126,7 @@
       "stagePts": 0,
       "gf": 29,
       "ga": 16,
-      "maxPossible": 157
+      "maxPossible": 154
     },
     {
       "name": "Michael Murphy",
@@ -134,7 +134,7 @@
       "stagePts": 6,
       "gf": 29,
       "ga": 15,
-      "maxPossible": 164
+      "maxPossible": 161
     },
     {
       "name": "Jack O'Connor",
@@ -166,7 +166,7 @@
       "stagePts": 0,
       "gf": 31,
       "ga": 19,
-      "maxPossible": 156
+      "maxPossible": 153
     },
     {
       "name": "Denis O Connell",
@@ -182,7 +182,7 @@
       "stagePts": 3,
       "gf": 34,
       "ga": 23,
-      "maxPossible": 154
+      "maxPossible": 151
     },
     {
       "name": "Guzza",
