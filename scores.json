@@ -1,14 +1,15 @@
 {
-  "lastUpdated": "2026-06-27T23:00:58Z",
+  "lastUpdated": "2026-06-27T23:15:33Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 199,
+  "actualTotalGoals": 202,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
     "Haiti",
     "Iraq",
     "New Zealand",
+    "Panama",
     "Qatar",
     "Saudi Arabia",
     "Tunisia",
@@ -27,8 +28,8 @@
       "name": "Squirrel",
       "matchPts": 33,
       "stagePts": 3,
-      "gf": 30,
-      "ga": 12,
+      "gf": 31,
+      "ga": 14,
       "maxPossible": 161
     },
     {
@@ -49,19 +50,19 @@
     },
     {
       "name": "Adam Feery",
-      "matchPts": 28,
+      "matchPts": 31,
       "stagePts": 3,
-      "gf": 31,
-      "ga": 19,
-      "maxPossible": 156
+      "gf": 33,
+      "ga": 20,
+      "maxPossible": 159
     },
     {
       "name": "Mick F",
-      "matchPts": 24,
+      "matchPts": 27,
       "stagePts": 0,
-      "gf": 25,
-      "ga": 16,
-      "maxPossible": 149
+      "gf": 27,
+      "ga": 17,
+      "maxPossible": 152
     },
     {
       "name": "Paul Boreham",
@@ -89,19 +90,19 @@
     },
     {
       "name": "Monique Mehaffey",
-      "matchPts": 23,
+      "matchPts": 26,
       "stagePts": 3,
-      "gf": 22,
-      "ga": 15,
-      "maxPossible": 157
+      "gf": 24,
+      "ga": 16,
+      "maxPossible": 160
     },
     {
       "name": "Ivan Peharda",
-      "matchPts": 20,
+      "matchPts": 23,
       "stagePts": 6,
-      "gf": 22,
-      "ga": 24,
-      "maxPossible": 154
+      "gf": 24,
+      "ga": 25,
+      "maxPossible": 157
     },
     {
       "name": "Brian O Connell",
@@ -137,26 +138,26 @@
     },
     {
       "name": "Jack O'Connor",
-      "matchPts": 29,
+      "matchPts": 32,
       "stagePts": 0,
-      "gf": 33,
-      "ga": 20,
-      "maxPossible": 154
+      "gf": 35,
+      "ga": 21,
+      "maxPossible": 157
     },
     {
       "name": "Adrian Kehoe",
-      "matchPts": 23,
+      "matchPts": 26,
       "stagePts": 3,
-      "gf": 25,
-      "ga": 21,
-      "maxPossible": 154
+      "gf": 27,
+      "ga": 22,
+      "maxPossible": 157
     },
     {
       "name": "Clinton Ogundero",
       "matchPts": 25,
       "stagePts": 0,
-      "gf": 21,
-      "ga": 12,
+      "gf": 22,
+      "ga": 14,
       "maxPossible": 150
     },
     {
@@ -193,11 +194,11 @@
     },
     {
       "name": "Eric Murphy",
-      "matchPts": 28,
+      "matchPts": 31,
       "stagePts": 3,
-      "gf": 25,
-      "ga": 13,
-      "maxPossible": 156
+      "gf": 27,
+      "ga": 14,
+      "maxPossible": 159
     },
     {
       "name": "Hillington FC",
