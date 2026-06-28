@@ -4472,5 +4472,137 @@
         "nationality": "Canada"
       }
     ]
+  },
+  "537407": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537407,
+    "utcDate": "2026-06-27T23:30:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_K",
+    "lastUpdated": "2026-06-28T01:38:21Z",
+    "homeTeam": {
+      "id": 818,
+      "name": "Colombia",
+      "shortName": "Colombia",
+      "tla": "COL",
+      "crest": "https://crests.football-data.org/818.svg"
+    },
+    "awayTeam": {
+      "id": 765,
+      "name": "Portugal",
+      "shortName": "Portugal",
+      "tla": "POR",
+      "crest": "https://crests.football-data.org/765.svg"
+    },
+    "score": {
+      "winner": "DRAW",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 55970,
+        "name": "Alireza Faghani",
+        "type": "REFEREE",
+        "nationality": "Iran"
+      }
+    ]
+  },
+  "537408": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537408,
+    "utcDate": "2026-06-27T23:30:00Z",
+    "status": "FINISHED",
+    "matchday": 3,
+    "stage": "GROUP_STAGE",
+    "group": "GROUP_K",
+    "lastUpdated": "2026-06-28T01:41:57Z",
+    "homeTeam": {
+      "id": 1934,
+      "name": "Congo DR",
+      "shortName": "Congo DR",
+      "tla": "COD",
+      "crest": "https://crests.football-data.org/congo_dr.svg"
+    },
+    "awayTeam": {
+      "id": 8070,
+      "name": "Uzbekistan",
+      "shortName": "Uzbekistan",
+      "tla": "UZB",
+      "crest": "https://crests.football-data.org/8070.png"
+    },
+    "score": {
+      "winner": "HOME_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 3,
+        "away": 1
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 43878,
+        "name": "Felix Zwayer",
+        "type": "REFEREE",
+        "nationality": "Germany"
+      }
+    ]
   }
 }

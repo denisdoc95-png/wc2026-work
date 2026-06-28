@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-28T01:30:46Z",
+  "lastUpdated": "2026-06-28T01:45:33Z",
   "currentStage": "\ud83d\udfe2 Group Stage \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 202,
+  "actualTotalGoals": 206,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
@@ -13,7 +13,8 @@
     "Qatar",
     "Saudi Arabia",
     "Tunisia",
-    "Turkey"
+    "Turkey",
+    "Uzbekistan"
   ],
   "participants": [
     {
@@ -34,11 +35,11 @@
     },
     {
       "name": "Niamh Corrigan",
-      "matchPts": 31,
+      "matchPts": 32,
       "stagePts": 0,
       "gf": 30,
       "ga": 15,
-      "maxPossible": 156
+      "maxPossible": 157
     },
     {
       "name": "MICKODEA11",
@@ -74,19 +75,19 @@
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 24,
+      "matchPts": 25,
       "stagePts": 3,
       "gf": 19,
       "ga": 12,
-      "maxPossible": 152
+      "maxPossible": 153
     },
     {
       "name": "Sean Purcell",
-      "matchPts": 31,
+      "matchPts": 32,
       "stagePts": 3,
       "gf": 32,
       "ga": 16,
-      "maxPossible": 159
+      "maxPossible": 160
     },
     {
       "name": "Monique Mehaffey",
@@ -114,27 +115,27 @@
     },
     {
       "name": "Erika Kind",
-      "matchPts": 26,
+      "matchPts": 27,
       "stagePts": 6,
       "gf": 21,
       "ga": 11,
-      "maxPossible": 160
+      "maxPossible": 161
     },
     {
       "name": "John Pepper",
-      "matchPts": 29,
+      "matchPts": 30,
       "stagePts": 0,
       "gf": 29,
       "ga": 16,
-      "maxPossible": 154
+      "maxPossible": 155
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 30,
+      "matchPts": 31,
       "stagePts": 6,
       "gf": 29,
       "ga": 15,
-      "maxPossible": 161
+      "maxPossible": 162
     },
     {
       "name": "Jack O'Connor",
@@ -162,11 +163,11 @@
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 28,
+      "matchPts": 29,
       "stagePts": 0,
       "gf": 31,
       "ga": 19,
-      "maxPossible": 153
+      "maxPossible": 154
     },
     {
       "name": "Denis O Connell",
@@ -178,11 +179,11 @@
     },
     {
       "name": "Tim Greene",
-      "matchPts": 23,
+      "matchPts": 24,
       "stagePts": 3,
       "gf": 34,
       "ga": 23,
-      "maxPossible": 151
+      "maxPossible": 152
     },
     {
       "name": "Guzza",
