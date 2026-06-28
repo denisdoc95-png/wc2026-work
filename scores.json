@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-28T21:00:56Z",
+  "lastUpdated": "2026-06-28T21:15:37Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 216,
+  "actualTotalGoals": 217,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
@@ -13,6 +13,7 @@
     "Panama",
     "Qatar",
     "Saudi Arabia",
+    "South Africa",
     "Tunisia",
     "Turkey",
     "Uzbekistan"
@@ -47,7 +48,7 @@
       "matchPts": 28,
       "stagePts": 12,
       "gf": 27,
-      "ga": 16,
+      "ga": 17,
       "maxPossible": 162
     },
     {
@@ -103,7 +104,7 @@
       "matchPts": 26,
       "stagePts": 12,
       "gf": 27,
-      "ga": 26,
+      "ga": 27,
       "maxPossible": 160
     },
     {
