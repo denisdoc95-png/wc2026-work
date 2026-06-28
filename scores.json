@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T19:00:52Z",
+  "lastUpdated": "2026-06-28T19:15:36Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 216,
@@ -48,7 +48,7 @@
       "stagePts": 12,
       "gf": 27,
       "ga": 16,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Adam Feery",
@@ -104,7 +104,7 @@
       "stagePts": 12,
       "gf": 27,
       "ga": 26,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Brian O Connell",
