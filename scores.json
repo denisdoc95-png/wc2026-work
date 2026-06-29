@@ -1,14 +1,15 @@
 {
-  "lastUpdated": "2026-06-29T19:00:56Z",
+  "lastUpdated": "2026-06-29T19:15:32Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 217,
+  "actualTotalGoals": 220,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
     "Haiti",
     "Iran",
     "Iraq",
+    "Japan",
     "Jordan",
     "New Zealand",
     "Panama",
@@ -27,8 +28,8 @@
       "name": "Brian Lehane",
       "matchPts": 27,
       "stagePts": 12,
-      "gf": 34,
-      "ga": 21,
+      "gf": 35,
+      "ga": 23,
       "maxPossible": 161
     },
     {
@@ -57,11 +58,11 @@
     },
     {
       "name": "Adam Feery",
-      "matchPts": 31,
+      "matchPts": 34,
       "stagePts": 12,
-      "gf": 33,
-      "ga": 20,
-      "maxPossible": 165
+      "gf": 35,
+      "ga": 21,
+      "maxPossible": 168
     },
     {
       "name": "Mick F",
@@ -81,19 +82,19 @@
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 25,
+      "matchPts": 28,
       "stagePts": 9,
-      "gf": 19,
-      "ga": 12,
-      "maxPossible": 156
+      "gf": 21,
+      "ga": 13,
+      "maxPossible": 159
     },
     {
       "name": "Sean Purcell",
-      "matchPts": 32,
+      "matchPts": 35,
       "stagePts": 12,
-      "gf": 32,
-      "ga": 16,
-      "maxPossible": 166
+      "gf": 34,
+      "ga": 17,
+      "maxPossible": 169
     },
     {
       "name": "Monique Mehaffey",
@@ -113,19 +114,19 @@
     },
     {
       "name": "Brian O Connell",
-      "matchPts": 22,
+      "matchPts": 25,
       "stagePts": 9,
-      "gf": 26,
-      "ga": 21,
-      "maxPossible": 150
+      "gf": 29,
+      "ga": 24,
+      "maxPossible": 153
     },
     {
       "name": "Erika Kind",
-      "matchPts": 30,
+      "matchPts": 33,
       "stagePts": 12,
-      "gf": 24,
-      "ga": 12,
-      "maxPossible": 164
+      "gf": 26,
+      "ga": 13,
+      "maxPossible": 167
     },
     {
       "name": "John Pepper",
@@ -137,11 +138,11 @@
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 31,
+      "matchPts": 34,
       "stagePts": 15,
-      "gf": 29,
-      "ga": 15,
-      "maxPossible": 168
+      "gf": 31,
+      "ga": 16,
+      "maxPossible": 171
     },
     {
       "name": "Jack O'Connor",
