@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-29T23:30:53Z",
+  "lastUpdated": "2026-06-29T23:45:32Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 220,
+  "actualTotalGoals": 231,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
@@ -28,8 +28,8 @@
       "name": "Brian Lehane",
       "matchPts": 27,
       "stagePts": 12,
-      "gf": 35,
-      "ga": 23,
+      "gf": 40,
+      "ga": 29,
       "maxPossible": 158
     },
     {
@@ -116,17 +116,17 @@
       "name": "Brian O Connell",
       "matchPts": 25,
       "stagePts": 9,
-      "gf": 29,
-      "ga": 24,
+      "gf": 34,
+      "ga": 30,
       "maxPossible": 150
     },
     {
       "name": "Erika Kind",
-      "matchPts": 33,
+      "matchPts": 36,
       "stagePts": 12,
-      "gf": 26,
-      "ga": 13,
-      "maxPossible": 164
+      "gf": 32,
+      "ga": 18,
+      "maxPossible": 167
     },
     {
       "name": "John Pepper",
