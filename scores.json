@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-06-30T16:45:34Z",
+  "lastUpdated": "2026-06-30T16:50:12Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 238,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
+    "Germany",
     "Haiti",
     "Iran",
     "Iraq",
     "Japan",
     "Jordan",
+    "Netherlands",
     "New Zealand",
     "Panama",
     "Qatar",
@@ -28,16 +30,16 @@
       "name": "Brian Lehane",
       "matchPts": 27,
       "stagePts": 12,
-      "gf": 40,
-      "ga": 29,
+      "gf": 36,
+      "ga": 24,
       "maxPossible": 158
     },
     {
       "name": "Squirrel",
       "matchPts": 36,
-      "stagePts": 15,
-      "gf": 35,
-      "ga": 17,
+      "stagePts": 18,
+      "gf": 32,
+      "ga": 15,
       "maxPossible": 176
     },
     {
@@ -59,7 +61,7 @@
     {
       "name": "Adam Feery",
       "matchPts": 34,
-      "stagePts": 12,
+      "stagePts": 15,
       "gf": 35,
       "ga": 21,
       "maxPossible": 171
@@ -83,7 +85,7 @@
     {
       "name": "Brian Cooper",
       "matchPts": 28,
-      "stagePts": 9,
+      "stagePts": 12,
       "gf": 21,
       "ga": 13,
       "maxPossible": 162
@@ -91,7 +93,7 @@
     {
       "name": "Sean Purcell",
       "matchPts": 35,
-      "stagePts": 12,
+      "stagePts": 15,
       "gf": 34,
       "ga": 17,
       "maxPossible": 172
@@ -115,17 +117,17 @@
     {
       "name": "Brian O Connell",
       "matchPts": 25,
-      "stagePts": 9,
-      "gf": 34,
-      "ga": 30,
+      "stagePts": 12,
+      "gf": 30,
+      "ga": 25,
       "maxPossible": 153
     },
     {
       "name": "Erika Kind",
       "matchPts": 36,
-      "stagePts": 12,
-      "gf": 32,
-      "ga": 18,
+      "stagePts": 18,
+      "gf": 27,
+      "ga": 14,
       "maxPossible": 173
     },
     {
@@ -139,7 +141,7 @@
     {
       "name": "Michael Murphy",
       "matchPts": 34,
-      "stagePts": 15,
+      "stagePts": 18,
       "gf": 31,
       "ga": 16,
       "maxPossible": 174
@@ -188,8 +190,8 @@
       "name": "Tim Greene",
       "matchPts": 24,
       "stagePts": 12,
-      "gf": 37,
-      "ga": 27,
+      "gf": 35,
+      "ga": 24,
       "maxPossible": 158
     },
     {
@@ -211,9 +213,9 @@
     {
       "name": "Hillington FC",
       "matchPts": 35,
-      "stagePts": 12,
-      "gf": 36,
-      "ga": 20,
+      "stagePts": 15,
+      "gf": 33,
+      "ga": 18,
       "maxPossible": 172
     }
   ]
