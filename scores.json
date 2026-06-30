@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:01:06Z",
+  "lastUpdated": "2026-06-30T17:13:28Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 238,
@@ -32,7 +32,7 @@
       "stagePts": 12,
       "gf": 36,
       "ga": 24,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Squirrel",
@@ -40,7 +40,7 @@
       "stagePts": 18,
       "gf": 32,
       "ga": 15,
-      "maxPossible": 176
+      "maxPossible": 173
     },
     {
       "name": "Niamh Corrigan",
@@ -48,7 +48,7 @@
       "stagePts": 12,
       "gf": 30,
       "ga": 15,
-      "maxPossible": 169
+      "maxPossible": 166
     },
     {
       "name": "MICKODEA11",
@@ -64,7 +64,7 @@
       "stagePts": 15,
       "gf": 35,
       "ga": 21,
-      "maxPossible": 171
+      "maxPossible": 168
     },
     {
       "name": "Mick F",
@@ -80,7 +80,7 @@
       "stagePts": 15,
       "gf": 34,
       "ga": 22,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Brian Cooper",
@@ -96,7 +96,7 @@
       "stagePts": 15,
       "gf": 34,
       "ga": 17,
-      "maxPossible": 172
+      "maxPossible": 169
     },
     {
       "name": "Monique Mehaffey",
@@ -112,7 +112,7 @@
       "stagePts": 12,
       "gf": 27,
       "ga": 27,
-      "maxPossible": 160
+      "maxPossible": 157
     },
     {
       "name": "Brian O Connell",
@@ -136,7 +136,7 @@
       "stagePts": 12,
       "gf": 29,
       "ga": 16,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Michael Murphy",
@@ -144,7 +144,7 @@
       "stagePts": 18,
       "gf": 31,
       "ga": 16,
-      "maxPossible": 174
+      "maxPossible": 171
     },
     {
       "name": "Jack O'Connor",
@@ -152,7 +152,7 @@
       "stagePts": 15,
       "gf": 35,
       "ga": 21,
-      "maxPossible": 172
+      "maxPossible": 169
     },
     {
       "name": "Adrian Kehoe",
@@ -160,7 +160,7 @@
       "stagePts": 12,
       "gf": 30,
       "ga": 23,
-      "maxPossible": 166
+      "maxPossible": 163
     },
     {
       "name": "Clinton Ogundero",
@@ -176,7 +176,7 @@
       "stagePts": 15,
       "gf": 31,
       "ga": 19,
-      "maxPossible": 169
+      "maxPossible": 166
     },
     {
       "name": "Denis O Connell",
@@ -192,7 +192,7 @@
       "stagePts": 12,
       "gf": 35,
       "ga": 24,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Guzza",
@@ -200,7 +200,7 @@
       "stagePts": 12,
       "gf": 36,
       "ga": 21,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Eric Murphy",
@@ -208,7 +208,7 @@
       "stagePts": 12,
       "gf": 27,
       "ga": 14,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Hillington FC",
@@ -216,7 +216,7 @@
       "stagePts": 15,
       "gf": 33,
       "ga": 18,
-      "maxPossible": 172
+      "maxPossible": 169
     }
   ]
 }
