@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-30T22:45:33Z",
+  "lastUpdated": "2026-06-30T23:01:01Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 241,
+  "actualTotalGoals": 244,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
@@ -21,6 +21,7 @@
     "Scotland",
     "South Africa",
     "South Korea",
+    "Sweden",
     "Tunisia",
     "Turkey",
     "Uruguay",
@@ -37,50 +38,50 @@
     },
     {
       "name": "Squirrel",
-      "matchPts": 39,
-      "stagePts": 21,
-      "gf": 34,
+      "matchPts": 42,
+      "stagePts": 24,
+      "gf": 37,
       "ga": 16,
-      "maxPossible": 173
+      "maxPossible": 176
     },
     {
       "name": "Niamh Corrigan",
-      "matchPts": 35,
-      "stagePts": 15,
-      "gf": 32,
+      "matchPts": 38,
+      "stagePts": 18,
+      "gf": 35,
       "ga": 16,
-      "maxPossible": 166
+      "maxPossible": 169
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 28,
-      "stagePts": 12,
-      "gf": 27,
+      "matchPts": 31,
+      "stagePts": 15,
+      "gf": 30,
       "ga": 17,
-      "maxPossible": 159
+      "maxPossible": 162
     },
     {
       "name": "Adam Feery",
-      "matchPts": 37,
-      "stagePts": 18,
-      "gf": 37,
+      "matchPts": 40,
+      "stagePts": 21,
+      "gf": 40,
       "ga": 22,
-      "maxPossible": 168
+      "maxPossible": 171
     },
     {
       "name": "Mick F",
-      "matchPts": 27,
-      "stagePts": 12,
-      "gf": 27,
+      "matchPts": 30,
+      "stagePts": 15,
+      "gf": 30,
       "ga": 17,
-      "maxPossible": 161
+      "maxPossible": 164
     },
     {
       "name": "Paul Boreham",
       "matchPts": 30,
       "stagePts": 18,
       "gf": 36,
-      "ga": 23,
+      "ga": 26,
       "maxPossible": 164
     },
     {
@@ -93,18 +94,18 @@
     },
     {
       "name": "Sean Purcell",
-      "matchPts": 38,
-      "stagePts": 18,
-      "gf": 36,
+      "matchPts": 41,
+      "stagePts": 21,
+      "gf": 39,
       "ga": 18,
-      "maxPossible": 169
+      "maxPossible": 172
     },
     {
       "name": "Monique Mehaffey",
       "matchPts": 30,
       "stagePts": 15,
       "gf": 30,
-      "ga": 20,
+      "ga": 23,
       "maxPossible": 167
     },
     {
@@ -133,11 +134,11 @@
     },
     {
       "name": "John Pepper",
-      "matchPts": 33,
-      "stagePts": 15,
-      "gf": 31,
+      "matchPts": 36,
+      "stagePts": 18,
+      "gf": 34,
       "ga": 17,
-      "maxPossible": 164
+      "maxPossible": 167
     },
     {
       "name": "Michael Murphy",
@@ -149,11 +150,11 @@
     },
     {
       "name": "Jack O'Connor",
-      "matchPts": 35,
-      "stagePts": 18,
-      "gf": 37,
-      "ga": 22,
-      "maxPossible": 166
+      "matchPts": 38,
+      "stagePts": 21,
+      "gf": 40,
+      "ga": 25,
+      "maxPossible": 169
     },
     {
       "name": "Adrian Kehoe",
@@ -165,59 +166,59 @@
     },
     {
       "name": "Clinton Ogundero",
-      "matchPts": 25,
-      "stagePts": 9,
-      "gf": 22,
+      "matchPts": 28,
+      "stagePts": 12,
+      "gf": 25,
       "ga": 14,
-      "maxPossible": 156
+      "maxPossible": 159
     },
     {
       "name": "Derek (Ted) Mccarthy",
       "matchPts": 32,
       "stagePts": 18,
       "gf": 33,
-      "ga": 20,
+      "ga": 23,
       "maxPossible": 166
     },
     {
       "name": "Denis O Connell",
-      "matchPts": 25,
-      "stagePts": 9,
-      "gf": 27,
+      "matchPts": 28,
+      "stagePts": 12,
+      "gf": 30,
       "ga": 17,
-      "maxPossible": 156
+      "maxPossible": 159
     },
     {
       "name": "Tim Greene",
       "matchPts": 27,
       "stagePts": 15,
       "gf": 37,
-      "ga": 25,
+      "ga": 28,
       "maxPossible": 155
     },
     {
       "name": "Guzza",
-      "matchPts": 33,
-      "stagePts": 15,
-      "gf": 38,
-      "ga": 22,
-      "maxPossible": 161
+      "matchPts": 36,
+      "stagePts": 18,
+      "gf": 41,
+      "ga": 25,
+      "maxPossible": 164
     },
     {
       "name": "Eric Murphy",
-      "matchPts": 31,
-      "stagePts": 12,
-      "gf": 28,
+      "matchPts": 34,
+      "stagePts": 15,
+      "gf": 31,
       "ga": 16,
-      "maxPossible": 162
+      "maxPossible": 165
     },
     {
       "name": "Hillington FC",
-      "matchPts": 38,
-      "stagePts": 18,
-      "gf": 35,
+      "matchPts": 41,
+      "stagePts": 21,
+      "gf": 38,
       "ga": 19,
-      "maxPossible": 169
+      "maxPossible": 172
     }
   ]
 }
