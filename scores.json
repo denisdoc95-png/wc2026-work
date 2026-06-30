@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T01:00:59Z",
+  "lastUpdated": "2026-06-30T01:15:32Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 231,
@@ -38,7 +38,7 @@
       "stagePts": 15,
       "gf": 31,
       "ga": 14,
-      "maxPossible": 173
+      "maxPossible": 170
     },
     {
       "name": "Niamh Corrigan",
@@ -190,7 +190,7 @@
       "stagePts": 12,
       "gf": 34,
       "ga": 23,
-      "maxPossible": 161
+      "maxPossible": 158
     },
     {
       "name": "Guzza",
@@ -214,7 +214,7 @@
       "stagePts": 12,
       "gf": 32,
       "ga": 17,
-      "maxPossible": 169
+      "maxPossible": 166
     }
   ]
 }
