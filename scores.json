@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T21:03:05Z",
+  "lastUpdated": "2026-06-30T21:15:34Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 241,
@@ -41,7 +41,7 @@
       "stagePts": 21,
       "gf": 34,
       "ga": 16,
-      "maxPossible": 176
+      "maxPossible": 173
     },
     {
       "name": "Niamh Corrigan",
@@ -49,7 +49,7 @@
       "stagePts": 15,
       "gf": 32,
       "ga": 16,
-      "maxPossible": 169
+      "maxPossible": 166
     },
     {
       "name": "MICKODEA11",
@@ -57,7 +57,7 @@
       "stagePts": 12,
       "gf": 27,
       "ga": 17,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Adam Feery",
@@ -65,7 +65,7 @@
       "stagePts": 18,
       "gf": 37,
       "ga": 22,
-      "maxPossible": 171
+      "maxPossible": 168
     },
     {
       "name": "Mick F",
@@ -73,7 +73,7 @@
       "stagePts": 12,
       "gf": 27,
       "ga": 17,
-      "maxPossible": 164
+      "maxPossible": 161
     },
     {
       "name": "Paul Boreham",
@@ -81,7 +81,7 @@
       "stagePts": 18,
       "gf": 36,
       "ga": 23,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Brian Cooper",
@@ -97,7 +97,7 @@
       "stagePts": 18,
       "gf": 36,
       "ga": 18,
-      "maxPossible": 172
+      "maxPossible": 169
     },
     {
       "name": "Monique Mehaffey",
@@ -105,7 +105,7 @@
       "stagePts": 15,
       "gf": 30,
       "ga": 20,
-      "maxPossible": 170
+      "maxPossible": 167
     },
     {
       "name": "Ivan Peharda",
@@ -137,7 +137,7 @@
       "stagePts": 15,
       "gf": 31,
       "ga": 17,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Michael Murphy",
@@ -153,7 +153,7 @@
       "stagePts": 18,
       "gf": 37,
       "ga": 22,
-      "maxPossible": 172
+      "maxPossible": 166
     },
     {
       "name": "Adrian Kehoe",
@@ -169,7 +169,7 @@
       "stagePts": 9,
       "gf": 22,
       "ga": 14,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -177,7 +177,7 @@
       "stagePts": 18,
       "gf": 33,
       "ga": 20,
-      "maxPossible": 169
+      "maxPossible": 166
     },
     {
       "name": "Denis O Connell",
@@ -185,7 +185,7 @@
       "stagePts": 9,
       "gf": 27,
       "ga": 17,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "Tim Greene",
@@ -193,7 +193,7 @@
       "stagePts": 15,
       "gf": 37,
       "ga": 25,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Guzza",
@@ -201,7 +201,7 @@
       "stagePts": 15,
       "gf": 38,
       "ga": 22,
-      "maxPossible": 167
+      "maxPossible": 161
     },
     {
       "name": "Eric Murphy",
@@ -209,7 +209,7 @@
       "stagePts": 12,
       "gf": 28,
       "ga": 16,
-      "maxPossible": 165
+      "maxPossible": 162
     },
     {
       "name": "Hillington FC",
@@ -217,7 +217,7 @@
       "stagePts": 18,
       "gf": 35,
       "ga": 19,
-      "maxPossible": 172
+      "maxPossible": 169
     }
   ]
 }
