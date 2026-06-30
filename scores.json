@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-30T03:45:36Z",
+  "lastUpdated": "2026-06-30T04:01:03Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 231,
+  "actualTotalGoals": 238,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
@@ -34,11 +34,11 @@
     },
     {
       "name": "Squirrel",
-      "matchPts": 33,
+      "matchPts": 36,
       "stagePts": 15,
-      "gf": 31,
-      "ga": 14,
-      "maxPossible": 170
+      "gf": 35,
+      "ga": 17,
+      "maxPossible": 173
     },
     {
       "name": "Niamh Corrigan",
@@ -188,8 +188,8 @@
       "name": "Tim Greene",
       "matchPts": 24,
       "stagePts": 12,
-      "gf": 34,
-      "ga": 23,
+      "gf": 37,
+      "ga": 27,
       "maxPossible": 158
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "name": "Hillington FC",
-      "matchPts": 32,
+      "matchPts": 35,
       "stagePts": 12,
-      "gf": 32,
-      "ga": 17,
-      "maxPossible": 166
+      "gf": 36,
+      "ga": 20,
+      "maxPossible": 169
     }
   ]
 }
