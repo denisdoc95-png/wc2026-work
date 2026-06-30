@@ -115,6 +115,17 @@ STAGE_BONUS = {
 }
 WINNER_BONUS = 10          # awarded to team that wins the Final
 
+# Maps each knockout stage to the next stage a winner progresses to.
+# Used to award stage bonus immediately when a match finishes,
+# without waiting for the next round draw to be made.
+NEXT_STAGE = {
+    "LAST_32":        "LAST_16",
+    "LAST_16":        "QUARTER_FINALS",
+    "QUARTER_FINALS": "SEMI_FINALS",
+    "SEMI_FINALS":    "FINAL",
+    "FINAL":          None,   # winner bonus handled separately
+}
+
 
 def fetch_matches() -> list:
     """
@@ -204,20 +215,34 @@ def build_team_stats(matches: list, confirmed: dict) -> dict:
                            "stages": set(), "won_final": False}
 
     def apply_match(m):
-        """Score a single confirmed match into stats."""
+        """Score a single confirmed match into stats.
+
+        For penalty/extra time matches:
+          - GF/GA use regularTime score (not fullTime which includes penalties)
+          - Match winner determined from score.winner, or fullTime comparison
+            if winner is null (API behaviour for PENALTY_SHOOTOUT)
+        """
         stage  = m.get("stage", "")
         home   = normalise(m["homeTeam"]["name"])
         away   = normalise(m["awayTeam"]["name"])
         score  = m.get("score", {})
-        ft     = score.get("fullTime", {})
-        hg     = ft.get("home")
-        ag     = ft.get("away")
+        duration = score.get("duration", "REGULAR")
 
         ensure(home)
         ensure(away)
 
         stats[home]["stages"].add(stage)
         stats[away]["stages"].add(stage)
+
+        # Use regularTime for GF/GA if available (avoids inflating with penalties)
+        if duration in ("EXTRA_TIME", "PENALTY_SHOOTOUT") and score.get("regularTime"):
+            rt  = score["regularTime"]
+            hg  = rt.get("home")
+            ag  = rt.get("away")
+        else:
+            ft  = score.get("fullTime", {})
+            hg  = ft.get("home")
+            ag  = ft.get("away")
 
         if hg is None or ag is None:
             return
@@ -229,22 +254,44 @@ def build_team_stats(matches: list, confirmed: dict) -> dict:
 
         is_knockout = stage != "GROUP_STAGE"
 
+        # Determine the match winner — score.winner can be null for penalties
+        winner = score.get("winner")
+        if winner is None and is_knockout:
+            # Derive from fullTime which includes penalty goals
+            ft   = score.get("fullTime", {})
+            fthg = ft.get("home")
+            ftag = ft.get("away")
+            if fthg is not None and ftag is not None:
+                if fthg > ftag:
+                    winner = "HOME_TEAM"
+                elif ftag > fthg:
+                    winner = "AWAY_TEAM"
+
         if hg > ag:
             stats[home]["matchPts"] += 3
         elif ag > hg:
             stats[away]["matchPts"] += 3
         else:
+            # Draw at regular/extra time
             if not is_knockout:
                 stats[home]["matchPts"] += 1
                 stats[away]["matchPts"] += 1
-            winner = score.get("winner")
+            # Knockout winner (ET or penalties)
             if winner == "HOME_TEAM":
                 stats[home]["matchPts"] += 3
             elif winner == "AWAY_TEAM":
                 stats[away]["matchPts"] += 3
 
+        # Award next stage to the winner immediately upon match completion.
+        # e.g. winning LAST_32 → add LAST_16 to stages → +3 bonus appears now,
+        # not when the LAST_16 draw is eventually made.
+        next_stage = NEXT_STAGE.get(stage)
+        if next_stage and winner == "HOME_TEAM":
+            stats[home]["stages"].add(next_stage)
+        elif next_stage and winner == "AWAY_TEAM":
+            stats[away]["stages"].add(next_stage)
+
         if stage == "FINAL":
-            winner = score.get("winner")
             if winner == "HOME_TEAM":
                 stats[home]["won_final"] = True
             elif winner == "AWAY_TEAM":
@@ -254,15 +301,13 @@ def build_team_stats(matches: list, confirmed: dict) -> dict:
     for m in confirmed.values():
         apply_match(m)
 
-    # ── Phase 2: Add GROUP_STAGE and LAST_32 appearances from API ───────────────
-    # GROUP_STAGE: always safe to add from API.
-    # LAST_32: safe to add if the fixture has REAL team names (not None) —
-    #   this means the draw has been made and the team genuinely qualified.
-    #   We skip placeholders (None names) to avoid premature bonuses.
-    # LAST_16 and beyond: ONLY from confirmed results (Phase 1 above).
+    # ── Phase 2: Add stage appearances from API for all fixtures with real names ──
+    # Any fixture that has real team names (not None placeholders) means the
+    # draw has been made and those teams genuinely reached that stage.
+    # This covers GROUP_STAGE, LAST_32, LAST_16 etc. as the tournament progresses.
     for m in matches:
         stage = m.get("stage", "")
-        if stage not in ("GROUP_STAGE", "LAST_32"):
+        if stage not in STAGE_RANK:
             continue
         h = m["homeTeam"].get("name")
         a = m["awayTeam"].get("name")
@@ -304,33 +349,51 @@ def get_eliminated_teams(matches: list, confirmed: dict) -> list:
     Returns teams that are definitively eliminated.
 
     Three sources:
-      1. Lost a confirmed knockout match (LAST_32, LAST_16, QF, SF, Final)
+      1. Lost a confirmed knockout match — including matches decided by
+         extra time or penalty shootout (checks score.winner field)
       2. Finished 4th in their group (all 6 group matches confirmed)
       3. All 12 groups complete AND team not in any LAST_32 fixture with
-         real team names — covers 3rd place teams that didn't qualify
+         real team names (3rd place teams that didn't qualify)
     """
     KNOCKOUT_STAGES = {"LAST_32", "LAST_16", "QUARTER_FINALS",
                        "SEMI_FINALS", "FINAL", "THIRD_PLACE"}
     eliminated = set()
 
+    def get_match_winner(m):
+        """
+        Return the winner of a match regardless of how it was decided.
+        Handles regular time, extra time, and penalty shootouts.
+        For PENALTY_SHOOTOUT, score.winner is null — winner is derived
+        from fullTime which includes penalty goals in the aggregate.
+        """
+        score  = m.get("score", {})
+        winner = score.get("winner")
+        if winner in ("HOME_TEAM", "AWAY_TEAM"):
+            return winner
+        # winner is null (penalty shootout) — use fullTime aggregate
+        ft = score.get("fullTime", {})
+        hg, ag = ft.get("home"), ft.get("away")
+        if hg is None or ag is None:
+            return None
+        if hg > ag:
+            return "HOME_TEAM"
+        elif ag > hg:
+            return "AWAY_TEAM"
+        return None
+
     # ── Rule 1: Lost a confirmed knockout match ───────────────────────
     for m in confirmed.values():
         if m.get("stage", "") not in KNOCKOUT_STAGES:
             continue
-        score  = m.get("score", {})
-        ft     = score.get("fullTime", {})
-        hg, ag = ft.get("home"), ft.get("away")
-        winner = score.get("winner")
         home   = normalise(m["homeTeam"]["name"])
         away   = normalise(m["awayTeam"]["name"])
-        if hg is None or ag is None:
-            continue
+        winner = get_match_winner(m)
         if winner == "HOME_TEAM":
             eliminated.add(away)
         elif winner == "AWAY_TEAM":
             eliminated.add(home)
 
-    # ── Rule 2 & 3: Group stage elimination ──────────────────────────
+    # ── Rules 2 & 3: Group stage elimination ─────────────────────────
     groups = defaultdict(list)
     for m in confirmed.values():
         if m.get("stage") == "GROUP_STAGE" and m.get("group"):
@@ -374,13 +437,10 @@ def get_eliminated_teams(matches: list, confirmed: dict) -> list:
                                        standings[t]["gd"],
                                        standings[t]["gf"]),
                         reverse=True)
-        # Rule 2: 4th place always eliminated
         if len(ranked) >= 4:
             eliminated.add(ranked[3])
 
-    # Rule 3: Teams that finished group stage but not in any LAST_32 fixture
-    # Only apply when ALL 12 groups are complete AND LAST_32 draw has started
-    # (at least 1 fixture with real team names)
+    # Rule 3: 3rd place teams not in LAST_32
     if all_groups_complete:
         last32_teams = set()
         for m in list(matches) + list(confirmed.values()):
@@ -390,7 +450,7 @@ def get_eliminated_teams(matches: list, confirmed: dict) -> list:
                 if h: last32_teams.add(normalise(h))
                 if a: last32_teams.add(normalise(a))
 
-        if last32_teams:  # draw has been made
+        if last32_teams:
             for team in group_complete_teams:
                 if team not in last32_teams and team not in eliminated:
                     eliminated.add(team)
