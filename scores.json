@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-01T22:45:34Z",
+  "lastUpdated": "2026-07-01T23:01:01Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 249,
+  "actualTotalGoals": 254,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
@@ -21,6 +21,7 @@
     "Qatar",
     "Saudi Arabia",
     "Scotland",
+    "Senegal",
     "South Africa",
     "South Korea",
     "Sweden",
@@ -82,8 +83,8 @@
       "name": "Paul Boreham",
       "matchPts": 33,
       "stagePts": 21,
-      "gf": 38,
-      "ga": 27,
+      "gf": 40,
+      "ga": 30,
       "maxPossible": 164
     },
     {
@@ -176,18 +177,18 @@
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 35,
-      "stagePts": 21,
-      "gf": 35,
-      "ga": 24,
-      "maxPossible": 166
+      "matchPts": 38,
+      "stagePts": 24,
+      "gf": 38,
+      "ga": 26,
+      "maxPossible": 169
     },
     {
       "name": "Denis O Connell",
       "matchPts": 28,
       "stagePts": 12,
-      "gf": 30,
-      "ga": 17,
+      "gf": 32,
+      "ga": 20,
       "maxPossible": 159
     },
     {
