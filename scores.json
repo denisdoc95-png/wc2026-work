@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-07-01T18:01:05Z",
+  "lastUpdated": "2026-07-01T18:14:22Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 246,
+  "actualTotalGoals": 249,
   "eliminatedTeams": [
     "Cura\u00e7ao",
     "Czech Republic",
+    "DR Congo",
     "Ecuador",
     "Germany",
     "Haiti",
@@ -31,11 +32,11 @@
   "participants": [
     {
       "name": "Brian Lehane",
-      "matchPts": 30,
-      "stagePts": 15,
-      "gf": 38,
-      "ga": 25,
-      "maxPossible": 158
+      "matchPts": 33,
+      "stagePts": 18,
+      "gf": 40,
+      "ga": 26,
+      "maxPossible": 161
     },
     {
       "name": "Squirrel",
@@ -55,11 +56,11 @@
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 31,
-      "stagePts": 15,
-      "gf": 30,
-      "ga": 17,
-      "maxPossible": 162
+      "matchPts": 34,
+      "stagePts": 18,
+      "gf": 32,
+      "ga": 18,
+      "maxPossible": 165
     },
     {
       "name": "Adam Feery",
@@ -79,11 +80,11 @@
     },
     {
       "name": "Paul Boreham",
-      "matchPts": 30,
-      "stagePts": 18,
-      "gf": 36,
-      "ga": 26,
-      "maxPossible": 164
+      "matchPts": 33,
+      "stagePts": 21,
+      "gf": 38,
+      "ga": 27,
+      "maxPossible": 167
     },
     {
       "name": "Brian Cooper",
@@ -167,19 +168,19 @@
     },
     {
       "name": "Clinton Ogundero",
-      "matchPts": 28,
-      "stagePts": 12,
-      "gf": 25,
-      "ga": 14,
-      "maxPossible": 159
+      "matchPts": 31,
+      "stagePts": 15,
+      "gf": 27,
+      "ga": 15,
+      "maxPossible": 162
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 32,
-      "stagePts": 18,
-      "gf": 33,
-      "ga": 23,
-      "maxPossible": 166
+      "matchPts": 35,
+      "stagePts": 21,
+      "gf": 35,
+      "ga": 24,
+      "maxPossible": 169
     },
     {
       "name": "Denis O Connell",
