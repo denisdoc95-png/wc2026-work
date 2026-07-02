@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T23:03:51Z",
+  "lastUpdated": "2026-07-02T23:15:34Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 259,
@@ -71,7 +71,7 @@
       "stagePts": 21,
       "gf": 40,
       "ga": 22,
-      "maxPossible": 177
+      "maxPossible": 174
     },
     {
       "name": "Mick F",
@@ -79,7 +79,7 @@
       "stagePts": 18,
       "gf": 33,
       "ga": 17,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Paul Boreham",
@@ -111,7 +111,7 @@
       "stagePts": 18,
       "gf": 33,
       "ga": 23,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Ivan Peharda",
@@ -119,7 +119,7 @@
       "stagePts": 15,
       "gf": 29,
       "ga": 28,
-      "maxPossible": 163
+      "maxPossible": 160
     },
     {
       "name": "Brian O Connell",
@@ -159,7 +159,7 @@
       "stagePts": 24,
       "gf": 43,
       "ga": 25,
-      "maxPossible": 175
+      "maxPossible": 172
     },
     {
       "name": "Adrian Kehoe",
@@ -167,7 +167,7 @@
       "stagePts": 18,
       "gf": 35,
       "ga": 24,
-      "maxPossible": 169
+      "maxPossible": 166
     },
     {
       "name": "Clinton Ogundero",
@@ -199,7 +199,7 @@
       "stagePts": 15,
       "gf": 37,
       "ga": 28,
-      "maxPossible": 158
+      "maxPossible": 155
     },
     {
       "name": "Guzza",
@@ -215,7 +215,7 @@
       "stagePts": 18,
       "gf": 34,
       "ga": 16,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Hillington FC",
