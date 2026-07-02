@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T06:01:03Z",
+  "lastUpdated": "2026-07-02T06:15:36Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 256,
@@ -38,7 +38,7 @@
       "stagePts": 18,
       "gf": 40,
       "ga": 26,
-      "maxPossible": 161
+      "maxPossible": 164
     },
     {
       "name": "Squirrel",
@@ -62,7 +62,7 @@
       "stagePts": 18,
       "gf": 32,
       "ga": 18,
-      "maxPossible": 165
+      "maxPossible": 168
     },
     {
       "name": "Adam Feery",
@@ -86,7 +86,7 @@
       "stagePts": 21,
       "gf": 40,
       "ga": 30,
-      "maxPossible": 164
+      "maxPossible": 167
     },
     {
       "name": "Brian Cooper",
@@ -174,7 +174,7 @@
       "stagePts": 15,
       "gf": 27,
       "ga": 15,
-      "maxPossible": 162
+      "maxPossible": 165
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -182,7 +182,7 @@
       "stagePts": 24,
       "gf": 38,
       "ga": 26,
-      "maxPossible": 169
+      "maxPossible": 175
     },
     {
       "name": "Denis O Connell",
