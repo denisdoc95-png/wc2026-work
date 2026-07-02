@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-07-02T02:01:09Z",
+  "lastUpdated": "2026-07-02T02:15:33Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 254,
+  "actualTotalGoals": 256,
   "eliminatedTeams": [
+    "Bosnia and Herzegovina",
     "Cura\u00e7ao",
     "Czech Republic",
     "DR Congo",
@@ -148,7 +149,7 @@
       "matchPts": 37,
       "stagePts": 21,
       "gf": 33,
-      "ga": 17,
+      "ga": 19,
       "maxPossible": 174
     },
     {

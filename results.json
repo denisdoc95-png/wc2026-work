@@ -5362,5 +5362,71 @@
         "nationality": "Honduras"
       }
     ]
+  },
+  "537421": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537421,
+    "utcDate": "2026-07-02T00:00:00Z",
+    "status": "FINISHED",
+    "matchday": null,
+    "stage": "LAST_32",
+    "group": null,
+    "lastUpdated": "2026-07-02T02:12:45Z",
+    "homeTeam": {
+      "id": 771,
+      "name": "United States",
+      "shortName": "USA",
+      "tla": "USA",
+      "crest": "https://crests.football-data.org/usa.svg"
+    },
+    "awayTeam": {
+      "id": 1060,
+      "name": "Bosnia-Herzegovina",
+      "shortName": "Bosnia-H.",
+      "tla": "BIH",
+      "crest": "https://crests.football-data.org/bosnia.svg"
+    },
+    "score": {
+      "winner": "HOME_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 11260,
+        "name": "Raphael Claus",
+        "type": "REFEREE",
+        "nationality": "Brazil"
+      }
+    ]
   }
 }
