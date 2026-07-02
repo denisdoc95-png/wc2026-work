@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T19:48:21Z",
+  "lastUpdated": "2026-07-02T20:01:01Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 256,
@@ -46,7 +46,7 @@
       "stagePts": 24,
       "gf": 37,
       "ga": 16,
-      "maxPossible": 182
+      "maxPossible": 179
     },
     {
       "name": "Niamh Corrigan",
@@ -54,7 +54,7 @@
       "stagePts": 18,
       "gf": 35,
       "ga": 16,
-      "maxPossible": 175
+      "maxPossible": 172
     },
     {
       "name": "MICKODEA11",
@@ -78,7 +78,7 @@
       "stagePts": 15,
       "gf": 30,
       "ga": 17,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Paul Boreham",
@@ -86,7 +86,7 @@
       "stagePts": 21,
       "gf": 40,
       "ga": 30,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Brian Cooper",
@@ -94,7 +94,7 @@
       "stagePts": 12,
       "gf": 21,
       "ga": 13,
-      "maxPossible": 162
+      "maxPossible": 159
     },
     {
       "name": "Sean Purcell",
@@ -110,7 +110,7 @@
       "stagePts": 15,
       "gf": 30,
       "ga": 23,
-      "maxPossible": 167
+      "maxPossible": 164
     },
     {
       "name": "Ivan Peharda",
@@ -142,7 +142,7 @@
       "stagePts": 18,
       "gf": 34,
       "ga": 17,
-      "maxPossible": 173
+      "maxPossible": 170
     },
     {
       "name": "Michael Murphy",
@@ -150,7 +150,7 @@
       "stagePts": 21,
       "gf": 33,
       "ga": 19,
-      "maxPossible": 174
+      "maxPossible": 171
     },
     {
       "name": "Jack O'Connor",
@@ -158,7 +158,7 @@
       "stagePts": 21,
       "gf": 40,
       "ga": 25,
-      "maxPossible": 175
+      "maxPossible": 172
     },
     {
       "name": "Adrian Kehoe",
@@ -166,7 +166,7 @@
       "stagePts": 15,
       "gf": 32,
       "ga": 24,
-      "maxPossible": 169
+      "maxPossible": 166
     },
     {
       "name": "Clinton Ogundero",
@@ -190,7 +190,7 @@
       "stagePts": 12,
       "gf": 32,
       "ga": 20,
-      "maxPossible": 159
+      "maxPossible": 156
     },
     {
       "name": "Tim Greene",
@@ -214,7 +214,7 @@
       "stagePts": 15,
       "gf": 31,
       "ga": 16,
-      "maxPossible": 168
+      "maxPossible": 165
     },
     {
       "name": "Hillington FC",
@@ -222,7 +222,7 @@
       "stagePts": 21,
       "gf": 38,
       "ga": 19,
-      "maxPossible": 178
+      "maxPossible": 175
     }
   ]
 }
