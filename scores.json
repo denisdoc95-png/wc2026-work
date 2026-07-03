@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-03T01:01:04Z",
+  "lastUpdated": "2026-07-03T01:15:31Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 259,
+  "actualTotalGoals": 263,
   "eliminatedTeams": [
     "Austria",
     "Bosnia and Herzegovina",
@@ -69,16 +69,16 @@
       "name": "Adam Feery",
       "matchPts": 40,
       "stagePts": 21,
-      "gf": 40,
-      "ga": 22,
+      "gf": 42,
+      "ga": 24,
       "maxPossible": 174
     },
     {
       "name": "Mick F",
       "matchPts": 33,
       "stagePts": 18,
-      "gf": 33,
-      "ga": 17,
+      "gf": 35,
+      "ga": 19,
       "maxPossible": 164
     },
     {
@@ -109,16 +109,16 @@
       "name": "Monique Mehaffey",
       "matchPts": 33,
       "stagePts": 18,
-      "gf": 33,
-      "ga": 23,
+      "gf": 35,
+      "ga": 25,
       "maxPossible": 164
     },
     {
       "name": "Ivan Peharda",
       "matchPts": 29,
       "stagePts": 15,
-      "gf": 29,
-      "ga": 28,
+      "gf": 31,
+      "ga": 30,
       "maxPossible": 160
     },
     {
@@ -157,16 +157,16 @@
       "name": "Jack O'Connor",
       "matchPts": 41,
       "stagePts": 24,
-      "gf": 43,
-      "ga": 25,
+      "gf": 45,
+      "ga": 27,
       "maxPossible": 172
     },
     {
       "name": "Adrian Kehoe",
       "matchPts": 35,
       "stagePts": 18,
-      "gf": 35,
-      "ga": 24,
+      "gf": 37,
+      "ga": 26,
       "maxPossible": 166
     },
     {
@@ -197,8 +197,8 @@
       "name": "Tim Greene",
       "matchPts": 27,
       "stagePts": 15,
-      "gf": 37,
-      "ga": 28,
+      "gf": 39,
+      "ga": 30,
       "maxPossible": 155
     },
     {
@@ -213,8 +213,8 @@
       "name": "Eric Murphy",
       "matchPts": 37,
       "stagePts": 18,
-      "gf": 34,
-      "ga": 16,
+      "gf": 36,
+      "ga": 18,
       "maxPossible": 165
     },
     {
