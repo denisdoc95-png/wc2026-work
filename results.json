@@ -5538,11 +5538,11 @@
       "crest": "https://crests.football-data.org/799.svg"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 2,
-        "away": 2
+        "away": 1
       },
       "halfTime": {
         "home": 0,
