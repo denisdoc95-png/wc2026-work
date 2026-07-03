@@ -140,31 +140,33 @@
      ✏️  CONFIG — update CURRENT_STAGE & ENTRY_FEE as needed
      ═══════════════════════════════════════════════════════ -->
 <script>
+  // ── PARTICIPANT DATA — team picks + tiebreaker predictions ──────────
+  // Loaded once from Google Form responses. Do NOT change after 11 June 2026.
   const picks = [
-    { name: "Brian Lehane",            pot1: "England",     pot2: "Japan",      pot3: "Norway",     pot4: "Turkey",                 wildcard: "Germany",      tb_winner: "England",      tb_goals: 156, tb_boot: "Harry Kane",     tb_charity: "Cork Academy of Music"             },
-    { name: "Squirrel",                pot1: "Spain",       pot2: "Morocco",    pot3: "Norway",     pot4: "Ghana",                  wildcard: "France",       tb_winner: "France",       tb_goals: 255, tb_boot: "Kylian Mbappe",  tb_charity: "Cork DAWG"                         },
-    { name: "Niamh Corrigan",          pot1: "Spain",       pot2: "Colombia",   pot3: "Norway",     pot4: "Turkey",                 wildcard: "France",       tb_winner: "Spain",        tb_goals: 225, tb_boot: "Kylian Mbappe",  tb_charity: "Cork Simon"                        },
-    { name: "MICKODEA11",              pot1: "France",      pot2: "Switzerland",pot3: "South Africa",pot4: "Czech Republic",        wildcard: "England",      tb_winner: "France",       tb_goals: 250, tb_boot: "Harry Kane",     tb_charity: "Marymount Hospice"                 },
-    { name: "Adam Feery",              pot1: "Brazil",      pot2: "Croatia",    pot3: "Norway",     pot4: "Turkey",                 wildcard: "France",       tb_winner: "England",      tb_goals: 340, tb_boot: "Harry Kane",     tb_charity: "The Alzheimer Society of Ireland"  },
-    { name: "Mick F",                  pot1: "France",      pot2: "Croatia",    pot3: "Egypt",      pot4: "Czech Republic",         wildcard: "Spain",        tb_winner: "France",       tb_goals: 235, tb_boot: "Harry Kane",     tb_charity: "Marymount Hospice"                 },
-    { name: "Paul Boreham",            pot1: "England",     pot2: "Senegal",    pot3: "Norway",     pot4: "Sweden",                 wildcard: "Spain",        tb_winner: "England",      tb_goals: 175, tb_boot: "Harry Kane",     tb_charity: "Field of Dreams"                   },
-    { name: "Brian Cooper",            pot1: "Spain",       pot2: "Colombia",   pot3: "Scotland",   pot4: "Czech Republic",         wildcard: "Brazil",       tb_winner: "France",       tb_goals: 275, tb_boot: "Vinicius Jr",    tb_charity: "Pieta House"                       },
-    { name: "Sean Purcell",            pot1: "France",      pot2: "Colombia",   pot3: "Norway",     pot4: "Turkey",                 wildcard: "Brazil",       tb_winner: "France",       tb_goals: 265, tb_boot: "Vinicius Jr",    tb_charity: "LauraLynn"                         },
-    { name: "Monique Mehaffey",        pot1: "Spain",       pot2: "Croatia",    pot3: "Algeria",    pot4: "Sweden",                 wildcard: "Argentina",    tb_winner: "Spain",        tb_goals: 189, tb_boot: "Lamine Yamal",   tb_charity: "Alzheimer Society"                 },
-    { name: "Ivan Peharda",            pot1: "Argentina",   pot2: "Croatia",    pot3: "Norway",     pot4: "New Zealand",            wildcard: "South Africa", tb_winner: "Belgium",      tb_goals: 166, tb_boot: "Kylian Mbappe",  tb_charity: "Irish Guide Dogs"                  },
-    { name: "Brian O Connell",         pot1: "Brazil",      pot2: "Japan",      pot3: "Scotland",   pot4: "Curaçao",                wildcard: "Germany",      tb_winner: "Brazil",       tb_goals: 16,  tb_boot: "Kylian Mbappe",  tb_charity: "Share"                             },
-    { name: "Erika Kind",              pot1: "Argentina",   pot2: "Colombia",   pot3: "Paraguay",   pot4: "Turkey",                 wildcard: "Brazil",       tb_winner: "Argentina",    tb_goals: 184, tb_boot: "Vinicius Jr",    tb_charity: "Concern Worldwide"                 },
-    { name: "John Pepper",             pot1: "Spain",       pot2: "Colombia",   pot3: "Norway",     pot4: "Czech Republic",         wildcard: "France",       tb_winner: "France",       tb_goals: 275, tb_boot: "Kylian Mbappe",  tb_charity: "Guide Dogs for the Blind"          },
-    { name: "Michael Murphy",          pot1: "Spain",       pot2: "Colombia",   pot3: "Norway",     pot4: "Bosnia and Herzegovina", wildcard: "Brazil",       tb_winner: "Spain",        tb_goals: 288, tb_boot: "Harry Kane",     tb_charity: "Irish Heart Foundation"            },
-    { name: "Jack O'Connor",           pot1: "France",      pot2: "Croatia",    pot3: "Norway",     pot4: "Sweden",                 wildcard: "Spain",        tb_winner: "France",       tb_goals: 270, tb_boot: "Kylian Mbappe",  tb_charity: "Simon Community"                   },
-    { name: "Adrian Kehoe",            pot1: "Spain",       pot2: "Croatia",    pot3: "Norway",     pot4: "New Zealand",            wildcard: "Argentina",    tb_winner: "Spain",        tb_goals: 170, tb_boot: "Kylian Mbappe",  tb_charity: "Dogs Trust"                        },
-    { name: "Clinton Ogundero",        pot1: "France",      pot2: "Uruguay",    pot3: "Scotland",   pot4: "Ghana",                  wildcard: "England",      tb_winner: "France",       tb_goals: 275, tb_boot: "Kylian Mbappe",  tb_charity: "The Asthma Society of Ireland"     },
-    { name: "Derek (Ted) Mccarthy",   pot1: "England",     pot2: "Colombia",   pot3: "Norway",     pot4: "Sweden",                 wildcard: "Belgium",      tb_winner: "France",       tb_goals: 305, tb_boot: "Harry Kane",     tb_charity: "Field of Dreams"                   },
-    { name: "Denis O Connell",         pot1: "Spain",       pot2: "Senegal",    pot3: "Scotland",   pot4: "Turkey",                 wildcard: "France",       tb_winner: "Spain",        tb_goals: 282, tb_boot: "Harry Kane",     tb_charity: "Samaritans"                        },
-    { name: "Tim Greene",              pot1: "Netherlands", pot2: "Uruguay",    pot3: "Norway",     pot4: "Sweden",                 wildcard: "Portugal",     tb_winner: "Netherlands",  tb_goals: 335, tb_boot: "Kylian Mbappe",  tb_charity: "Penny Dinners"                     },
-    { name: "Guzza",                   pot1: "France",      pot2: "Uruguay",    pot3: "Norway",     pot4: "Sweden",                 wildcard: "Argentina",    tb_winner: "France",       tb_goals: 270, tb_boot: "Kylian Mbappe",  tb_charity: "No Preference"                     },
-    { name: "Eric Murphy",             pot1: "France",      pot2: "Croatia",    pot3: "Ivory Coast", pot4: "Turkey",               wildcard: "Spain",        tb_winner: "France",       tb_goals: 163, tb_boot: "Harry Kane",     tb_charity: "Marymount Hospice"                 },
-    { name: "Hillington FC",           pot1: "Spain",       pot2: "Morocco",    pot3: "Norway",     pot4: "Turkey",                 wildcard: "France",       tb_winner: "France",       tb_goals: 193, tb_boot: "Michael Olise",  tb_charity: "Cork Penny Dinners"                },
+    { name:"Brian Lehane", pot1:"England", pot2:"Japan", pot3:"Norway", pot4:"Turkey", wildcard:"Germany", tb_winner:"England", tb_goals:156, tb_boot:"Harry Kane", tb_charity:"Cork Academy of Music" },
+    { name:"Squirrel", pot1:"Spain", pot2:"Morocco", pot3:"Norway", pot4:"Ghana", wildcard:"France", tb_winner:"France", tb_goals:255, tb_boot:"Kylian Mbappe", tb_charity:"Cork DAWG" },
+    { name:"Niamh Corrigan", pot1:"Spain", pot2:"Colombia", pot3:"Norway", pot4:"Turkey", wildcard:"France", tb_winner:"Spain", tb_goals:225, tb_boot:"Kylian Mbappe", tb_charity:"Cork Simon" },
+    { name:"MICKODEA11", pot1:"France", pot2:"Switzerland", pot3:"South Africa", pot4:"Czech Republic", wildcard:"England", tb_winner:"France", tb_goals:250, tb_boot:"Harry Kane", tb_charity:"MARYMOUNTH" },
+    { name:"Adam Feery", pot1:"Brazil", pot2:"Croatia", pot3:"Norway", pot4:"Turkey", wildcard:"France", tb_winner:"England", tb_goals:340, tb_boot:"Harry Kane", tb_charity:"The Alzheimer Society of Ireland" },
+    { name:"Mick F", pot1:"France", pot2:"Croatia", pot3:"Egypt", pot4:"Czech Republic", wildcard:"Spain", tb_winner:"France", tb_goals:235, tb_boot:"Harry Kane", tb_charity:"Marymount Hospice" },
+    { name:"Paul Boreham", pot1:"England", pot2:"Senegal", pot3:"Norway", pot4:"Sweden", wildcard:"Spain", tb_winner:"England", tb_goals:175, tb_boot:"Harry Kane", tb_charity:"Field of Dreams" },
+    { name:"Brian Cooper", pot1:"Spain", pot2:"Colombia", pot3:"Scotland", pot4:"Czech Republic", wildcard:"Brazil", tb_winner:"France", tb_goals:275, tb_boot:"Vinicius Jr", tb_charity:"Pieta House" },
+    { name:"Sean Purcell", pot1:"France", pot2:"Colombia", pot3:"Norway", pot4:"Turkey", wildcard:"Brazil", tb_winner:"France", tb_goals:265, tb_boot:"Vinicius Jr", tb_charity:"LauraLynn" },
+    { name:"Monique Mehaffey", pot1:"Spain", pot2:"Croatia", pot3:"Algeria", pot4:"Sweden", wildcard:"Argentina", tb_winner:"Spain", tb_goals:189, tb_boot:"Lamine Yamal", tb_charity:"alzheimers society" },
+    { name:"Ivan Peharda", pot1:"Argentina", pot2:"Croatia", pot3:"Norway", pot4:"New Zealand", wildcard:"South Africa", tb_winner:"Belgium", tb_goals:166, tb_boot:"Kylian Mbappe", tb_charity:"Irish guide dogs" },
+    { name:"Brian O Connell", pot1:"Brazil", pot2:"Japan", pot3:"Scotland", pot4:"Curaçao", wildcard:"Germany", tb_winner:"Brazil", tb_goals:16, tb_boot:"Kylian Mbappe", tb_charity:"Share" },
+    { name:"Erika Kind", pot1:"Argentina", pot2:"Colombia", pot3:"Paraguay", pot4:"Turkey", wildcard:"Brazil", tb_winner:"Argentina", tb_goals:184, tb_boot:"Vinicius Jr", tb_charity:"Concern Worldwide" },
+    { name:"John Pepper", pot1:"Spain", pot2:"Colombia", pot3:"Norway", pot4:"Czech Republic", wildcard:"France", tb_winner:"France", tb_goals:275, tb_boot:"Kylian Mbappe", tb_charity:"Guide Dogs for the Blind" },
+    { name:"Michael Murphy", pot1:"Spain", pot2:"Colombia", pot3:"Norway", pot4:"Bosnia and Herzegovina", wildcard:"Brazil", tb_winner:"Spain", tb_goals:288, tb_boot:"Harry Kane", tb_charity:"Irish Heart Foundation" },
+    { name:"Jack O'Connor", pot1:"France", pot2:"Croatia", pot3:"Norway", pot4:"Sweden", wildcard:"Spain", tb_winner:"France", tb_goals:270, tb_boot:"Kylian Mbappe", tb_charity:"Simon Community" },
+    { name:"Adrian Kehoe", pot1:"Spain", pot2:"Croatia", pot3:"Norway", pot4:"New Zealand", wildcard:"Argentina", tb_winner:"Spain", tb_goals:170, tb_boot:"Kylian Mbappe", tb_charity:"Dogs Trust" },
+    { name:"Clinton Ogundero", pot1:"France", pot2:"Uruguay", pot3:"Scotland", pot4:"Ghana", wildcard:"England", tb_winner:"France", tb_goals:275, tb_boot:"Kylian Mbappe", tb_charity:"The Asthma Society of Ireland" },
+    { name:"Derek (Ted) Mccarthy", pot1:"England", pot2:"Colombia", pot3:"Norway", pot4:"Sweden", wildcard:"Belgium", tb_winner:"France", tb_goals:305, tb_boot:"Harry Kane", tb_charity:"Field of dreams" },
+    { name:"Denis O Connell", pot1:"Spain", pot2:"Senegal", pot3:"Scotland", pot4:"Turkey", wildcard:"France", tb_winner:"Spain", tb_goals:282, tb_boot:"Harry Kane", tb_charity:"Samaritans" },
+    { name:"Tim Greene", pot1:"Netherlands", pot2:"Uruguay", pot3:"Norway", pot4:"Sweden", wildcard:"Portugal", tb_winner:"Netherlands", tb_goals:335, tb_boot:"Kylian Mbappe", tb_charity:"Penny Dinners" },
+    { name:"Guzza", pot1:"France", pot2:"Uruguay", pot3:"Norway", pot4:"Sweden", wildcard:"Argentina", tb_winner:"France", tb_goals:270, tb_boot:"Kylian Mbappe", tb_charity:"Any No personal preference" },
+    { name:"Eric Murphy", pot1:"France", pot2:"Croatia", pot3:"Ivory Coast", pot4:"Turkey", wildcard:"Spain", tb_winner:"France", tb_goals:163, tb_boot:"Harry Kane", tb_charity:"Marymount" },
+    { name:"Hillington FC", pot1:"Spain", pot2:"Morocco", pot3:"Norway", pot4:"Turkey", wildcard:"France", tb_winner:"France", tb_goals:193, tb_boot:"Michael Olise", tb_charity:"Cork Penny Dinners" },
   ];
   // ─────────────────────────────────────────────────────────────────────
   // ─────────────────────────────────────────────────────────────────────
@@ -345,7 +347,7 @@
   // Render the leaderboard — scores map + set of eliminated team names
   function renderLeaderboard(scoresMap, eliminatedSet = new Set()) {
     const participants = picks.map(p => {
-      const s = scoresMap[p.name] || { matchPts: 0, stagePts: 0, gf: 0, ga: 0, maxPossible: 999 };
+      const s = scoresMap[p.name] || { matchPts: 0, stagePts: 0, gf: 0, ga: 0, maxPossible: 999, canStillWin: true };
       return { ...p, ...s, total: s.matchPts + s.stagePts, gd: s.gf - s.ga };
     }).sort((a, b) =>
       b.total !== a.total ? b.total - a.total :
@@ -353,11 +355,9 @@
       b.gf    - a.gf
     );
 
-    // Mark out-of-contention participants
+    // Mark out-of-contention participants — sourced directly from scores.json
     participants.forEach(p => {
-      const maxPossible = p.maxPossible ?? 999;
-      const betterCount = participants.filter(o => o.total > maxPossible).length;
-      p.outOfContention = betterCount >= 2;
+      p.outOfContention = p.canStillWin === false;
     });
 
     const medals  = ['🥇', '🥈'];

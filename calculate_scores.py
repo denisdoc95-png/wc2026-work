@@ -56,6 +56,9 @@ PARTICIPANTS = [
     {"name": "Eric Murphy", "teams": ["France", "Croatia", "Ivory Coast", "Turkey", "Spain"]},
     {"name": "Hillington FC", "teams": ["Spain", "Morocco", "Norway", "Turkey", "France"]},
 ]
+# Quick lookup: participant teams by name (used for canStillWin analysis)
+PARTICIPANTS_BY_NAME = {p["name"]: set(p["teams"]) for p in PARTICIPANTS}
+
 # ── TEAM NAME NORMALISATION ───────────────────────────────────────────────────
 # Maps football-data.org API team names → names used in PARTICIPANTS above.
 # Extend this if the API returns unexpected names.
@@ -125,6 +128,39 @@ NEXT_STAGE = {
     "SEMI_FINALS":    "FINAL",
     "FINAL":          None,   # winner bonus handled separately
 }
+
+# ── BRACKET STAGE POTENTIALS ──────────────────────────────────────────────────
+MAX_ADDITIONAL_FROM_STAGE = {
+    "LAST_32":        37,
+    "LAST_16":        31,
+    "QUARTER_FINALS": 25,
+    "SEMI_FINALS":    19,
+    "FINAL":          13,
+}
+
+BRACKET_TREE = (
+    "FINAL",
+    ("SEMI_FINALS",
+        ("QUARTER_FINALS",
+            ("LAST_16", ("LAST_32", "Germany", "Paraguay"), ("LAST_32", "France", "Sweden")),
+            ("LAST_16", ("LAST_32", "South Africa", "Canada"), ("LAST_32", "Netherlands", "Morocco")),
+        ),
+        ("QUARTER_FINALS",
+            ("LAST_16", ("LAST_32", "Portugal", "Croatia"), ("LAST_32", "Spain", "Austria")),
+            ("LAST_16", ("LAST_32", "United States", "Bosnia and Herzegovina"), ("LAST_32", "Belgium", "Senegal")),
+        ),
+    ),
+    ("SEMI_FINALS",
+        ("QUARTER_FINALS",
+            ("LAST_16", ("LAST_32", "Brazil", "Japan"), ("LAST_32", "Ivory Coast", "Norway")),
+            ("LAST_16", ("LAST_32", "Mexico", "Ecuador"), ("LAST_32", "England", "DR Congo")),
+        ),
+        ("QUARTER_FINALS",
+            ("LAST_16", ("LAST_32", "Argentina", "Cape Verde"), ("LAST_32", "Australia", "Egypt")),
+            ("LAST_16", ("LAST_32", "Switzerland", "Algeria"), ("LAST_32", "Colombia", "Ghana")),
+        ),
+    ),
+)
 
 
 def fetch_matches() -> list:
@@ -502,53 +538,64 @@ def detect_current_stage(matches: list) -> str:
     return "PRE_TOURNAMENT"
 
 
-def calc_max_additional_per_team(team: str, matches: list, team_stats: dict,
+def calc_max_additional_per_team(team: str, team_stats: dict,
                                   eliminated: list) -> int:
-    """
-    Calculate the maximum additional points a team can still earn.
-
-    Returns 0 immediately if the team is eliminated — they cannot
-    earn any further match points or stage bonuses.
-
-    Stage bonuses are only awarded for stages the team hasn't reached
-    yet AND where they still have a scheduled fixture (i.e. they are
-    actually in that round).
-    """
-    # Eliminated teams can earn nothing further
     if team in eliminated:
         return 0
-
-    stats          = team_stats.get(team)
-    stages_reached = stats["stages"] if stats else set()
-    won_final      = stats["won_final"] if stats else False
-
-    # Remaining scheduled matches for this specific team
-    remaining = sum(
-        1 for m in matches
-        if m.get("status") in ("SCHEDULED", "TIMED")
-        and (normalise(m["homeTeam"]["name"]) == team
-             or normalise(m["awayTeam"]["name"]) == team)
+    stats = team_stats.get(team)
+    if not stats:
+        return 0
+    if stats["won_final"]:
+        return 0
+    deepest = max(
+        (s for s in stats["stages"] if s in MAX_ADDITIONAL_FROM_STAGE),
+        key=lambda s: STAGE_RANK.get(s, 0),
+        default=None,
     )
-    max_pts = remaining * 3
+    return MAX_ADDITIONAL_FROM_STAGE[deepest] if deepest else 0
 
-    # Stages where THIS team still has a scheduled fixture
-    team_future_stages = {
-        m["stage"] for m in matches
-        if m.get("status") in ("SCHEDULED", "TIMED")
-        and (normalise(m["homeTeam"]["name"]) == team
-             or normalise(m["awayTeam"]["name"]) == team)
-    }
 
-    # Stage bonuses for stages not yet reached but team is in the fixture
-    for stage, bonus in STAGE_BONUS.items():
-        if stage not in stages_reached and stage in team_future_stages:
-            max_pts += bonus
+def _bracket_max(node, participant_teams: set, team_stats: dict,
+                 eliminated: list) -> int:
+    stage = node[0]
+    left  = node[1]
+    right = node[2]
+    if isinstance(left, str):
+        team_a, team_b = left, right
+        a_alive = team_a in participant_teams and team_a not in eliminated
+        b_alive = team_b in participant_teams and team_b not in eliminated
+        if not a_alive and not b_alive:
+            return 0
+        a_max = calc_max_additional_per_team(team_a, team_stats, eliminated) if a_alive else 0
+        b_max = calc_max_additional_per_team(team_b, team_stats, eliminated) if b_alive else 0
+        return max(a_max, b_max)
+    left_max  = _bracket_max(left,  participant_teams, team_stats, eliminated)
+    right_max = _bracket_max(right, participant_teams, team_stats, eliminated)
+    if left_max == 0 or right_max == 0:
+        return left_max + right_max
+    return left_max + right_max - MAX_ADDITIONAL_FROM_STAGE.get(stage, 0)
 
-    # Winner bonus — only if team is still in the Final
-    if not won_final and "FINAL" in team_future_stages:
-        max_pts += WINNER_BONUS
 
-    return max_pts
+def apply_can_still_win(results: list, team_stats: dict, eliminated: list) -> None:
+    ranked = sorted(results, key=lambda p: p["matchPts"] + p["stagePts"], reverse=True)
+    for i, p in enumerate(ranked):
+        p_score    = p["matchPts"] + p["stagePts"]
+        p_teams    = PARTICIPANTS_BY_NAME.get(p["name"], set())
+        honest_max = p["maxPossible"]
+        cannot_beat_count = 0
+        for rival in ranked[:i]:
+            r_score = rival["matchPts"] + rival["stagePts"]
+            gap = r_score - p_score
+            if gap <= 0:
+                continue
+            r_teams   = PARTICIPANTS_BY_NAME.get(rival["name"], set())
+            exclusive = p_teams - (p_teams & r_teams)
+            exclusive_max = _bracket_max(BRACKET_TREE, exclusive, team_stats, eliminated)
+            if exclusive_max < gap:
+                cannot_beat_count += 1
+                honest_max = min(honest_max, r_score + (p["maxPossible"] - p_score - exclusive_max))
+        p["maxPossible"] = honest_max
+        p["canStillWin"] = cannot_beat_count < 2
 
 
 def calc_stage_points(team_stages: set, won_final: bool) -> int:
@@ -562,34 +609,27 @@ def calc_stage_points(team_stages: set, won_final: bool) -> int:
     return pts
 
 
-def calculate_participant_scores(team_stats: dict, matches: list, eliminated: list) -> list:
+def calculate_participant_scores(team_stats: dict, eliminated: list) -> list:
     """Calculate total scores and max possible score for each participant."""
     results = []
-
     for p in PARTICIPANTS:
-        total_match   = 0
-        total_stage   = 0
-        total_gf      = 0
-        total_ga      = 0
-        max_additional = 0
-
+        total_match = 0
+        total_stage = 0
+        total_gf    = 0
+        total_ga    = 0
         seen = set()
         for team in p["teams"]:
             if team in seen:
                 continue
             seen.add(team)
-
             s = team_stats.get(team)
             if s:
-                total_match   += s["matchPts"]
-                total_gf      += s["gf"]
-                total_ga      += s["ga"]
-                total_stage   += calc_stage_points(s["stages"], s["won_final"])
-
-            # Always calculate max additional (works for unseen teams too)
-            max_additional += calc_max_additional_per_team(team, matches, team_stats, eliminated)
-
-        current_total = total_match + total_stage
+                total_match += s["matchPts"]
+                total_gf    += s["gf"]
+                total_ga    += s["ga"]
+                total_stage += calc_stage_points(s["stages"], s["won_final"])
+        current_total  = total_match + total_stage
+        max_additional = _bracket_max(BRACKET_TREE, set(p["teams"]), team_stats, eliminated)
         results.append({
             "name":        p["name"],
             "matchPts":    total_match,
@@ -597,8 +637,9 @@ def calculate_participant_scores(team_stats: dict, matches: list, eliminated: li
             "gf":          total_gf,
             "ga":          total_ga,
             "maxPossible": current_total + max_additional,
+            "canStillWin": True,
         })
-
+    apply_can_still_win(results, team_stats, eliminated)
     return results
 
 
@@ -664,7 +705,7 @@ def main():
     print(f"   Eliminated ({len(eliminated)}): {', '.join(eliminated) if eliminated else 'none yet'}")
 
     print("🧮 Calculating participant scores...")
-    scores = calculate_participant_scores(team_stats, matches, eliminated)
+    scores = calculate_participant_scores(team_stats, eliminated)
 
     output = {
         "lastUpdated":            datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
