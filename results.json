@@ -5560,5 +5560,71 @@
         "nationality": "Norway"
       }
     ]
+  },
+  "537429": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537429,
+    "utcDate": "2026-07-03T03:00:00Z",
+    "status": "FINISHED",
+    "matchday": null,
+    "stage": "LAST_32",
+    "group": null,
+    "lastUpdated": "2026-07-03T05:03:24Z",
+    "homeTeam": {
+      "id": 788,
+      "name": "Switzerland",
+      "shortName": "Switzerland",
+      "tla": "SUI",
+      "crest": "https://crests.football-data.org/788.svg"
+    },
+    "awayTeam": {
+      "id": 778,
+      "name": "Algeria",
+      "shortName": "Algeria",
+      "tla": "ALG",
+      "crest": "https://crests.football-data.org/algeria.svg"
+    },
+    "score": {
+      "winner": "HOME_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 2,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 57435,
+        "name": "Yael Falc\u00f3n",
+        "type": "REFEREE",
+        "nationality": "Argentina"
+      }
+    ]
   }
 }

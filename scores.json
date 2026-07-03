@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-07-03T05:01:00Z",
+  "lastUpdated": "2026-07-03T05:15:32Z",
   "currentStage": "\u26bd Round of 32 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 263,
+  "actualTotalGoals": 265,
   "eliminatedTeams": [
+    "Algeria",
     "Austria",
     "Bosnia and Herzegovina",
     "Cura\u00e7ao",
@@ -59,11 +60,11 @@
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 34,
-      "stagePts": 18,
-      "gf": 32,
+      "matchPts": 37,
+      "stagePts": 21,
+      "gf": 34,
       "ga": 18,
-      "maxPossible": 165
+      "maxPossible": 168
     },
     {
       "name": "Adam Feery",
@@ -110,7 +111,7 @@
       "matchPts": 33,
       "stagePts": 18,
       "gf": 35,
-      "ga": 25,
+      "ga": 27,
       "maxPossible": 161
     },
     {
