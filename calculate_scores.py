@@ -502,37 +502,50 @@ def detect_current_stage(matches: list) -> str:
     return "PRE_TOURNAMENT"
 
 
-def calc_max_additional_per_team(team: str, matches: list, team_stats: dict) -> int:
+def calc_max_additional_per_team(team: str, matches: list, team_stats: dict,
+                                  eliminated: list) -> int:
     """
-    Calculate the maximum additional points a team can still earn
-    from remaining scheduled matches and future stage bonuses.
+    Calculate the maximum additional points a team can still earn.
+
+    Returns 0 immediately if the team is eliminated — they cannot
+    earn any further match points or stage bonuses.
+
+    Stage bonuses are only awarded for stages the team hasn't reached
+    yet AND where they still have a scheduled fixture (i.e. they are
+    actually in that round).
     """
+    # Eliminated teams can earn nothing further
+    if team in eliminated:
+        return 0
+
     stats          = team_stats.get(team)
     stages_reached = stats["stages"] if stats else set()
     won_final      = stats["won_final"] if stats else False
 
-    # Count remaining scheduled matches for this team
+    # Remaining scheduled matches for this specific team
     remaining = sum(
         1 for m in matches
         if m.get("status") in ("SCHEDULED", "TIMED")
-        and normalise(m["homeTeam"]["name"]) == team
-        or m.get("status") in ("SCHEDULED", "TIMED")
-        and normalise(m["awayTeam"]["name"]) == team
+        and (normalise(m["homeTeam"]["name"]) == team
+             or normalise(m["awayTeam"]["name"]) == team)
     )
     max_pts = remaining * 3
 
-    # Stages that still have scheduled matches (stages not yet completed)
-    stages_with_future = {
-        m["stage"] for m in matches if m.get("status") in ("SCHEDULED", "TIMED")
+    # Stages where THIS team still has a scheduled fixture
+    team_future_stages = {
+        m["stage"] for m in matches
+        if m.get("status") in ("SCHEDULED", "TIMED")
+        and (normalise(m["homeTeam"]["name"]) == team
+             or normalise(m["awayTeam"]["name"]) == team)
     }
 
-    # Add stage bonuses for stages not yet reached but still available
+    # Stage bonuses for stages not yet reached but team is in the fixture
     for stage, bonus in STAGE_BONUS.items():
-        if stage not in stages_reached and stage in stages_with_future:
+        if stage not in stages_reached and stage in team_future_stages:
             max_pts += bonus
 
-    # Add winner bonus if the Final hasn't been played yet
-    if not won_final and "FINAL" in stages_with_future:
+    # Winner bonus — only if team is still in the Final
+    if not won_final and "FINAL" in team_future_stages:
         max_pts += WINNER_BONUS
 
     return max_pts
@@ -549,7 +562,7 @@ def calc_stage_points(team_stages: set, won_final: bool) -> int:
     return pts
 
 
-def calculate_participant_scores(team_stats: dict, matches: list) -> list:
+def calculate_participant_scores(team_stats: dict, matches: list, eliminated: list) -> list:
     """Calculate total scores and max possible score for each participant."""
     results = []
 
@@ -574,7 +587,7 @@ def calculate_participant_scores(team_stats: dict, matches: list) -> list:
                 total_stage   += calc_stage_points(s["stages"], s["won_final"])
 
             # Always calculate max additional (works for unseen teams too)
-            max_additional += calc_max_additional_per_team(team, matches, team_stats)
+            max_additional += calc_max_additional_per_team(team, matches, team_stats, eliminated)
 
         current_total = total_match + total_stage
         results.append({
@@ -651,7 +664,7 @@ def main():
     print(f"   Eliminated ({len(eliminated)}): {', '.join(eliminated) if eliminated else 'none yet'}")
 
     print("🧮 Calculating participant scores...")
-    scores = calculate_participant_scores(team_stats, matches)
+    scores = calculate_participant_scores(team_stats, matches, eliminated)
 
     output = {
         "lastUpdated":            datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
