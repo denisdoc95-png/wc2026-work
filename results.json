@@ -5704,5 +5704,79 @@
         "nationality": "Uruguay"
       }
     ]
+  },
+  "537427": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537427,
+    "utcDate": "2026-07-03T22:00:00Z",
+    "status": "FINISHED",
+    "matchday": null,
+    "stage": "LAST_32",
+    "group": null,
+    "lastUpdated": "2026-07-04T00:50:06Z",
+    "homeTeam": {
+      "id": 762,
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "tla": "ARG",
+      "crest": "https://crests.football-data.org/762.png"
+    },
+    "awayTeam": {
+      "id": 1930,
+      "name": "Cape Verde Islands",
+      "shortName": "Cape Verde",
+      "tla": "CPV",
+      "crest": "https://crests.football-data.org/cape_verde.svg"
+    },
+    "score": {
+      "winner": "HOME_TEAM",
+      "duration": "EXTRA_TIME",
+      "fullTime": {
+        "home": 3,
+        "away": 2
+      },
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      },
+      "regularTime": {
+        "home": null,
+        "away": null
+      },
+      "extraTime": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 77052,
+        "name": "Drew Fischer",
+        "type": "REFEREE",
+        "nationality": "Canada"
+      }
+    ]
   }
 }
