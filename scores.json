@@ -1,13 +1,14 @@
 {
-  "lastUpdated": "2026-07-04T19:01:12Z",
+  "lastUpdated": "2026-07-04T19:15:36Z",
   "currentStage": "\u26bd Round of 16 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 279,
+  "actualTotalGoals": 282,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
     "Austria",
     "Bosnia and Herzegovina",
+    "Canada",
     "Cape Verde",
     "Croatia",
     "Cura\u00e7ao",
@@ -49,9 +50,9 @@
     },
     {
       "name": "Squirrel",
-      "matchPts": 45,
-      "stagePts": 27,
-      "gf": 40,
+      "matchPts": 48,
+      "stagePts": 30,
+      "gf": 43,
       "ga": 18,
       "maxPossible": 139,
       "canStillWin": true
@@ -198,7 +199,7 @@
       "gf": 27,
       "ga": 17,
       "maxPossible": 95,
-      "canStillWin": true
+      "canStillWin": false
     },
     {
       "name": "Derek (Ted) Mccarthy",
@@ -247,9 +248,9 @@
     },
     {
       "name": "Hillington FC",
-      "matchPts": 44,
-      "stagePts": 24,
-      "gf": 41,
+      "matchPts": 47,
+      "stagePts": 27,
+      "gf": 44,
       "ga": 19,
       "maxPossible": 135,
       "canStillWin": true
