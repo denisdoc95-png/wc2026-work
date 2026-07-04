@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-04T03:31:03Z",
-  "currentStage": "\u26bd Round of 32 \u2014 In Progress",
+  "lastUpdated": "2026-07-04T03:45:32Z",
+  "currentStage": "\u26bd Round of 16 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 277,
+  "actualTotalGoals": 279,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -15,6 +15,7 @@
     "DR Congo",
     "Ecuador",
     "Germany",
+    "Ghana",
     "Haiti",
     "Iran",
     "Iraq",
@@ -51,15 +52,15 @@
       "matchPts": 45,
       "stagePts": 27,
       "gf": 40,
-      "ga": 16,
-      "maxPossible": 157,
+      "ga": 18,
+      "maxPossible": 139,
       "canStillWin": true
     },
     {
       "name": "Niamh Corrigan",
-      "matchPts": 41,
-      "stagePts": 21,
-      "gf": 38,
+      "matchPts": 44,
+      "stagePts": 24,
+      "gf": 40,
       "ga": 16,
       "maxPossible": 141,
       "canStillWin": true
@@ -102,18 +103,18 @@
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 31,
-      "stagePts": 15,
-      "gf": 24,
+      "matchPts": 34,
+      "stagePts": 18,
+      "gf": 26,
       "ga": 13,
       "maxPossible": 113,
       "canStillWin": true
     },
     {
       "name": "Sean Purcell",
-      "matchPts": 41,
-      "stagePts": 21,
-      "gf": 39,
+      "matchPts": 44,
+      "stagePts": 24,
+      "gf": 41,
       "ga": 18,
       "maxPossible": 129,
       "canStillWin": true
@@ -147,27 +148,27 @@
     },
     {
       "name": "Erika Kind",
-      "matchPts": 36,
-      "stagePts": 18,
-      "gf": 27,
+      "matchPts": 39,
+      "stagePts": 21,
+      "gf": 29,
       "ga": 14,
       "maxPossible": 133,
       "canStillWin": true
     },
     {
       "name": "John Pepper",
-      "matchPts": 39,
-      "stagePts": 21,
-      "gf": 37,
+      "matchPts": 42,
+      "stagePts": 24,
+      "gf": 39,
       "ga": 17,
       "maxPossible": 139,
       "canStillWin": true
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 40,
-      "stagePts": 24,
-      "gf": 36,
+      "matchPts": 43,
+      "stagePts": 27,
+      "gf": 38,
       "ga": 19,
       "maxPossible": 131,
       "canStillWin": true
@@ -195,15 +196,15 @@
       "matchPts": 31,
       "stagePts": 15,
       "gf": 27,
-      "ga": 15,
-      "maxPossible": 113,
+      "ga": 17,
+      "maxPossible": 95,
       "canStillWin": true
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 38,
-      "stagePts": 24,
-      "gf": 38,
+      "matchPts": 41,
+      "stagePts": 27,
+      "gf": 40,
       "ga": 26,
       "maxPossible": 135,
       "canStillWin": true
