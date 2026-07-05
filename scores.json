@@ -1,13 +1,14 @@
 {
-  "lastUpdated": "2026-07-05T22:01:14Z",
+  "lastUpdated": "2026-07-05T22:15:37Z",
   "currentStage": "\u26bd Round of 16 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 283,
+  "actualTotalGoals": 286,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
     "Austria",
     "Bosnia and Herzegovina",
+    "Brazil",
     "Canada",
     "Cape Verde",
     "Croatia",
@@ -42,28 +43,28 @@
   "participants": [
     {
       "name": "Brian Lehane",
-      "matchPts": 33,
-      "stagePts": 18,
-      "gf": 40,
-      "ga": 26,
+      "matchPts": 36,
+      "stagePts": 21,
+      "gf": 42,
+      "ga": 27,
       "maxPossible": 88,
       "canStillWin": false
     },
     {
       "name": "Squirrel",
-      "matchPts": 51,
-      "stagePts": 33,
-      "gf": 44,
-      "ga": 18,
+      "matchPts": 54,
+      "stagePts": 36,
+      "gf": 46,
+      "ga": 19,
       "maxPossible": 139,
       "canStillWin": true
     },
     {
       "name": "Niamh Corrigan",
-      "matchPts": 47,
-      "stagePts": 27,
-      "gf": 41,
-      "ga": 16,
+      "matchPts": 50,
+      "stagePts": 30,
+      "gf": 43,
+      "ga": 17,
       "maxPossible": 141,
       "canStillWin": true
     },
@@ -78,12 +79,12 @@
     },
     {
       "name": "Adam Feery",
-      "matchPts": 43,
-      "stagePts": 24,
-      "gf": 42,
-      "ga": 24,
+      "matchPts": 46,
+      "stagePts": 27,
+      "gf": 45,
+      "ga": 27,
       "maxPossible": 110,
-      "canStillWin": true
+      "canStillWin": false
     },
     {
       "name": "Mick F",
@@ -96,10 +97,10 @@
     },
     {
       "name": "Paul Boreham",
-      "matchPts": 36,
-      "stagePts": 24,
-      "gf": 43,
-      "ga": 30,
+      "matchPts": 39,
+      "stagePts": 27,
+      "gf": 45,
+      "ga": 31,
       "maxPossible": 115,
       "canStillWin": true
     },
@@ -107,17 +108,17 @@
       "name": "Brian Cooper",
       "matchPts": 34,
       "stagePts": 18,
-      "gf": 26,
-      "ga": 13,
-      "maxPossible": 113,
-      "canStillWin": true
+      "gf": 27,
+      "ga": 15,
+      "maxPossible": 101,
+      "canStillWin": false
     },
     {
       "name": "Sean Purcell",
-      "matchPts": 47,
-      "stagePts": 27,
-      "gf": 42,
-      "ga": 18,
+      "matchPts": 50,
+      "stagePts": 30,
+      "gf": 45,
+      "ga": 21,
       "maxPossible": 129,
       "canStillWin": true
     },
@@ -128,14 +129,14 @@
       "gf": 34,
       "ga": 27,
       "maxPossible": 103,
-      "canStillWin": true
+      "canStillWin": false
     },
     {
       "name": "Ivan Peharda",
-      "matchPts": 29,
-      "stagePts": 18,
-      "gf": 30,
-      "ga": 30,
+      "matchPts": 32,
+      "stagePts": 21,
+      "gf": 32,
+      "ga": 31,
       "maxPossible": 90,
       "canStillWin": false
     },
@@ -143,53 +144,53 @@
       "name": "Brian O Connell",
       "matchPts": 25,
       "stagePts": 12,
-      "gf": 30,
-      "ga": 25,
-      "maxPossible": 68,
+      "gf": 31,
+      "ga": 27,
+      "maxPossible": 37,
       "canStillWin": false
     },
     {
       "name": "Erika Kind",
       "matchPts": 39,
       "stagePts": 24,
-      "gf": 29,
-      "ga": 15,
-      "maxPossible": 112,
+      "gf": 30,
+      "ga": 17,
+      "maxPossible": 100,
       "canStillWin": true
     },
     {
       "name": "John Pepper",
-      "matchPts": 45,
-      "stagePts": 27,
-      "gf": 40,
-      "ga": 17,
+      "matchPts": 48,
+      "stagePts": 30,
+      "gf": 42,
+      "ga": 18,
       "maxPossible": 139,
       "canStillWin": true
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 43,
-      "stagePts": 27,
-      "gf": 38,
-      "ga": 19,
+      "matchPts": 46,
+      "stagePts": 30,
+      "gf": 41,
+      "ga": 22,
       "maxPossible": 131,
-      "canStillWin": true
+      "canStillWin": false
     },
     {
       "name": "Jack O'Connor",
-      "matchPts": 44,
-      "stagePts": 27,
-      "gf": 45,
-      "ga": 27,
+      "matchPts": 47,
+      "stagePts": 30,
+      "gf": 47,
+      "ga": 28,
       "maxPossible": 126,
       "canStillWin": false
     },
     {
       "name": "Adrian Kehoe",
-      "matchPts": 35,
-      "stagePts": 21,
-      "gf": 36,
-      "ga": 26,
+      "matchPts": 38,
+      "stagePts": 24,
+      "gf": 38,
+      "ga": 27,
       "maxPossible": 117,
       "canStillWin": true
     },
@@ -204,10 +205,10 @@
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 41,
-      "stagePts": 27,
-      "gf": 40,
-      "ga": 26,
+      "matchPts": 44,
+      "stagePts": 30,
+      "gf": 42,
+      "ga": 27,
       "maxPossible": 135,
       "canStillWin": true
     },
@@ -222,19 +223,19 @@
     },
     {
       "name": "Tim Greene",
-      "matchPts": 30,
-      "stagePts": 18,
-      "gf": 39,
-      "ga": 29,
+      "matchPts": 33,
+      "stagePts": 21,
+      "gf": 41,
+      "ga": 30,
       "maxPossible": 97,
       "canStillWin": false
     },
     {
       "name": "Guzza",
-      "matchPts": 39,
-      "stagePts": 24,
-      "gf": 42,
-      "ga": 25,
+      "matchPts": 42,
+      "stagePts": 27,
+      "gf": 44,
+      "ga": 26,
       "maxPossible": 118,
       "canStillWin": true
     },
@@ -249,10 +250,10 @@
     },
     {
       "name": "Hillington FC",
-      "matchPts": 50,
-      "stagePts": 30,
-      "gf": 45,
-      "ga": 19,
+      "matchPts": 53,
+      "stagePts": 33,
+      "gf": 47,
+      "ga": 20,
       "maxPossible": 135,
       "canStillWin": true
     }
