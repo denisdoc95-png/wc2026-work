@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-06T03:01:12Z",
+  "lastUpdated": "2026-07-06T03:15:35Z",
   "currentStage": "\u26bd Round of 16 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 286,
+  "actualTotalGoals": 291,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -24,6 +24,7 @@
     "Ivory Coast",
     "Japan",
     "Jordan",
+    "Mexico",
     "Netherlands",
     "New Zealand",
     "Panama",
@@ -43,10 +44,10 @@
   "participants": [
     {
       "name": "Brian Lehane",
-      "matchPts": 36,
-      "stagePts": 21,
-      "gf": 42,
-      "ga": 27,
+      "matchPts": 39,
+      "stagePts": 24,
+      "gf": 45,
+      "ga": 29,
       "maxPossible": 88,
       "canStillWin": false
     },
@@ -70,10 +71,10 @@
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 40,
-      "stagePts": 24,
-      "gf": 35,
-      "ga": 18,
+      "matchPts": 43,
+      "stagePts": 27,
+      "gf": 38,
+      "ga": 20,
       "maxPossible": 119,
       "canStillWin": true
     },
@@ -97,10 +98,10 @@
     },
     {
       "name": "Paul Boreham",
-      "matchPts": 39,
-      "stagePts": 27,
-      "gf": 45,
-      "ga": 31,
+      "matchPts": 42,
+      "stagePts": 30,
+      "gf": 48,
+      "ga": 33,
       "maxPossible": 115,
       "canStillWin": true
     },
@@ -196,19 +197,19 @@
     },
     {
       "name": "Clinton Ogundero",
-      "matchPts": 34,
-      "stagePts": 18,
-      "gf": 28,
-      "ga": 17,
+      "matchPts": 37,
+      "stagePts": 21,
+      "gf": 31,
+      "ga": 19,
       "maxPossible": 95,
       "canStillWin": false
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 44,
-      "stagePts": 30,
-      "gf": 42,
-      "ga": 27,
+      "matchPts": 47,
+      "stagePts": 33,
+      "gf": 45,
+      "ga": 29,
       "maxPossible": 135,
       "canStillWin": true
     },

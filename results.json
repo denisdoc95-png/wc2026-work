@@ -6042,5 +6042,71 @@
         "nationality": "United States"
       }
     ]
+  },
+  "537378": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537378,
+    "utcDate": "2026-07-06T01:00:00Z",
+    "status": "FINISHED",
+    "matchday": null,
+    "stage": "LAST_16",
+    "group": null,
+    "lastUpdated": "2026-07-06T03:12:36Z",
+    "homeTeam": {
+      "id": 769,
+      "name": "Mexico",
+      "shortName": "Mexico",
+      "tla": "MEX",
+      "crest": "https://crests.football-data.org/769.svg"
+    },
+    "awayTeam": {
+      "id": 770,
+      "name": "England",
+      "shortName": "England",
+      "tla": "ENG",
+      "crest": "https://crests.football-data.org/770.svg"
+    },
+    "score": {
+      "winner": "AWAY_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 2,
+        "away": 3
+      },
+      "halfTime": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 55970,
+        "name": "Alireza Faghani",
+        "type": "REFEREE",
+        "nationality": "Iran"
+      }
+    ]
   }
 }
