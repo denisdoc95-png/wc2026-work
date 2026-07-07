@@ -4913,7 +4913,7 @@
     },
     "score": {
       "winner": null,
-      "duration": "PENALTY_SHOOTOUT",
+      "duration": "REGULAR",
       "fullTime": {
         "home": 5,
         "away": 6
@@ -4991,7 +4991,7 @@
     },
     "score": {
       "winner": null,
-      "duration": "PENALTY_SHOOTOUT",
+      "duration": "REGULAR",
       "fullTime": {
         "home": 3,
         "away": 4
@@ -5671,7 +5671,7 @@
     },
     "score": {
       "winner": null,
-      "duration": "PENALTY_SHOOTOUT",
+      "duration": "REGULAR",
       "fullTime": {
         "home": 3,
         "away": 5
