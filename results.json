@@ -6306,5 +6306,71 @@
         "nationality": "France"
       }
     ]
+  },
+  "537382": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537382,
+    "utcDate": "2026-07-07T20:00:00Z",
+    "status": "FINISHED",
+    "matchday": null,
+    "stage": "LAST_16",
+    "group": null,
+    "lastUpdated": "2026-07-07T22:01:00Z",
+    "homeTeam": {
+      "id": 788,
+      "name": "Switzerland",
+      "shortName": "Switzerland",
+      "tla": "SUI",
+      "crest": "https://crests.football-data.org/788.svg"
+    },
+    "awayTeam": {
+      "id": 818,
+      "name": "Colombia",
+      "shortName": "Colombia",
+      "tla": "COL",
+      "crest": "https://crests.football-data.org/818.svg"
+    },
+    "score": {
+      "winner": "DRAW",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 0,
+        "away": 0
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 190010,
+        "name": "Ivan Barton",
+        "type": "REFEREE",
+        "nationality": null
+      }
+    ]
   }
 }
