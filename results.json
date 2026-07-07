@@ -6350,7 +6350,7 @@
       "crest": "https://crests.football-data.org/818.svg"
     },
     "score": {
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 0,
