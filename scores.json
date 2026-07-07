@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T21:45:36Z",
+  "lastUpdated": "2026-07-07T21:47:15Z",
   "currentStage": "\u26bd Round of 16 \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 302,
@@ -128,20 +128,20 @@
     },
     {
       "name": "Monique Mehaffey",
-      "matchPts": 39,
+      "matchPts": 42,
       "stagePts": 27,
-      "gf": 38,
-      "ga": 29,
-      "maxPossible": 103,
+      "gf": 41,
+      "ga": 31,
+      "maxPossible": 106,
       "canStillWin": false
     },
     {
       "name": "Ivan Peharda",
-      "matchPts": 35,
+      "matchPts": 38,
       "stagePts": 24,
-      "gf": 35,
-      "ga": 33,
-      "maxPossible": 90,
+      "gf": 38,
+      "ga": 35,
+      "maxPossible": 93,
       "canStillWin": false
     },
     {
@@ -155,11 +155,11 @@
     },
     {
       "name": "Erika Kind",
-      "matchPts": 42,
+      "matchPts": 45,
       "stagePts": 27,
-      "gf": 33,
-      "ga": 19,
-      "maxPossible": 100,
+      "gf": 36,
+      "ga": 21,
+      "maxPossible": 103,
       "canStillWin": true
     },
     {
@@ -191,11 +191,11 @@
     },
     {
       "name": "Adrian Kehoe",
-      "matchPts": 44,
+      "matchPts": 47,
       "stagePts": 30,
-      "gf": 42,
-      "ga": 29,
-      "maxPossible": 117,
+      "gf": 45,
+      "ga": 31,
+      "maxPossible": 120,
       "canStillWin": true
     },
     {
@@ -236,11 +236,11 @@
     },
     {
       "name": "Guzza",
-      "matchPts": 45,
+      "matchPts": 48,
       "stagePts": 30,
-      "gf": 47,
-      "ga": 28,
-      "maxPossible": 118,
+      "gf": 50,
+      "ga": 30,
+      "maxPossible": 121,
       "canStillWin": true
     },
     {
