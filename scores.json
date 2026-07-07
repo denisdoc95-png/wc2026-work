@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-07T02:01:14Z",
+  "lastUpdated": "2026-07-07T02:15:33Z",
   "currentStage": "\u26bd Round of 16 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 292,
+  "actualTotalGoals": 297,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -39,6 +39,7 @@
     "Sweden",
     "Tunisia",
     "Turkey",
+    "United States",
     "Uruguay",
     "Uzbekistan"
   ],
@@ -207,10 +208,10 @@
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 47,
-      "stagePts": 33,
-      "gf": 45,
-      "ga": 29,
+      "matchPts": 50,
+      "stagePts": 36,
+      "gf": 49,
+      "ga": 30,
       "maxPossible": 135,
       "canStillWin": true
     },
