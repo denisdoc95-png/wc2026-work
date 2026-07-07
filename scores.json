@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-07T18:01:18Z",
+  "lastUpdated": "2026-07-07T18:15:35Z",
   "currentStage": "\u26bd Round of 16 \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 297,
+  "actualTotalGoals": 302,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -16,6 +16,7 @@
     "Czech Republic",
     "DR Congo",
     "Ecuador",
+    "Egypt",
     "Germany",
     "Ghana",
     "Haiti",
@@ -93,10 +94,10 @@
       "name": "Mick F",
       "matchPts": 42,
       "stagePts": 27,
-      "gf": 37,
-      "ga": 20,
-      "maxPossible": 118,
-      "canStillWin": true
+      "gf": 39,
+      "ga": 23,
+      "maxPossible": 100,
+      "canStillWin": false
     },
     {
       "name": "Paul Boreham",
@@ -127,19 +128,19 @@
     },
     {
       "name": "Monique Mehaffey",
-      "matchPts": 36,
-      "stagePts": 24,
-      "gf": 35,
-      "ga": 27,
+      "matchPts": 39,
+      "stagePts": 27,
+      "gf": 38,
+      "ga": 29,
       "maxPossible": 103,
       "canStillWin": false
     },
     {
       "name": "Ivan Peharda",
-      "matchPts": 32,
-      "stagePts": 21,
-      "gf": 32,
-      "ga": 31,
+      "matchPts": 35,
+      "stagePts": 24,
+      "gf": 35,
+      "ga": 33,
       "maxPossible": 90,
       "canStillWin": false
     },
@@ -154,10 +155,10 @@
     },
     {
       "name": "Erika Kind",
-      "matchPts": 39,
-      "stagePts": 24,
-      "gf": 30,
-      "ga": 17,
+      "matchPts": 42,
+      "stagePts": 27,
+      "gf": 33,
+      "ga": 19,
       "maxPossible": 100,
       "canStillWin": true
     },
@@ -190,10 +191,10 @@
     },
     {
       "name": "Adrian Kehoe",
-      "matchPts": 41,
-      "stagePts": 27,
-      "gf": 39,
-      "ga": 27,
+      "matchPts": 44,
+      "stagePts": 30,
+      "gf": 42,
+      "ga": 29,
       "maxPossible": 117,
       "canStillWin": true
     },
@@ -235,10 +236,10 @@
     },
     {
       "name": "Guzza",
-      "matchPts": 42,
-      "stagePts": 27,
-      "gf": 44,
-      "ga": 26,
+      "matchPts": 45,
+      "stagePts": 30,
+      "gf": 47,
+      "ga": 28,
       "maxPossible": 118,
       "canStillWin": true
     },

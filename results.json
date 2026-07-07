@@ -6240,5 +6240,71 @@
         "nationality": "Jordan"
       }
     ]
+  },
+  "537381": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537381,
+    "utcDate": "2026-07-07T16:00:00Z",
+    "status": "FINISHED",
+    "matchday": null,
+    "stage": "LAST_16",
+    "group": null,
+    "lastUpdated": "2026-07-07T18:15:15Z",
+    "homeTeam": {
+      "id": 762,
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "tla": "ARG",
+      "crest": "https://crests.football-data.org/762.png"
+    },
+    "awayTeam": {
+      "id": 825,
+      "name": "Egypt",
+      "shortName": "Egypt",
+      "tla": "EGY",
+      "crest": "https://crests.football-data.org/825.svg"
+    },
+    "score": {
+      "winner": "HOME_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 3,
+        "away": 2
+      },
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 43918,
+        "name": "Fran\u00e7ois Letexier",
+        "type": "REFEREE",
+        "nationality": "France"
+      }
+    ]
   }
 }

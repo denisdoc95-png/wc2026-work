@@ -34678,5 +34678,107 @@
         "total": 92
       }
     ]
+  },
+  {
+    "date": "2026-07-07",
+    "label": "Round of 16",
+    "scores": [
+      {
+        "name": "Brian Lehane",
+        "total": 63
+      },
+      {
+        "name": "Squirrel",
+        "total": 96
+      },
+      {
+        "name": "Niamh Corrigan",
+        "total": 86
+      },
+      {
+        "name": "MICKODEA11",
+        "total": 70
+      },
+      {
+        "name": "Adam Feery",
+        "total": 73
+      },
+      {
+        "name": "Mick F",
+        "total": 69
+      },
+      {
+        "name": "Paul Boreham",
+        "total": 78
+      },
+      {
+        "name": "Brian Cooper",
+        "total": 58
+      },
+      {
+        "name": "Sean Purcell",
+        "total": 80
+      },
+      {
+        "name": "Monique Mehaffey",
+        "total": 66
+      },
+      {
+        "name": "Ivan Peharda",
+        "total": 59
+      },
+      {
+        "name": "Brian O Connell",
+        "total": 37
+      },
+      {
+        "name": "Erika Kind",
+        "total": 69
+      },
+      {
+        "name": "John Pepper",
+        "total": 84
+      },
+      {
+        "name": "Michael Murphy",
+        "total": 82
+      },
+      {
+        "name": "Jack O'Connor",
+        "total": 83
+      },
+      {
+        "name": "Adrian Kehoe",
+        "total": 74
+      },
+      {
+        "name": "Clinton Ogundero",
+        "total": 58
+      },
+      {
+        "name": "Derek (Ted) Mccarthy",
+        "total": 86
+      },
+      {
+        "name": "Denis O Connell",
+        "total": 58
+      },
+      {
+        "name": "Tim Greene",
+        "total": 54
+      },
+      {
+        "name": "Guzza",
+        "total": 75
+      },
+      {
+        "name": "Eric Murphy",
+        "total": 67
+      },
+      {
+        "name": "Hillington FC",
+        "total": 92
+      }
+    ]
   }
 ]
