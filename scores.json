@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T23:01:18Z",
+  "lastUpdated": "2026-07-07T23:10:01Z",
   "currentStage": "\u26bd Quarter-Finals \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 302,
@@ -11,6 +11,7 @@
     "Brazil",
     "Canada",
     "Cape Verde",
+    "Colombia",
     "Croatia",
     "Cura\u00e7ao",
     "Czech Republic",
@@ -69,13 +70,13 @@
       "stagePts": 33,
       "gf": 44,
       "ga": 17,
-      "maxPossible": 141,
-      "canStillWin": true
+      "maxPossible": 129,
+      "canStillWin": false
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 43,
-      "stagePts": 27,
+      "matchPts": 46,
+      "stagePts": 30,
       "gf": 38,
       "ga": 20,
       "maxPossible": 119,
@@ -114,7 +115,7 @@
       "stagePts": 21,
       "gf": 28,
       "ga": 15,
-      "maxPossible": 101,
+      "maxPossible": 83,
       "canStillWin": false
     },
     {
@@ -123,7 +124,7 @@
       "stagePts": 30,
       "gf": 45,
       "ga": 21,
-      "maxPossible": 129,
+      "maxPossible": 117,
       "canStillWin": false
     },
     {
@@ -159,8 +160,8 @@
       "stagePts": 27,
       "gf": 41,
       "ga": 25,
-      "maxPossible": 103,
-      "canStillWin": true
+      "maxPossible": 97,
+      "canStillWin": false
     },
     {
       "name": "John Pepper",
@@ -168,8 +169,8 @@
       "stagePts": 33,
       "gf": 43,
       "ga": 18,
-      "maxPossible": 139,
-      "canStillWin": true
+      "maxPossible": 127,
+      "canStillWin": false
     },
     {
       "name": "Michael Murphy",
@@ -177,7 +178,7 @@
       "stagePts": 33,
       "gf": 42,
       "ga": 22,
-      "maxPossible": 131,
+      "maxPossible": 119,
       "canStillWin": false
     },
     {
@@ -213,7 +214,7 @@
       "stagePts": 36,
       "gf": 49,
       "ga": 30,
-      "maxPossible": 135,
+      "maxPossible": 123,
       "canStillWin": true
     },
     {
