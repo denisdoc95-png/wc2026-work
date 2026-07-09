@@ -34984,5 +34984,107 @@
         "total": 92
       }
     ]
+  },
+  {
+    "date": "2026-07-09",
+    "label": "Quarter-Finals",
+    "scores": [
+      {
+        "name": "Brian Lehane",
+        "total": 63
+      },
+      {
+        "name": "Squirrel",
+        "total": 102
+      },
+      {
+        "name": "Niamh Corrigan",
+        "total": 92
+      },
+      {
+        "name": "MICKODEA11",
+        "total": 82
+      },
+      {
+        "name": "Adam Feery",
+        "total": 79
+      },
+      {
+        "name": "Mick F",
+        "total": 75
+      },
+      {
+        "name": "Paul Boreham",
+        "total": 78
+      },
+      {
+        "name": "Brian Cooper",
+        "total": 58
+      },
+      {
+        "name": "Sean Purcell",
+        "total": 86
+      },
+      {
+        "name": "Monique Mehaffey",
+        "total": 69
+      },
+      {
+        "name": "Ivan Peharda",
+        "total": 62
+      },
+      {
+        "name": "Brian O Connell",
+        "total": 37
+      },
+      {
+        "name": "Erika Kind",
+        "total": 72
+      },
+      {
+        "name": "John Pepper",
+        "total": 90
+      },
+      {
+        "name": "Michael Murphy",
+        "total": 82
+      },
+      {
+        "name": "Jack O'Connor",
+        "total": 89
+      },
+      {
+        "name": "Adrian Kehoe",
+        "total": 77
+      },
+      {
+        "name": "Clinton Ogundero",
+        "total": 64
+      },
+      {
+        "name": "Derek (Ted) Mccarthy",
+        "total": 86
+      },
+      {
+        "name": "Denis O Connell",
+        "total": 64
+      },
+      {
+        "name": "Tim Greene",
+        "total": 54
+      },
+      {
+        "name": "Guzza",
+        "total": 84
+      },
+      {
+        "name": "Eric Murphy",
+        "total": 73
+      },
+      {
+        "name": "Hillington FC",
+        "total": 98
+      }
+    ]
   }
 ]
