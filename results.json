@@ -6438,5 +6438,71 @@
         "nationality": "Argentina"
       }
     ]
+  },
+  "537384": {
+    "area": {
+      "id": 2267,
+      "name": "World",
+      "code": "INT",
+      "flag": null
+    },
+    "competition": {
+      "id": 2000,
+      "name": "FIFA World Cup",
+      "code": "WC",
+      "type": "CUP",
+      "emblem": "https://crests.football-data.org/wm26.png"
+    },
+    "season": {
+      "id": 2398,
+      "startDate": "2026-06-11",
+      "endDate": "2026-07-19",
+      "currentMatchday": 3,
+      "winner": null
+    },
+    "id": 537384,
+    "utcDate": "2026-07-10T19:00:00Z",
+    "status": "FINISHED",
+    "matchday": null,
+    "stage": "QUARTER_FINALS",
+    "group": null,
+    "lastUpdated": "2026-07-10T21:05:15Z",
+    "homeTeam": {
+      "id": 760,
+      "name": "Spain",
+      "shortName": "Spain",
+      "tla": "ESP",
+      "crest": "https://crests.football-data.org/760.svg"
+    },
+    "awayTeam": {
+      "id": 805,
+      "name": "Belgium",
+      "shortName": "Belgium",
+      "tla": "BEL",
+      "crest": "https://crests.football-data.org/805.svg"
+    },
+    "score": {
+      "winner": "HOME_TEAM",
+      "duration": "REGULAR",
+      "fullTime": {
+        "home": 2,
+        "away": 1
+      },
+      "halfTime": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "odds": {
+      "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+    },
+    "referees": [
+      {
+        "id": 11605,
+        "name": "Michael Oliver",
+        "type": "REFEREE",
+        "nationality": "England"
+      }
+    ]
   }
 }
