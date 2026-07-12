@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-11T23:45:35Z",
+  "lastUpdated": "2026-07-12T00:01:24Z",
   "currentStage": "\u26bd Quarter-Finals \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 307,
+  "actualTotalGoals": 310,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -31,6 +31,7 @@
     "Morocco",
     "Netherlands",
     "New Zealand",
+    "Norway",
     "Panama",
     "Paraguay",
     "Portugal",
@@ -63,7 +64,7 @@
       "stagePts": 45,
       "gf": 54,
       "ga": 24,
-      "maxPossible": 139,
+      "maxPossible": 127,
       "canStillWin": true
     },
     {
@@ -72,7 +73,7 @@
       "stagePts": 39,
       "gf": 48,
       "ga": 18,
-      "maxPossible": 129,
+      "maxPossible": 117,
       "canStillWin": false
     },
     {
@@ -90,7 +91,7 @@
       "stagePts": 30,
       "gf": 47,
       "ga": 27,
-      "maxPossible": 110,
+      "maxPossible": 98,
       "canStillWin": false
     },
     {
@@ -126,7 +127,7 @@
       "stagePts": 33,
       "gf": 47,
       "ga": 21,
-      "maxPossible": 117,
+      "maxPossible": 105,
       "canStillWin": false
     },
     {
@@ -144,7 +145,7 @@
       "stagePts": 24,
       "gf": 38,
       "ga": 35,
-      "maxPossible": 93,
+      "maxPossible": 87,
       "canStillWin": false
     },
     {
@@ -171,7 +172,7 @@
       "stagePts": 39,
       "gf": 47,
       "ga": 19,
-      "maxPossible": 127,
+      "maxPossible": 115,
       "canStillWin": false
     },
     {
@@ -180,7 +181,7 @@
       "stagePts": 36,
       "gf": 44,
       "ga": 23,
-      "maxPossible": 119,
+      "maxPossible": 107,
       "canStillWin": false
     },
     {
@@ -189,7 +190,7 @@
       "stagePts": 39,
       "gf": 52,
       "ga": 29,
-      "maxPossible": 126,
+      "maxPossible": 114,
       "canStillWin": false
     },
     {
@@ -198,7 +199,7 @@
       "stagePts": 33,
       "gf": 47,
       "ga": 32,
-      "maxPossible": 120,
+      "maxPossible": 114,
       "canStillWin": true
     },
     {
@@ -234,7 +235,7 @@
       "stagePts": 21,
       "gf": 43,
       "ga": 34,
-      "maxPossible": 79,
+      "maxPossible": 54,
       "canStillWin": false
     },
     {
@@ -243,7 +244,7 @@
       "stagePts": 33,
       "gf": 52,
       "ga": 30,
-      "maxPossible": 121,
+      "maxPossible": 115,
       "canStillWin": true
     },
     {
@@ -261,7 +262,7 @@
       "stagePts": 42,
       "gf": 55,
       "ga": 25,
-      "maxPossible": 135,
+      "maxPossible": 123,
       "canStillWin": true
     }
   ]
