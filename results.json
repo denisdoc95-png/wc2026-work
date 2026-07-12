@@ -6549,7 +6549,7 @@
     },
     "score": {
       "winner": "AWAY_TEAM",
-      "duration": "EXTRA_TIME",
+      "duration": "REGULAR",
       "fullTime": {
         "home": 1,
         "away": 2
@@ -6623,7 +6623,7 @@
     },
     "score": {
       "winner": "HOME_TEAM",
-      "duration": "EXTRA_TIME",
+      "duration": "REGULAR",
       "fullTime": {
         "home": 3,
         "away": 1
