@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-12T03:45:36Z",
-  "currentStage": "\u26bd Quarter-Finals \u2014 In Progress",
+  "lastUpdated": "2026-07-12T03:52:34Z",
+  "currentStage": "\u26bd Semi-Finals \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 310,
+  "actualTotalGoals": 314,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -42,6 +42,7 @@
     "South Africa",
     "South Korea",
     "Sweden",
+    "Switzerland",
     "Tunisia",
     "Turkey",
     "United States",
@@ -82,7 +83,7 @@
       "stagePts": 33,
       "gf": 40,
       "ga": 20,
-      "maxPossible": 119,
+      "maxPossible": 113,
       "canStillWin": true
     },
     {
