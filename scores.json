@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T06:01:21Z",
+  "lastUpdated": "2026-07-12T06:15:35Z",
   "currentStage": "\u26bd Semi-Finals \u2014 In Progress",
   "actualTournamentWinner": "",
   "actualTotalGoals": 314,
@@ -53,10 +53,10 @@
     {
       "name": "Brian Lehane",
       "matchPts": 39,
-      "stagePts": 24,
+      "stagePts": 27,
       "gf": 49,
       "ga": 34,
-      "maxPossible": 88,
+      "maxPossible": 85,
       "canStillWin": false
     },
     {
@@ -80,10 +80,10 @@
     {
       "name": "MICKODEA11",
       "matchPts": 49,
-      "stagePts": 33,
+      "stagePts": 36,
       "gf": 40,
       "ga": 20,
-      "maxPossible": 113,
+      "maxPossible": 110,
       "canStillWin": true
     },
     {
@@ -107,10 +107,10 @@
     {
       "name": "Paul Boreham",
       "matchPts": 48,
-      "stagePts": 36,
+      "stagePts": 39,
       "gf": 51,
       "ga": 34,
-      "maxPossible": 115,
+      "maxPossible": 112,
       "canStillWin": true
     },
     {
@@ -134,19 +134,19 @@
     {
       "name": "Monique Mehaffey",
       "matchPts": 45,
-      "stagePts": 30,
+      "stagePts": 33,
       "gf": 43,
       "ga": 32,
-      "maxPossible": 106,
+      "maxPossible": 103,
       "canStillWin": false
     },
     {
       "name": "Ivan Peharda",
       "matchPts": 38,
-      "stagePts": 24,
+      "stagePts": 27,
       "gf": 38,
       "ga": 35,
-      "maxPossible": 87,
+      "maxPossible": 84,
       "canStillWin": false
     },
     {
@@ -161,10 +161,10 @@
     {
       "name": "Erika Kind",
       "matchPts": 45,
-      "stagePts": 27,
+      "stagePts": 30,
       "gf": 41,
       "ga": 25,
-      "maxPossible": 97,
+      "maxPossible": 94,
       "canStillWin": false
     },
     {
@@ -197,28 +197,28 @@
     {
       "name": "Adrian Kehoe",
       "matchPts": 50,
-      "stagePts": 33,
+      "stagePts": 36,
       "gf": 47,
       "ga": 32,
-      "maxPossible": 114,
+      "maxPossible": 111,
       "canStillWin": true
     },
     {
       "name": "Clinton Ogundero",
       "matchPts": 40,
-      "stagePts": 24,
+      "stagePts": 27,
       "gf": 33,
       "ga": 19,
-      "maxPossible": 95,
+      "maxPossible": 92,
       "canStillWin": false
     },
     {
       "name": "Derek (Ted) Mccarthy",
       "matchPts": 50,
-      "stagePts": 36,
+      "stagePts": 39,
       "gf": 50,
       "ga": 32,
-      "maxPossible": 111,
+      "maxPossible": 108,
       "canStillWin": true
     },
     {
@@ -242,10 +242,10 @@
     {
       "name": "Guzza",
       "matchPts": 51,
-      "stagePts": 33,
+      "stagePts": 36,
       "gf": 52,
       "ga": 30,
-      "maxPossible": 115,
+      "maxPossible": 112,
       "canStillWin": true
     },
     {
