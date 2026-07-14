@@ -4912,7 +4912,7 @@
       "crest": "https://crests.football-data.org/761.svg"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 5,
@@ -4990,7 +4990,7 @@
       "crest": "https://crests.football-data.org/morocco.svg"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 3,
@@ -5670,7 +5670,7 @@
       "crest": "https://crests.football-data.org/825.svg"
     },
     "score": {
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
         "home": 3,
