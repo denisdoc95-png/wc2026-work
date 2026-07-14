@@ -4318,7 +4318,7 @@
       "crest": "https://crests.football-data.org/iran.svg"
     },
     "score": {
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "duration": "REGULAR",
       "fullTime": {
         "home": 1,
