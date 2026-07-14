@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-14T21:01:20Z",
-  "currentStage": "\u26bd Semi-Finals \u2014 In Progress",
+  "lastUpdated": "2026-07-14T21:15:36Z",
+  "currentStage": "\u23f3 Tournament begins 11 June 2026",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 314,
+  "actualTotalGoals": 316,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -19,6 +19,7 @@
     "DR Congo",
     "Ecuador",
     "Egypt",
+    "France",
     "Germany",
     "Ghana",
     "Haiti",
@@ -61,19 +62,19 @@
     },
     {
       "name": "Squirrel",
-      "matchPts": 63,
-      "stagePts": 45,
-      "gf": 55,
-      "ga": 26,
+      "matchPts": 66,
+      "stagePts": 48,
+      "gf": 57,
+      "ga": 28,
       "maxPossible": 127,
       "canStillWin": true
     },
     {
       "name": "Niamh Corrigan",
-      "matchPts": 59,
-      "stagePts": 39,
-      "gf": 49,
-      "ga": 20,
+      "matchPts": 62,
+      "stagePts": 42,
+      "gf": 51,
+      "ga": 22,
       "maxPossible": 117,
       "canStillWin": false
     },
@@ -82,42 +83,42 @@
       "matchPts": 52,
       "stagePts": 36,
       "gf": 43,
-      "ga": 24,
-      "maxPossible": 113,
-      "canStillWin": true
+      "ga": 26,
+      "maxPossible": 107,
+      "canStillWin": false
     },
     {
       "name": "Adam Feery",
       "matchPts": 49,
       "stagePts": 30,
       "gf": 48,
-      "ga": 29,
-      "maxPossible": 98,
+      "ga": 31,
+      "maxPossible": 79,
       "canStillWin": false
     },
     {
       "name": "Mick F",
-      "matchPts": 48,
-      "stagePts": 33,
-      "gf": 47,
-      "ga": 26,
+      "matchPts": 51,
+      "stagePts": 36,
+      "gf": 49,
+      "ga": 28,
       "maxPossible": 100,
       "canStillWin": false
     },
     {
       "name": "Paul Boreham",
-      "matchPts": 51,
-      "stagePts": 39,
-      "gf": 54,
+      "matchPts": 54,
+      "stagePts": 42,
+      "gf": 56,
       "ga": 37,
       "maxPossible": 115,
       "canStillWin": true
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 40,
-      "stagePts": 24,
-      "gf": 30,
+      "matchPts": 43,
+      "stagePts": 27,
+      "gf": 32,
       "ga": 16,
       "maxPossible": 83,
       "canStillWin": false
@@ -127,15 +128,15 @@
       "matchPts": 53,
       "stagePts": 33,
       "gf": 48,
-      "ga": 23,
-      "maxPossible": 105,
+      "ga": 25,
+      "maxPossible": 86,
       "canStillWin": false
     },
     {
       "name": "Monique Mehaffey",
-      "matchPts": 48,
-      "stagePts": 33,
-      "gf": 46,
+      "matchPts": 51,
+      "stagePts": 36,
+      "gf": 48,
       "ga": 33,
       "maxPossible": 106,
       "canStillWin": false
@@ -169,36 +170,36 @@
     },
     {
       "name": "John Pepper",
-      "matchPts": 57,
-      "stagePts": 39,
-      "gf": 48,
-      "ga": 21,
+      "matchPts": 60,
+      "stagePts": 42,
+      "gf": 50,
+      "ga": 23,
       "maxPossible": 115,
       "canStillWin": false
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 52,
-      "stagePts": 36,
-      "gf": 45,
+      "matchPts": 55,
+      "stagePts": 39,
+      "gf": 47,
       "ga": 25,
       "maxPossible": 107,
       "canStillWin": false
     },
     {
       "name": "Jack O'Connor",
-      "matchPts": 56,
-      "stagePts": 39,
-      "gf": 53,
-      "ga": 31,
+      "matchPts": 59,
+      "stagePts": 42,
+      "gf": 55,
+      "ga": 33,
       "maxPossible": 114,
       "canStillWin": false
     },
     {
       "name": "Adrian Kehoe",
-      "matchPts": 53,
-      "stagePts": 36,
-      "gf": 51,
+      "matchPts": 56,
+      "stagePts": 39,
+      "gf": 53,
       "ga": 35,
       "maxPossible": 114,
       "canStillWin": true
@@ -208,8 +209,8 @@
       "matchPts": 43,
       "stagePts": 27,
       "gf": 35,
-      "ga": 20,
-      "maxPossible": 95,
+      "ga": 22,
+      "maxPossible": 89,
       "canStillWin": false
     },
     {
@@ -219,14 +220,14 @@
       "gf": 53,
       "ga": 35,
       "maxPossible": 111,
-      "canStillWin": true
+      "canStillWin": false
     },
     {
       "name": "Denis O Connell",
-      "matchPts": 43,
-      "stagePts": 27,
-      "gf": 41,
-      "ga": 21,
+      "matchPts": 46,
+      "stagePts": 30,
+      "gf": 43,
+      "ga": 23,
       "maxPossible": 89,
       "canStillWin": false
     },
@@ -244,25 +245,25 @@
       "matchPts": 54,
       "stagePts": 36,
       "gf": 56,
-      "ga": 33,
-      "maxPossible": 115,
-      "canStillWin": true
+      "ga": 35,
+      "maxPossible": 109,
+      "canStillWin": false
     },
     {
       "name": "Eric Murphy",
-      "matchPts": 49,
-      "stagePts": 30,
-      "gf": 41,
-      "ga": 19,
+      "matchPts": 52,
+      "stagePts": 33,
+      "gf": 43,
+      "ga": 21,
       "maxPossible": 98,
       "canStillWin": false
     },
     {
       "name": "Hillington FC",
-      "matchPts": 62,
-      "stagePts": 42,
-      "gf": 56,
-      "ga": 27,
+      "matchPts": 65,
+      "stagePts": 45,
+      "gf": 58,
+      "ga": 29,
       "maxPossible": 123,
       "canStillWin": true
     }
