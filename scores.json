@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-15T21:31:16Z",
+  "lastUpdated": "2026-07-15T21:34:04Z",
   "currentStage": "\u23f3 Tournament begins 11 June 2026",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 319,
+  "actualTotalGoals": 299,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -56,8 +56,8 @@
       "name": "Brian Lehane",
       "matchPts": 42,
       "stagePts": 27,
-      "gf": 53,
-      "ga": 39,
+      "gf": 49,
+      "ga": 34,
       "maxPossible": 69,
       "canStillWin": false
     },
@@ -65,8 +65,8 @@
       "name": "Squirrel",
       "matchPts": 66,
       "stagePts": 48,
-      "gf": 57,
-      "ga": 28,
+      "gf": 54,
+      "ga": 26,
       "maxPossible": 127,
       "canStillWin": true
     },
@@ -101,8 +101,8 @@
       "name": "Mick F",
       "matchPts": 51,
       "stagePts": 36,
-      "gf": 49,
-      "ga": 28,
+      "gf": 45,
+      "ga": 26,
       "maxPossible": 100,
       "canStillWin": false
     },
@@ -155,8 +155,8 @@
       "name": "Brian O Connell",
       "matchPts": 25,
       "stagePts": 12,
-      "gf": 35,
-      "ga": 32,
+      "gf": 31,
+      "ga": 27,
       "maxPossible": 37,
       "canStillWin": false
     },
@@ -164,8 +164,8 @@
       "name": "Erika Kind",
       "matchPts": 51,
       "stagePts": 33,
-      "gf": 46,
-      "ga": 27,
+      "gf": 41,
+      "ga": 23,
       "maxPossible": 97,
       "canStillWin": false
     },
@@ -236,8 +236,8 @@
       "name": "Tim Greene",
       "matchPts": 33,
       "stagePts": 21,
-      "gf": 44,
-      "ga": 36,
+      "gf": 42,
+      "ga": 33,
       "maxPossible": 54,
       "canStillWin": false
     },
@@ -263,8 +263,8 @@
       "name": "Hillington FC",
       "matchPts": 65,
       "stagePts": 45,
-      "gf": 58,
-      "ga": 29,
+      "gf": 55,
+      "ga": 27,
       "maxPossible": 123,
       "canStillWin": true
     }
