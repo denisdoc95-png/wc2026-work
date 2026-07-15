@@ -35596,5 +35596,107 @@
         "total": 110
       }
     ]
+  },
+  {
+    "date": "2026-07-15",
+    "label": "Tournament begins 11 June 2026",
+    "scores": [
+      {
+        "name": "Brian Lehane",
+        "total": 69
+      },
+      {
+        "name": "Squirrel",
+        "total": 114
+      },
+      {
+        "name": "Niamh Corrigan",
+        "total": 104
+      },
+      {
+        "name": "MICKODEA11",
+        "total": 88
+      },
+      {
+        "name": "Adam Feery",
+        "total": 79
+      },
+      {
+        "name": "Mick F",
+        "total": 88
+      },
+      {
+        "name": "Paul Boreham",
+        "total": 96
+      },
+      {
+        "name": "Brian Cooper",
+        "total": 70
+      },
+      {
+        "name": "Sean Purcell",
+        "total": 86
+      },
+      {
+        "name": "Monique Mehaffey",
+        "total": 93
+      },
+      {
+        "name": "Ivan Peharda",
+        "total": 74
+      },
+      {
+        "name": "Brian O Connell",
+        "total": 37
+      },
+      {
+        "name": "Erika Kind",
+        "total": 84
+      },
+      {
+        "name": "John Pepper",
+        "total": 102
+      },
+      {
+        "name": "Michael Murphy",
+        "total": 94
+      },
+      {
+        "name": "Jack O'Connor",
+        "total": 101
+      },
+      {
+        "name": "Adrian Kehoe",
+        "total": 101
+      },
+      {
+        "name": "Clinton Ogundero",
+        "total": 70
+      },
+      {
+        "name": "Derek (Ted) Mccarthy",
+        "total": 92
+      },
+      {
+        "name": "Denis O Connell",
+        "total": 76
+      },
+      {
+        "name": "Tim Greene",
+        "total": 54
+      },
+      {
+        "name": "Guzza",
+        "total": 96
+      },
+      {
+        "name": "Eric Murphy",
+        "total": 85
+      },
+      {
+        "name": "Hillington FC",
+        "total": 110
+      }
+    ]
   }
 ]

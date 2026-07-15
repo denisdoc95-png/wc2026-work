@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-15T21:46:58Z",
+  "lastUpdated": "2026-07-15T21:53:20Z",
   "currentStage": "\u23f3 Tournament begins 11 June 2026",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 298,
+  "actualTotalGoals": 297,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -99,11 +99,11 @@
     },
     {
       "name": "Mick F",
-      "matchPts": 51,
+      "matchPts": 52,
       "stagePts": 36,
       "gf": 45,
-      "ga": 26,
-      "maxPossible": 100,
+      "ga": 25,
+      "maxPossible": 101,
       "canStillWin": false
     },
     {
