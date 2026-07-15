@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-15T21:01:19Z",
-  "currentStage": "\u26bd Semi-Finals \u2014 In Progress",
+  "lastUpdated": "2026-07-15T21:13:01Z",
+  "currentStage": "\u23f3 Tournament begins 11 June 2026",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 316,
+  "actualTotalGoals": 319,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -19,6 +19,7 @@
     "DR Congo",
     "Ecuador",
     "Egypt",
+    "England",
     "France",
     "Germany",
     "Ghana",
@@ -55,9 +56,9 @@
       "name": "Brian Lehane",
       "matchPts": 42,
       "stagePts": 27,
-      "gf": 52,
-      "ga": 37,
-      "maxPossible": 88,
+      "gf": 53,
+      "ga": 39,
+      "maxPossible": 69,
       "canStillWin": false
     },
     {
@@ -82,9 +83,9 @@
       "name": "MICKODEA11",
       "matchPts": 52,
       "stagePts": 36,
-      "gf": 43,
-      "ga": 26,
-      "maxPossible": 107,
+      "gf": 44,
+      "ga": 28,
+      "maxPossible": 88,
       "canStillWin": false
     },
     {
@@ -109,10 +110,10 @@
       "name": "Paul Boreham",
       "matchPts": 54,
       "stagePts": 42,
-      "gf": 56,
-      "ga": 37,
-      "maxPossible": 115,
-      "canStillWin": true
+      "gf": 57,
+      "ga": 39,
+      "maxPossible": 109,
+      "canStillWin": false
     },
     {
       "name": "Brian Cooper",
@@ -134,19 +135,19 @@
     },
     {
       "name": "Monique Mehaffey",
-      "matchPts": 51,
-      "stagePts": 36,
-      "gf": 48,
-      "ga": 33,
+      "matchPts": 54,
+      "stagePts": 39,
+      "gf": 50,
+      "ga": 34,
       "maxPossible": 106,
       "canStillWin": false
     },
     {
       "name": "Ivan Peharda",
-      "matchPts": 41,
-      "stagePts": 27,
-      "gf": 42,
-      "ga": 38,
+      "matchPts": 44,
+      "stagePts": 30,
+      "gf": 44,
+      "ga": 39,
       "maxPossible": 87,
       "canStillWin": false
     },
@@ -161,10 +162,10 @@
     },
     {
       "name": "Erika Kind",
-      "matchPts": 48,
-      "stagePts": 30,
-      "gf": 44,
-      "ga": 26,
+      "matchPts": 51,
+      "stagePts": 33,
+      "gf": 46,
+      "ga": 27,
       "maxPossible": 97,
       "canStillWin": false
     },
@@ -197,10 +198,10 @@
     },
     {
       "name": "Adrian Kehoe",
-      "matchPts": 56,
-      "stagePts": 39,
-      "gf": 53,
-      "ga": 35,
+      "matchPts": 59,
+      "stagePts": 42,
+      "gf": 55,
+      "ga": 36,
       "maxPossible": 114,
       "canStillWin": true
     },
@@ -208,18 +209,18 @@
       "name": "Clinton Ogundero",
       "matchPts": 43,
       "stagePts": 27,
-      "gf": 35,
-      "ga": 22,
-      "maxPossible": 89,
+      "gf": 36,
+      "ga": 24,
+      "maxPossible": 70,
       "canStillWin": false
     },
     {
       "name": "Derek (Ted) Mccarthy",
       "matchPts": 53,
       "stagePts": 39,
-      "gf": 53,
-      "ga": 35,
-      "maxPossible": 111,
+      "gf": 54,
+      "ga": 37,
+      "maxPossible": 92,
       "canStillWin": false
     },
     {
@@ -242,10 +243,10 @@
     },
     {
       "name": "Guzza",
-      "matchPts": 54,
-      "stagePts": 36,
-      "gf": 56,
-      "ga": 35,
+      "matchPts": 57,
+      "stagePts": 39,
+      "gf": 58,
+      "ga": 36,
       "maxPossible": 109,
       "canStillWin": false
     },
