@@ -4915,8 +4915,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 5,
-        "away": 6
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -4993,8 +4993,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
-        "away": 4
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
         "home": 0,
@@ -5673,8 +5673,8 @@
       "winner": "AWAY_TEAM",
       "duration": "REGULAR",
       "fullTime": {
-        "home": 3,
-        "away": 5
+        "home": 1,
+        "away": 1
       },
       "halfTime": {
         "home": 0,
