@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-18T23:06:33Z",
-  "currentStage": "\u23f3 Tournament begins 11 June 2026",
+  "lastUpdated": "2026-07-18T23:15:37Z",
+  "currentStage": "\ud83c\udfc6 The Final \u2014 In Progress",
   "actualTournamentWinner": "",
-  "actualTotalGoals": 297,
+  "actualTotalGoals": 307,
   "eliminatedTeams": [
     "Algeria",
     "Australia",
@@ -54,19 +54,19 @@
   "participants": [
     {
       "name": "Brian Lehane",
-      "matchPts": 42,
+      "matchPts": 45,
       "stagePts": 27,
-      "gf": 49,
-      "ga": 34,
-      "maxPossible": 69,
+      "gf": 55,
+      "ga": 38,
+      "maxPossible": 72,
       "canStillWin": false
     },
     {
       "name": "Squirrel",
       "matchPts": 66,
       "stagePts": 48,
-      "gf": 54,
-      "ga": 25,
+      "gf": 58,
+      "ga": 31,
       "maxPossible": 127,
       "canStillWin": true
     },
@@ -74,26 +74,26 @@
       "name": "Niamh Corrigan",
       "matchPts": 62,
       "stagePts": 42,
-      "gf": 50,
-      "ga": 22,
+      "gf": 54,
+      "ga": 28,
       "maxPossible": 117,
       "canStillWin": false
     },
     {
       "name": "MICKODEA11",
-      "matchPts": 52,
+      "matchPts": 55,
       "stagePts": 36,
-      "gf": 44,
-      "ga": 28,
-      "maxPossible": 88,
+      "gf": 54,
+      "ga": 38,
+      "maxPossible": 91,
       "canStillWin": false
     },
     {
       "name": "Adam Feery",
       "matchPts": 49,
       "stagePts": 30,
-      "gf": 48,
-      "ga": 31,
+      "gf": 52,
+      "ga": 37,
       "maxPossible": 79,
       "canStillWin": false
     },
@@ -101,18 +101,18 @@
       "name": "Mick F",
       "matchPts": 52,
       "stagePts": 36,
-      "gf": 45,
-      "ga": 25,
+      "gf": 49,
+      "ga": 31,
       "maxPossible": 101,
       "canStillWin": false
     },
     {
       "name": "Paul Boreham",
-      "matchPts": 54,
+      "matchPts": 57,
       "stagePts": 42,
-      "gf": 57,
-      "ga": 39,
-      "maxPossible": 109,
+      "gf": 63,
+      "ga": 43,
+      "maxPossible": 112,
       "canStillWin": false
     },
     {
@@ -128,8 +128,8 @@
       "name": "Sean Purcell",
       "matchPts": 53,
       "stagePts": 33,
-      "gf": 47,
-      "ga": 25,
+      "gf": 51,
+      "ga": 31,
       "maxPossible": 86,
       "canStillWin": false
     },
@@ -173,8 +173,8 @@
       "name": "John Pepper",
       "matchPts": 60,
       "stagePts": 42,
-      "gf": 49,
-      "ga": 23,
+      "gf": 53,
+      "ga": 29,
       "maxPossible": 115,
       "canStillWin": false
     },
@@ -191,8 +191,8 @@
       "name": "Jack O'Connor",
       "matchPts": 59,
       "stagePts": 42,
-      "gf": 55,
-      "ga": 33,
+      "gf": 59,
+      "ga": 39,
       "maxPossible": 114,
       "canStillWin": false
     },
@@ -207,28 +207,28 @@
     },
     {
       "name": "Clinton Ogundero",
-      "matchPts": 43,
+      "matchPts": 46,
       "stagePts": 27,
-      "gf": 36,
-      "ga": 23,
-      "maxPossible": 70,
+      "gf": 46,
+      "ga": 33,
+      "maxPossible": 73,
       "canStillWin": false
     },
     {
       "name": "Derek (Ted) Mccarthy",
-      "matchPts": 53,
+      "matchPts": 56,
       "stagePts": 39,
-      "gf": 53,
-      "ga": 37,
-      "maxPossible": 92,
+      "gf": 59,
+      "ga": 41,
+      "maxPossible": 95,
       "canStillWin": false
     },
     {
       "name": "Denis O Connell",
       "matchPts": 46,
       "stagePts": 30,
-      "gf": 43,
-      "ga": 23,
+      "gf": 47,
+      "ga": 29,
       "maxPossible": 89,
       "canStillWin": false
     },
@@ -245,8 +245,8 @@
       "name": "Guzza",
       "matchPts": 57,
       "stagePts": 39,
-      "gf": 58,
-      "ga": 36,
+      "gf": 62,
+      "ga": 42,
       "maxPossible": 109,
       "canStillWin": false
     },
@@ -254,8 +254,8 @@
       "name": "Eric Murphy",
       "matchPts": 52,
       "stagePts": 33,
-      "gf": 43,
-      "ga": 21,
+      "gf": 47,
+      "ga": 27,
       "maxPossible": 98,
       "canStillWin": false
     },
@@ -263,8 +263,8 @@
       "name": "Hillington FC",
       "matchPts": 65,
       "stagePts": 45,
-      "gf": 55,
-      "ga": 27,
+      "gf": 59,
+      "ga": 33,
       "maxPossible": 123,
       "canStillWin": true
     }
