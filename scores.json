@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-07-19T22:00:51Z",
+  "lastUpdated": "2026-07-19T22:15:36Z",
   "currentStage": "\ud83c\udfc6 Tournament Complete",
-  "actualTournamentWinner": "",
-  "actualTotalGoals": 307,
+  "actualTournamentWinner": "Spain",
+  "actualTotalGoals": 308,
   "eliminatedTeams": [
     "Algeria",
+    "Argentina",
     "Australia",
     "Austria",
     "Belgium",
@@ -63,18 +64,18 @@
     },
     {
       "name": "Squirrel",
-      "matchPts": 66,
-      "stagePts": 48,
-      "gf": 58,
+      "matchPts": 69,
+      "stagePts": 58,
+      "gf": 59,
       "ga": 31,
       "maxPossible": 127,
       "canStillWin": true
     },
     {
       "name": "Niamh Corrigan",
-      "matchPts": 62,
-      "stagePts": 42,
-      "gf": 54,
+      "matchPts": 65,
+      "stagePts": 52,
+      "gf": 55,
       "ga": 28,
       "maxPossible": 117,
       "canStillWin": false
@@ -99,27 +100,27 @@
     },
     {
       "name": "Mick F",
-      "matchPts": 52,
-      "stagePts": 36,
-      "gf": 49,
+      "matchPts": 55,
+      "stagePts": 46,
+      "gf": 50,
       "ga": 31,
       "maxPossible": 101,
       "canStillWin": false
     },
     {
       "name": "Paul Boreham",
-      "matchPts": 57,
-      "stagePts": 42,
-      "gf": 63,
+      "matchPts": 60,
+      "stagePts": 52,
+      "gf": 64,
       "ga": 43,
       "maxPossible": 112,
       "canStillWin": false
     },
     {
       "name": "Brian Cooper",
-      "matchPts": 43,
-      "stagePts": 27,
-      "gf": 31,
+      "matchPts": 46,
+      "stagePts": 37,
+      "gf": 32,
       "ga": 16,
       "maxPossible": 83,
       "canStillWin": false
@@ -135,10 +136,10 @@
     },
     {
       "name": "Monique Mehaffey",
-      "matchPts": 54,
-      "stagePts": 39,
-      "gf": 50,
-      "ga": 34,
+      "matchPts": 57,
+      "stagePts": 49,
+      "gf": 51,
+      "ga": 35,
       "maxPossible": 106,
       "canStillWin": false
     },
@@ -147,8 +148,8 @@
       "matchPts": 44,
       "stagePts": 30,
       "gf": 44,
-      "ga": 39,
-      "maxPossible": 87,
+      "ga": 40,
+      "maxPossible": 74,
       "canStillWin": false
     },
     {
@@ -165,45 +166,45 @@
       "matchPts": 51,
       "stagePts": 33,
       "gf": 40,
-      "ga": 23,
-      "maxPossible": 97,
+      "ga": 24,
+      "maxPossible": 84,
       "canStillWin": false
     },
     {
       "name": "John Pepper",
-      "matchPts": 60,
-      "stagePts": 42,
-      "gf": 53,
+      "matchPts": 63,
+      "stagePts": 52,
+      "gf": 54,
       "ga": 29,
       "maxPossible": 115,
       "canStillWin": false
     },
     {
       "name": "Michael Murphy",
-      "matchPts": 55,
-      "stagePts": 39,
-      "gf": 46,
+      "matchPts": 58,
+      "stagePts": 49,
+      "gf": 47,
       "ga": 25,
       "maxPossible": 107,
       "canStillWin": false
     },
     {
       "name": "Jack O'Connor",
-      "matchPts": 59,
-      "stagePts": 42,
-      "gf": 59,
+      "matchPts": 62,
+      "stagePts": 52,
+      "gf": 60,
       "ga": 39,
       "maxPossible": 114,
       "canStillWin": false
     },
     {
       "name": "Adrian Kehoe",
-      "matchPts": 59,
-      "stagePts": 42,
-      "gf": 55,
-      "ga": 36,
+      "matchPts": 62,
+      "stagePts": 52,
+      "gf": 56,
+      "ga": 37,
       "maxPossible": 114,
-      "canStillWin": true
+      "canStillWin": false
     },
     {
       "name": "Clinton Ogundero",
@@ -225,9 +226,9 @@
     },
     {
       "name": "Denis O Connell",
-      "matchPts": 46,
-      "stagePts": 30,
-      "gf": 47,
+      "matchPts": 49,
+      "stagePts": 40,
+      "gf": 48,
       "ga": 29,
       "maxPossible": 89,
       "canStillWin": false
@@ -246,24 +247,24 @@
       "matchPts": 57,
       "stagePts": 39,
       "gf": 62,
-      "ga": 42,
-      "maxPossible": 109,
+      "ga": 43,
+      "maxPossible": 96,
       "canStillWin": false
     },
     {
       "name": "Eric Murphy",
-      "matchPts": 52,
-      "stagePts": 33,
-      "gf": 47,
+      "matchPts": 55,
+      "stagePts": 43,
+      "gf": 48,
       "ga": 27,
       "maxPossible": 98,
       "canStillWin": false
     },
     {
       "name": "Hillington FC",
-      "matchPts": 65,
-      "stagePts": 45,
-      "gf": 59,
+      "matchPts": 68,
+      "stagePts": 55,
+      "gf": 60,
       "ga": 33,
       "maxPossible": 123,
       "canStillWin": true
